@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Extremal Combinatorics in Brazil</title>
+    <link>https://motagui.github.io/combinatoria/en/</link>
+    <description>Recent content on Extremal Combinatorics in Brazil</description>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://motagui.github.io/combinatoria/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extremal Combinatorics Outreach Tour</title>
+      <link>https://motagui.github.io/combinatoria/en/turne/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/en/turne/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+The &lt;strong&gt;Extremal Combinatorics Outreach Tour&lt;/strong&gt; is a travelling initiative to promote the field in Brazilian regions without established research groups, planned to begin in 2027.
+&lt;/div&gt;
+&lt;h3 id=&#34;the-project&#34;&gt;The Project&lt;/h3&gt;
+&lt;p&gt;The tour aims to visit &lt;strong&gt;3 states per year&lt;/strong&gt; without researchers working in extremal combinatorics. On each visit, our team delivers a four- to five-day introductory mini-course focusing on the foundations and central problems of the field.&lt;/p&gt;
+&lt;p&gt;To provide participants with teaching and support, each visit will involve:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Learning Resources</title>
+      <link>https://motagui.github.io/combinatoria/en/material-didatico/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/en/material-didatico/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Below are learning resources produced by community members, along with links to courses and talks.
+&lt;/div&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Basic Graph Theory&lt;/strong&gt; (&lt;a href=&#34;https://www.cambridge.org/ga/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/basic-graph-theory?format=HB&amp;amp;isbn=9781009344333#description&#34;&gt;Purchase&lt;/a&gt;)&lt;br&gt;
+&lt;em&gt;B. Bollobás, R. Morris, 2026&lt;/em&gt;&lt;br&gt;
+Cambridge University Press.&lt;br&gt;
+&lt;br&gt;
+This book offers an accessible, modern introduction to graph theory, from classical foundations such as matchings and colouring to active research areas including extremal and random graphs. With its focus on elegant proofs and essential techniques, it is ideal for students entering the field.&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Members</title>
+      <link>https://motagui.github.io/combinatoria/en/membros/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/en/membros/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Our community includes 19 faculty members working in extremal combinatorics across several Brazilian states. They are listed below with links to their homepages.
+&lt;/div&gt;
+&lt;h3 id=&#34;faculty&#34;&gt;Faculty&lt;/h3&gt;
+&lt;img src=&#34;../../images/brazil_map_vector.svg&#34; alt=&#34;Map of researchers&#34; class=&#34;brazil-map&#34; width=&#34;500&#34; style=&#34;float: right; margin-left: 20px;&#34;&gt;
+&lt;h4 id=&#34;ceará-ce&#34;&gt;Ceará (CE)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.ufc.br/~fabricio/&#34;&gt;Fabricio Benevides&lt;/a&gt; (UFC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://walnerm.github.io/&#34;&gt;Walner Mendonça&lt;/a&gt; (UFC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pernambuco-pe&#34;&gt;Pernambuco (PE)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ppgdmat-ufpe.recife.br/docentes/luiz-paulo-freire-moreira/&#34;&gt;Luiz Moreira&lt;/a&gt; (UFPE)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pedrocaraujo.github.io/&#34;&gt;Pedro Araújo&lt;/a&gt; (UFPE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bahia-ba&#34;&gt;Bahia (BA)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://computacao.ufba.br/pt-br/roberto-freitas-parente&#34;&gt;Roberto Parente&lt;/a&gt; (UFBA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rio-de-janeiro-rj&#34;&gt;Rio de Janeiro (RJ)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aragaolucas.github.io/&#34;&gt;Lucas Aragão&lt;/a&gt; (UFRJ)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marceloscampos.github.io/&#34;&gt;Marcelo Campos&lt;/a&gt; (IMPA)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://robiscounting.github.io/&#34;&gt;Rob Morris&lt;/a&gt; (IMPA)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.puc-rio.br/en/professor/simon-richard-griffiths&#34;&gt;Simon Griffiths&lt;/a&gt; (PUC-Rio)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.professores.uff.br/tlmartins/&#34;&gt;Taísa Martins&lt;/a&gt; (UFF)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;minas-gerais-mg&#34;&gt;Minas Gerais (MG)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.dcc.ufmg.br/~viniciussantos/&#34;&gt;Vinícius dos Santos&lt;/a&gt; (UFMG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;são-paulo-sp&#34;&gt;São Paulo (SP)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ufabc.edu.br/ensino/docentes/cristiane-maria-sato&#34;&gt;Cristiane Maria Sato&lt;/a&gt; (UFABC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~fbotler&#34;&gt;Fábio Botler&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~mota&#34;&gt;Guilherme Mota&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~lcolucci&#34;&gt;Lucas Colucci&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ime.usp.br/~collares/&#34;&gt;Maurício Collares&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ufabc.edu.br/ensino/docentes/maycon-sambinelli&#34;&gt;Maycon Sambinelli&lt;/a&gt; (UFABC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~yoshi/&#34;&gt;Yoshiharu Kohayakawa&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rio-grande-do-sul-rs&#34;&gt;Rio Grande do Sul (RS)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.ufrgs.br/~choppen&#34;&gt;Carlos Hoppen&lt;/a&gt; (UFRGS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;postdoctoral-researchers&#34;&gt;Postdoctoral researchers&lt;/h3&gt;
+&lt;div class=&#34;modern-box&#34;&gt;
+Below are postdoctoral researchers supervised by faculty members working in extremal combinatorics in Brazil.
+&lt;/div&gt;
+&lt;div class=&#34;compact-list&#34;&gt;
+&lt;p&gt;29. &lt;strong&gt;2023-2024&lt;/strong&gt; - Walner Mendonça (USP)&lt;br&gt;
+Supervisor: Guilherme Mota&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>https://motagui.github.io/combinatoria/en/artigos/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/en/artigos/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Below are papers by faculty members of our community available on arXiv since 2006, totalling &lt;b&gt;297 papers&lt;/b&gt;.&lt;br&gt;&lt;br&gt;
+Papers are grouped by the year of their first submission to arXiv. Links open the latest available version; community members’ names are highlighted in blue.&lt;br&gt;&lt;br&gt;
+Last updated: October 5, 2026.
+&lt;/div&gt;
+&lt;h3 id=&#34;2026&#34;&gt;2026&lt;/h3&gt;
+&lt;p&gt;297. &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2609.28455&#34;&gt;On the multicolour Ramsey numbers R(3,3,k)&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Bruno Andrades, &lt;span style=&#34;color: blue&#34;&gt;Marcelo Campos&lt;/span&gt;, &lt;span style=&#34;color: blue&#34;&gt;Robert Morris&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;296. &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2609.23179&#34;&gt;Counting edge-colorings of a complete graph avoiding a rainbow K&lt;sub&gt;4&lt;/sub&gt;&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color: blue&#34;&gt;Fabricio S. Benevides&lt;/span&gt;, Josefran de O. Bastos&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scientific Events</title>
+      <link>https://motagui.github.io/combinatoria/en/eventos/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/en/eventos/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+This page lists major Brazilian meetings in extremal combinatorics, including workshops, schools and international conferences organised by members of our community.
+&lt;/div&gt;
+&lt;h3 id=&#34;events&#34;&gt;Events&lt;/h3&gt;
+&lt;h4 id=&#34;ebc---brazilian-school-of-combinatorics&#34;&gt;EBC - Brazilian School of Combinatorics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../../3aEBC/&#34;&gt;3rd EBC&lt;/a&gt;&lt;/strong&gt; - Recife, PE - February 22–26, 2027&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../../2aEBC/&#34;&gt;2nd EBC&lt;/a&gt;&lt;/strong&gt; - Rio de Janeiro, RJ - March 10–14, 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../../1aEBC/&#34;&gt;1st EBC&lt;/a&gt;&lt;/strong&gt; - São Sebastião, SP - September 11–15, 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;wbc---brazilian-workshop-on-combinatorics&#34;&gt;WBC - Brazilian Workshop on Combinatorics&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../../2oWBC/&#34;&gt;2nd WBC&lt;/a&gt;&lt;/strong&gt; - Fortaleza, CE - June 15–19, 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../../1oWBC/&#34;&gt;1st WBC&lt;/a&gt;&lt;/strong&gt; - Salvador, BA - June 17–21, 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;becm---brazilian-extremal-combinatorics-meeting&#34;&gt;BECM - Brazilian Extremal Combinatorics Meeting&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2nd BECM&lt;/strong&gt; - Rio de Janeiro, RJ - February 18–22, 2027&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ime.usp.br/~mota/events/friends-extremal-combinatorics/&#34;&gt;1st BECM&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

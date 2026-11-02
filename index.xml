@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Combinatória Extremal no Brasil</title>
+    <link>https://motagui.github.io/combinatoria/</link>
+    <description>Recent content on Combinatória Extremal no Brasil</description>
+    <generator>Hugo -- 0.155.0</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Mon, 05 Oct 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://motagui.github.io/combinatoria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artigos</title>
+      <link>https://motagui.github.io/combinatoria/artigos/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/artigos/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Abaixo listamos os artigos de docentes da comunidade disponíveis no arXiv desde 2006, totalizando &lt;b&gt;297 artigos&lt;/b&gt;.&lt;br&gt;&lt;br&gt;
+Os artigos estão organizados pelo ano da primeira submissão ao arXiv. Os links abrem a versão mais recente disponível; os nomes dos membros da comunidade estão destacados em azul.&lt;br&gt;&lt;br&gt;
+Última atualização: 5 de outubro de 2026.
+&lt;/div&gt;
+&lt;h3 id=&#34;2026&#34;&gt;2026&lt;/h3&gt;
+&lt;p&gt;297. &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2609.28455&#34;&gt;On the multicolour Ramsey numbers R(3,3,k)&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Bruno Andrades, &lt;span style=&#34;color: blue&#34;&gt;Marcelo Campos&lt;/span&gt;, &lt;span style=&#34;color: blue&#34;&gt;Robert Morris&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;296. &lt;strong&gt;&lt;a href=&#34;https://arxiv.org/abs/2609.23179&#34;&gt;Counting edge-colorings of a complete graph avoiding a rainbow K&lt;sub&gt;4&lt;/sub&gt;&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&lt;span style=&#34;color: blue&#34;&gt;Fabricio S. Benevides&lt;/span&gt;, Josefran de O. Bastos&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Eventos científicos</title>
+      <link>https://motagui.github.io/combinatoria/eventos/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/eventos/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Esta página lista os principais encontros brasileiros que envolvem Combinatória Extremal, incluindo workshops, escolas e conferências internacionais organizadas por membros de nossa comunidade.
+&lt;/div&gt;
+&lt;h3 id=&#34;eventos&#34;&gt;Eventos&lt;/h3&gt;
+&lt;h4 id=&#34;ebc---escola-brasileira-de-combinatória&#34;&gt;EBC - Escola Brasileira de Combinatória&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../3aEBC/&#34;&gt;3ª EBC&lt;/a&gt;&lt;/strong&gt; - Recife, PE - 22 a 26 de fevereiro de 2027&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../2aEBC/&#34;&gt;2ª EBC&lt;/a&gt;&lt;/strong&gt; - Rio de Janeiro, RJ - 10 a 14 março de 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../1aEBC/&#34;&gt;1ª EBC&lt;/a&gt;&lt;/strong&gt; - São Sebastião, SP - 11 a 15 de setembro de 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;wbc---workshop-brasileiro-de-combinatória&#34;&gt;WBC - Workshop Brasileiro de Combinatória&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../2oWBC/&#34;&gt;2º WBC&lt;/a&gt;&lt;/strong&gt; - Fortaleza, CE - 15 a 19 de junho de 2026&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;../1oWBC/&#34;&gt;1º WBC&lt;/a&gt;&lt;/strong&gt; - Salvador, BA - 17 a 21 de junho de 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;becm---brazilian-extremal-combinatorics-meeting&#34;&gt;BECM - Brazilian Extremal Combinatorics Meeting&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;2º BECM&lt;/strong&gt; - Rio de Janeiro, RJ - 18 a 22 de fevereiro de 2027&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://www.ime.usp.br/~mota/events/friends-extremal-combinatorics/&#34;&gt;1º BECM&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Material Didático</title>
+      <link>https://motagui.github.io/combinatoria/material-didatico/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/material-didatico/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Abaixo listamos alguns materiais didáticos produzidos por membros da comunidade, além de links para materiais de cursos e palestras.
+&lt;/div&gt;
+&lt;h3 id=&#34;livros&#34;&gt;Livros&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Basic Graph Theory&lt;/strong&gt; (&lt;a href=&#34;https://www.cambridge.org/ga/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/basic-graph-theory?format=HB&amp;amp;isbn=9781009344333#description&#34;&gt;Link para compra&lt;/a&gt;)&lt;br&gt;
+&lt;em&gt;B. Bollobás, R. Morris, 2026&lt;/em&gt;&lt;br&gt;
+Cambridge University Press.&lt;br&gt;
+&lt;br&gt;
+Este livro oferece uma introdução acessível e moderna à teoria dos grafos, cobrindo desde fundamentos clássicos como emparelhamentos e coloração até áreas ativas de pesquisa como teoria dos grafos extremais e grafos aleatórios. Com foco em provas elegantes e técnicas essenciais, é ideal para estudantes que desejam ingressar na área.&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Membros</title>
+      <link>https://motagui.github.io/combinatoria/membros/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/membros/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+Temos 19 docentes atuando em alguns estados do país em Combinatória Extremal. Abaixo listamos os docentes atuantes na área, com links para suas respectivas homepages.
+&lt;/div&gt;
+&lt;h3 id=&#34;docentes&#34;&gt;Docentes&lt;/h3&gt;
+&lt;img src=&#34;../images/brazil_map_vector.svg&#34; alt=&#34;Mapa de Pesquisadores&#34; class=&#34;brazil-map&#34; width=&#34;500&#34; style=&#34;float: right; margin-left: 20px;&#34;&gt;
+&lt;h4 id=&#34;ceará-ce&#34;&gt;Ceará (CE)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.ufc.br/~fabricio/&#34;&gt;Fabricio Benevides&lt;/a&gt; (UFC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://walnerm.github.io/&#34;&gt;Walner Mendonça&lt;/a&gt; (UFC)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;pernambuco-pe&#34;&gt;Pernambuco (PE)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ppgdmat-ufpe.recife.br/docentes/luiz-paulo-freire-moreira/&#34;&gt;Luiz Moreira&lt;/a&gt; (UFPE)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pedrocaraujo.github.io/&#34;&gt;Pedro Araújo&lt;/a&gt; (UFPE)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;bahia-ba&#34;&gt;Bahia (BA)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://computacao.ufba.br/pt-br/roberto-freitas-parente&#34;&gt;Roberto Parente&lt;/a&gt; (UFBA)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rio-de-janeiro-rj&#34;&gt;Rio de Janeiro (RJ)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aragaolucas.github.io/&#34;&gt;Lucas Aragão&lt;/a&gt; (UFRJ)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://marceloscampos.github.io/&#34;&gt;Marcelo Campos&lt;/a&gt; (IMPA)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://robiscounting.github.io/&#34;&gt;Rob Morris&lt;/a&gt; (IMPA)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.puc-rio.br/en/professor/simon-richard-griffiths&#34;&gt;Simon Griffiths&lt;/a&gt; (PUC-Rio)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.professores.uff.br/tlmartins/&#34;&gt;Taísa Martins&lt;/a&gt; (UFF)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;minas-gerais-mg&#34;&gt;Minas Gerais (MG)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://homepages.dcc.ufmg.br/~viniciussantos/&#34;&gt;Vinícius dos Santos&lt;/a&gt; (UFMG)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;são-paulo-sp&#34;&gt;São Paulo (SP)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ufabc.edu.br/ensino/docentes/cristiane-maria-sato&#34;&gt;Cristiane Maria Sato&lt;/a&gt; (UFABC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~fbotler&#34;&gt;Fábio Botler&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~mota&#34;&gt;Guilherme Mota&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~lcolucci&#34;&gt;Lucas Colucci&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ime.usp.br/~collares/&#34;&gt;Maurício Collares&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ufabc.edu.br/ensino/docentes/maycon-sambinelli&#34;&gt;Maycon Sambinelli&lt;/a&gt; (UFABC)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ime.usp.br/~yoshi/&#34;&gt;Yoshiharu Kohayakawa&lt;/a&gt; (USP)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;rio-grande-do-sul-rs&#34;&gt;Rio Grande do Sul (RS)&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.mat.ufrgs.br/~choppen&#34;&gt;Carlos Hoppen&lt;/a&gt; (UFRGS)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h3 id=&#34;pós-doutorandos&#34;&gt;Pós-doutorandos&lt;/h3&gt;
+&lt;div class=&#34;modern-box&#34;&gt;
+Abaixo listamos os pós-doutorandos supervisionados por docentes da área de Combinatória Extremal no Brasil.
+&lt;/div&gt;
+&lt;div class=&#34;compact-list&#34;&gt;
+&lt;p&gt;29. &lt;strong&gt;2023-2024&lt;/strong&gt; - Walner Mendonça (USP)&lt;br&gt;
+Supervisor: Guilherme Mota&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turnê da Combinatória Extremal</title>
+      <link>https://motagui.github.io/combinatoria/turne/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://motagui.github.io/combinatoria/turne/</guid>
+      <description>&lt;div class=&#34;modern-box&#34;&gt;
+A &lt;strong&gt;Turnê da Combinatória Extremal&lt;/strong&gt; é uma iniciativa itinerante para promover a área em regiões do Brasil onde ainda não há grupos de pesquisa estabelecidos, planejada para início em 2027.
+&lt;/div&gt;
+&lt;h3 id=&#34;o-projeto&#34;&gt;O Projeto&lt;/h3&gt;
+&lt;p&gt;A ideia principal da turnê é visitar &lt;strong&gt;3 estados por ano&lt;/strong&gt; que não contam com pesquisadores da área de Combinatória Extremal. Em cada visita, nossa equipe realiza um minicurso introdutório, com duração de 4 a 5 dias, focado nos fundamentos e problemas centrais da área.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
