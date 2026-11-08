@@ -53,7 +53,7 @@
 .coauthorship-graph .cg-edge:focus .cg-edge-line { stroke-width: 5; opacity: 1; }
 .coauthorship-graph .cg-node:focus,
 .coauthorship-graph .cg-edge:focus { outline: none; }
-.coauthorship-graph .cg-detail { padding: 18px 20px; background: var(--code-bg, #f5f5f5); border: 1px solid var(--cg-border); border-radius: 8px; font-size: 14px; }
+.coauthorship-graph .cg-detail { margin-top: 18px; padding: 18px 20px; background: var(--code-bg, #f5f5f5); border: 1px solid var(--cg-border); border-radius: 8px; font-size: 14px; }
 .post-content .coauthorship-graph .cg-detail h4 { margin: 0 0 8px; font-size: 17px; line-height: 1.4; }
 .post-content .coauthorship-graph .cg-detail p { margin: 0 0 10px; }
 .post-content .coauthorship-graph .cg-detail p:last-child { margin-bottom: 0; }

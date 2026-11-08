@@ -20,6 +20,7 @@
 }
 
 .publication-filter select,
+.publication-filter input,
 .publication-filter button {
   min-height: 40px;
   max-width: 100%;
@@ -35,7 +36,27 @@
 }
 
 .publication-filter select {
-  width: 280px;
+  width: 240px;
+}
+
+.publication-filter .publication-search-label {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.publication-filter input {
+  width: 100%;
+  cursor: text;
+}
+
+.publication-filter input::placeholder {
+  color: var(--secondary);
+  opacity: 1;
+}
+
+.publication-filter :is(select, input, button):focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 2px;
 }
 
 .publication-filter button {

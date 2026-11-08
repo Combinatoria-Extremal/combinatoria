@@ -88,11 +88,10 @@ Abaixo listamos alguns materiais didáticos produzidos por membros da comunidade
 &lt;div class="modern-box resource-card" id="resource-ai-ramsey"&gt;
 &lt;p&gt;&lt;strong&gt;The OpenAI lower bound on R&lt;sub&gt;k&lt;/sub&gt;(3)&lt;/strong&gt; (&lt;a href="../textos-ia/openai-lower-bound-rk3.pdf"&gt;PDF&lt;/a&gt;)&lt;br&gt;
 &lt;em&gt;Rob Morris&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Membros</title><link>https://extremal.combinatoria.org/membros/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/membros/</guid><description>&lt;div class="faculty-collaborations"&gt;
-&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=9a86148114e4"&gt;
-&lt;script src="https://extremal.combinatoria.org/js/coauthorship-graph.js?v=8a446782046a" defer&gt;&lt;/script&gt;&lt;section class="coauthorship-graph" id="coauthorship-0" data-lang="pt" data-source="/data/coauthorship.json" aria-label="Docentes e colaborações"&gt;
+&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=90595365de1a"&gt;
+&lt;script src="https://extremal.combinatoria.org/js/coauthorship-graph.js?v=d9da64b7c7e7" defer&gt;&lt;/script&gt;&lt;section class="coauthorship-graph" id="coauthorship-0" data-lang="pt" data-source="/data/coauthorship.json" aria-label="Docentes e colaborações"&gt;
 &lt;p class="cg-status" data-role="status" role="status"&gt;Carregando os dados de coautoria…&lt;/p&gt;
 &lt;div class="cg-interactive" hidden&gt;
-&lt;div class="cg-detail" data-role="detail" aria-label="Colaboração selecionada"&gt;&lt;/div&gt;
 &lt;div class="cg-controls"&gt;
 &lt;label&gt;Docente
 &lt;select data-role="faculty"&gt;&lt;option value=""&gt;Todos os docentes&lt;/option&gt;&lt;/select&gt;
@@ -148,6 +147,7 @@ Abaixo listamos alguns materiais didáticos produzidos por membros da comunidade
 &lt;/div&gt;
 &lt;div class="cg-viewport" tabindex="0" role="region" aria-label="Grafo de coautorias" data-role="viewport" hidden&gt;&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class="cg-detail" data-role="detail" aria-label="Colaboração selecionada" hidden&gt;&lt;/div&gt;
 &lt;noscript&gt;&lt;p&gt;Ative o JavaScript para explorar o grafo. &lt;a href="https://extremal.combinatoria.org/data/coauthorship.json"&gt;Consulte os dados de coautoria.&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Turnê da Combinatória Extremal</title><link>https://extremal.combinatoria.org/turne/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/turne/</guid><description>&lt;div class="modern-box"&gt;
 A &lt;strong&gt;Turnê da Combinatória Extremal&lt;/strong&gt; é uma iniciativa itinerante para promover a área em regiões do Brasil onde ainda não há grupos de pesquisa estabelecidos, planejada para início em 2027.
 &lt;/div&gt;

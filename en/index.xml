@@ -68,11 +68,10 @@ Below are learning resources produced by community members, along with links to 
 &lt;div class="modern-box resource-card" id="resource-ai-ramsey"&gt;
 &lt;p&gt;&lt;strong&gt;The OpenAI lower bound on R&lt;sub&gt;k&lt;/sub&gt;(3)&lt;/strong&gt; (&lt;a href="../../textos-ia/openai-lower-bound-rk3.pdf"&gt;PDF&lt;/a&gt;)&lt;br&gt;
 &lt;em&gt;Rob Morris&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Members</title><link>https://extremal.combinatoria.org/en/membros/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/en/membros/</guid><description>&lt;div class="faculty-collaborations"&gt;
-&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=9a86148114e4"&gt;
-&lt;script src="https://extremal.combinatoria.org/js/coauthorship-graph.js?v=8a446782046a" defer&gt;&lt;/script&gt;&lt;section class="coauthorship-graph" id="coauthorship-0" data-lang="en" data-source="/data/coauthorship.json" aria-label="Faculty and collaborations"&gt;
+&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=90595365de1a"&gt;
+&lt;script src="https://extremal.combinatoria.org/js/coauthorship-graph.js?v=d9da64b7c7e7" defer&gt;&lt;/script&gt;&lt;section class="coauthorship-graph" id="coauthorship-0" data-lang="en" data-source="/data/coauthorship.json" aria-label="Faculty and collaborations"&gt;
 &lt;p class="cg-status" data-role="status" role="status"&gt;Loading coauthorship data…&lt;/p&gt;
 &lt;div class="cg-interactive" hidden&gt;
-&lt;div class="cg-detail" data-role="detail" aria-label="Selected collaboration"&gt;&lt;/div&gt;
 &lt;div class="cg-controls"&gt;
 &lt;label&gt;Faculty member
 &lt;select data-role="faculty"&gt;&lt;option value=""&gt;All faculty members&lt;/option&gt;&lt;/select&gt;
@@ -128,6 +127,7 @@ Below are learning resources produced by community members, along with links to 
 &lt;/div&gt;
 &lt;div class="cg-viewport" tabindex="0" role="region" aria-label="Coauthorship graph" data-role="viewport" hidden&gt;&lt;/div&gt;
 &lt;/div&gt;
+&lt;div class="cg-detail" data-role="detail" aria-label="Selected collaboration" hidden&gt;&lt;/div&gt;
 &lt;noscript&gt;&lt;p&gt;Enable JavaScript to explore the graph. &lt;a href="https://extremal.combinatoria.org/data/coauthorship.json"&gt;View the coauthorship data.&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Papers</title><link>https://extremal.combinatoria.org/en/artigos/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/en/artigos/</guid><description>Papers by faculty members of the Brazilian extremal combinatorics community, organized by year and with a filter by faculty member.</description></item><item><title>Scientific Events</title><link>https://extremal.combinatoria.org/en/eventos/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/en/eventos/</guid><description>&lt;div class="modern-box"&gt;
 This page lists major Brazilian meetings in extremal combinatorics, including workshops, schools and international conferences organised by members of our community.
 &lt;/div&gt;

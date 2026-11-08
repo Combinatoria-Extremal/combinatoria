@@ -338,7 +338,7 @@
 
     faculty.addEventListener('change', () => selectNode(faculty.value));
     document.addEventListener('click', event => {
-      if (!selection || selection.type !== 'edge') return;
+      if (!selection) return;
       if (event.target.closest('a, button, input, select, textarea, label, [role="button"], .cg-edge-label')) return;
       selectNode('');
     });
@@ -353,6 +353,7 @@
     overview();
     root.querySelector('.cg-interactive').hidden = false;
     viewport.hidden = false;
+    detail.hidden = false;
     const bounds = nodeLayer.getBBox();
     chart.setAttribute('viewBox', `${bounds.x - 12} ${bounds.y - 12} ${bounds.width + 24} ${bounds.height + 24}`);
     viewport.style.aspectRatio = `${bounds.width + 24} / ${bounds.height + 24}`;
