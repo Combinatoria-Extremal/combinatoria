@@ -21,7 +21,8 @@
 
 .publication-filter select,
 .publication-filter input,
-.publication-filter button {
+.publication-filter button,
+.publication-export button {
   min-height: 40px;
   max-width: 100%;
   padding: 9px 12px;
@@ -54,23 +55,72 @@
   opacity: 1;
 }
 
-.publication-filter :is(select, input, button):focus-visible {
+.publication-filter :is(select, input, button):focus-visible,
+.publication-export :is(button, textarea):focus-visible {
   outline: 2px solid var(--site-accent);
   outline-offset: 2px;
 }
 
-.publication-filter button {
+.publication-filter button,
+.publication-export button {
   border-color: var(--site-accent);
   color: var(--site-accent);
 }
 
-.publication-filter button:hover:not(:disabled) {
+.publication-filter button:hover:not(:disabled),
+.publication-export button:hover:not(:disabled) {
   background: var(--site-accent-soft);
 }
 
-.publication-filter button:disabled {
+.publication-filter button:disabled,
+.publication-export button:disabled {
   opacity: .45;
   cursor: default;
+}
+
+.publication-export {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin: -8px 0 24px;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.publication-export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-export-status {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 13px;
+}
+
+.publication-export-status:empty {
+  display: none;
+}
+
+.publication-export-fallback {
+  flex-basis: 100%;
+  min-width: 0;
+}
+
+.publication-export-fallback textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--primary);
+  font: 13px/1.5 monospace;
+  resize: vertical;
 }
 
 .publication-layout {
