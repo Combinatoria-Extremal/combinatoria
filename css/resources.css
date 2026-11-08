@@ -1,0 +1,118 @@
+.resource-layout {
+  --resource-offset: 80px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 196px;
+  align-items: start;
+  gap: 24px;
+}
+
+.resource-content {
+  grid-column: 1;
+  grid-row: 1;
+  min-width: 0;
+}
+
+.resource-content > h3:first-child {
+  margin-top: 0;
+}
+
+.resource-content > h3,
+.resource-content .resource-card {
+  scroll-margin-top: var(--resource-offset);
+}
+
+.resource-nav {
+  grid-column: 2;
+  grid-row: 1;
+  position: sticky;
+  top: var(--resource-offset);
+  max-height: calc(100vh - var(--resource-offset) - 160px);
+  max-height: calc(100dvh - var(--resource-offset) - 160px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+}
+
+.resource-nav summary {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.resource-nav .resource-nav-group h3 {
+  margin: 16px 0 4px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--site-accent);
+}
+
+.resource-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.resource-nav li {
+  margin: 0;
+}
+
+.resource-nav a {
+  display: block;
+  padding: 5px 4px;
+  border-radius: 4px;
+  color: var(--primary);
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.resource-nav a:hover,
+.resource-nav a:focus-visible {
+  background: var(--site-accent-soft);
+}
+
+.resource-nav a:focus-visible,
+.resource-nav summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+@media (max-width: 1120px) {
+  .resource-layout {
+    --resource-offset: 160px;
+  }
+}
+
+@media (max-width: 700px) {
+  .resource-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .resource-nav {
+    grid-column: 1;
+    grid-row: 1;
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .resource-nav-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 16px;
+  }
+
+  .resource-nav a {
+    padding-block: 7px;
+  }
+
+  .resource-content {
+    grid-row: 2;
+  }
+}
