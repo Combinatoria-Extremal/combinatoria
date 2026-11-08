@@ -1,3 +1,57 @@
+.publication-catalogue [hidden] {
+  display: none !important;
+}
+
+.publication-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.publication-filter label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.publication-filter select,
+.publication-filter button {
+  min-height: 40px;
+  max-width: 100%;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--primary);
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.publication-filter select {
+  width: 280px;
+}
+
+.publication-filter button {
+  border-color: var(--site-accent);
+  color: var(--site-accent);
+}
+
+.publication-filter button:hover:not(:disabled) {
+  background: var(--site-accent-soft);
+}
+
+.publication-filter button:disabled {
+  opacity: .45;
+  cursor: default;
+}
+
 .publication-layout {
   --publication-offset: 80px;
   display: grid;
