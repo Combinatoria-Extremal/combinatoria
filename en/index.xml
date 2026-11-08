@@ -14,7 +14,7 @@ The &lt;strong&gt;Extremal Combinatorics Outreach Tour&lt;/strong&gt; is a trave
 &lt;p&gt;To provide participants with teaching and support, each visit will involve:&lt;/p&gt;</description></item><item><title>Learning Resources</title><link>https://extremal.combinatoria.org/en/material-didatico/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/en/material-didatico/</guid><description>&lt;div class="modern-box"&gt;
 Below are learning resources produced by community members, along with links to courses and talks.
 &lt;/div&gt;
-&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/resources.css?v=3b1d435df4c5"&gt;
+&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/resources.css?v=3f4feabcdfec"&gt;
 &lt;div class="resource-layout"&gt;
 &lt;nav class="resource-nav" aria-label="Learning resources"&gt;
 &lt;details open&gt;
@@ -68,7 +68,7 @@ Below are learning resources produced by community members, along with links to 
 &lt;div class="modern-box resource-card" id="resource-ai-ramsey"&gt;
 &lt;p&gt;&lt;strong&gt;The OpenAI lower bound on R&lt;sub&gt;k&lt;/sub&gt;(3)&lt;/strong&gt; (&lt;a href="../../textos-ia/openai-lower-bound-rk3.pdf"&gt;PDF&lt;/a&gt;)&lt;br&gt;
 &lt;em&gt;Rob Morris&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Members</title><link>https://extremal.combinatoria.org/en/membros/</link><pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate><guid>https://extremal.combinatoria.org/en/membros/</guid><description>&lt;div class="faculty-collaborations"&gt;
-&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=90595365de1a"&gt;
+&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/coauthorship-graph.css?v=c88f85e7e2e7"&gt;
 &lt;script src="https://extremal.combinatoria.org/js/coauthorship-graph.js?v=d9da64b7c7e7" defer&gt;&lt;/script&gt;&lt;section class="coauthorship-graph" id="coauthorship-0" data-lang="en" data-source="/data/coauthorship.json" aria-label="Faculty and collaborations"&gt;
 &lt;p class="cg-status" data-role="status" role="status"&gt;Loading coauthorship data…&lt;/p&gt;
 &lt;div class="cg-interactive" hidden&gt;
@@ -80,7 +80,7 @@ Below are learning resources produced by community members, along with links to 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="cg-diagram-row"&gt;
-&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/faculty-directory.css?v=d5e56362d3c0"&gt;
+&lt;link rel="stylesheet" href="https://extremal.combinatoria.org/css/faculty-directory.css?v=8bd7652ca3ee"&gt;
 &lt;div class="faculty-directory"&gt;
 &lt;h3 id="faculty"&gt;Faculty&lt;/h3&gt;
 &lt;div class="faculty-groups"&gt;&lt;div class="faculty-column"&gt;&lt;section class="faculty-state" data-state="CE"&gt;&lt;h4 id="ceará-ce"&gt;Ceará (CE)&lt;/h4&gt;

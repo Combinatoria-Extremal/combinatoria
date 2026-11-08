@@ -23,15 +23,15 @@
 .publication-filter input,
 .publication-filter button,
 .publication-export button {
-  min-height: 40px;
+  min-height: var(--site-control-height);
   max-width: 100%;
-  padding: 9px 12px;
+  padding: var(--site-control-padding);
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: var(--site-control-radius);
   background: var(--entry);
   color: var(--primary);
   font: inherit;
-  font-size: 14px;
+  font-size: var(--site-control-font-size);
   line-height: 1.4;
   cursor: pointer;
 }
@@ -154,7 +154,7 @@
   scrollbar-width: thin;
   padding: 8px 4px;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: var(--site-card-radius);
   background: var(--entry);
   text-align: center;
 }
@@ -211,6 +211,15 @@
 }
 
 @media (max-width: 600px) {
+  .publication-filter label,
+  .publication-filter select {
+    width: 100%;
+  }
+
+  .publication-filter .publication-search-label {
+    flex-basis: 100%;
+  }
+
   .publication-layout {
     grid-template-columns: minmax(0, 1fr) 52px;
     gap: 12px;

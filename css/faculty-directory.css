@@ -1,20 +1,21 @@
 #docentes, #faculty { scroll-margin-top: 140px; }
 .faculty-collaborations {
   margin-bottom: 28px;
-  padding: 16px;
+  padding: var(--site-card-padding);
   border: 1px solid var(--border, #ddd);
-  border-radius: 12px;
-  background: var(--theme, #fff);
+  border-radius: var(--site-card-radius);
+  background: var(--entry, #fff);
+  box-shadow: var(--site-card-shadow);
 }
 .faculty-directory {
   min-width: 0;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.45;
 }
 .faculty-directory .faculty-groups {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
 }
 .faculty-directory .faculty-column { min-width: 0; }
 .faculty-directory .faculty-state {
@@ -41,11 +42,11 @@
 .faculty-directory a { overflow-wrap: anywhere; }
 .cg-diagram-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   align-items: start;
-  gap: 18px;
+  gap: 24px;
 }
-.coauthorship-graph .cg-diagram-row > .cg-viewport { min-width: 0; margin: 0; }
+.coauthorship-graph .cg-diagram-row > .cg-viewport { min-width: 0; width: 100%; margin: 0; align-self: center; }
 .faculty-collaborations > .coauthorship-graph {
   min-width: 0;
   width: 100%;
@@ -56,7 +57,10 @@
   left: auto;
   transform: none;
 }
+@media (max-width: 899px) {
+  .cg-diagram-row { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .coauthorship-graph .cg-diagram-row > .cg-viewport { width: 80%; margin: 0 auto; }
+}
 @media (max-width: 600px) {
   .faculty-collaborations { padding: 16px 12px; }
-  .faculty-directory .faculty-groups { grid-template-columns: minmax(0, 1fr); gap: 12px; }
 }
