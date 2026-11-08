@@ -224,7 +224,12 @@
       selection = id ? { type: 'node', id } : null;
       hovered = null;
       faculty.value = id || '';
-      if (!id) { overview(); paint(); return; }
+      if (!id) {
+        if (chart.contains(document.activeElement)) viewport.focus({ preventScroll: true });
+        overview();
+        paint();
+        return;
+      }
       const node = nodes.get(id);
       const incident = edges.filter(edge => edge.source === id || edge.target === id).sort((a, b) => b.weight - a.weight);
       heading(`${node.name} · ${node.affiliation}`);
@@ -246,6 +251,10 @@
     }
 
     function selectEdge(key) {
+      if (selection && selection.type === 'edge' && selection.id === key) {
+        selectNode('');
+        return;
+      }
       const edge = edges.find(item => item.key === key);
       selection = { type: 'edge', id: key };
       hovered = null;
@@ -328,6 +337,11 @@
     viewport.append(chart);
 
     faculty.addEventListener('change', () => selectNode(faculty.value));
+    document.addEventListener('click', event => {
+      if (!selection || selection.type !== 'edge') return;
+      if (event.target.closest('a, button, input, select, textarea, label, [role="button"], .cg-edge-label')) return;
+      selectNode('');
+    });
     root.querySelector('[data-action="reset"]').addEventListener('click', () => {
       selectNode('');
       viewport.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
