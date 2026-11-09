@@ -65,7 +65,6 @@
 .ch-awards .ch-award-meta{font-size:12px;color:var(--ch-blue);font-weight:600}
 .ch-awards .ch-award-recipients{font-weight:600}
 .ch-awards .ch-award-work{font-style:italic}
-.ch-awards .ch-award-sources{font-size:12px;margin-top:10px}
 @media(max-width:600px){.ch-summary{grid-template-columns:repeat(2,1fr);gap:16px}.ch-summary strong{font-size:26px}.ch-tabs{gap:6px}.post-content .ch-tabs a{flex:1 0 28%;padding:8px;font-size:12px}.community-history .ch-panel{padding:20px 14px}.ch-controls{gap:10px}.ch-controls label{flex:1 1 130px}.ch-controls label.ch-wide{flex-basis:100%}.ch-institution-grid{grid-template-columns:1fr;gap:24px}.ch-map svg{max-height:300px}.ch-record-list{max-height:400px}.ch-statline strong{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.community-history *{transition:none!important;scroll-behavior:auto!important}}
 @media(max-width:600px){.ch-bar{flex-basis:27px;min-width:27px}.post-content .ch-tabs a{flex-basis:40%}}
