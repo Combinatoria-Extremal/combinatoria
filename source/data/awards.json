@@ -182,6 +182,81 @@
       }
     },
     {
+      "id": "abc-2022-afiliado-griffiths",
+      "year": 2022,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro afiliado",
+        "en": "Brazilian Academy of Sciences — admission as an affiliate member"
+      },
+      "recipients": [
+        {
+          "personId": "simon-griffiths",
+          "name": "Simon Griffiths"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Mandato 2022–2026, na Regional Rio de Janeiro. Eleito em 2021, com posse em 1º de janeiro de 2022.",
+        "en": "2022–2026 term in the Rio de Janeiro region. Elected in 2021 and admitted on 1 January 2022."
+      },
+      "sources": [
+        {
+          "url": "https://www.abc.org.br/membros/simon-griffiths/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://www.abc.org.br/reportagens/novos-membros-da-abc-eleitos-em-2021/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://www.abc.org.br/reportagens/confira-tudo-sobre-o-simposio-e-diplomacao-dos-novos-afiliados-para-o-rj-2022-2026/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "abc-2022-titular-morris",
+      "year": 2022,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro titular",
+        "en": "Brazilian Academy of Sciences — admission as a full member"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Eleito em dezembro de 2021, com posse em 1º de janeiro de 2022, na área de Ciências Matemáticas. Foi membro afiliado antes do ingresso como titular.",
+        "en": "Elected in December 2021 and admitted on 1 January 2022, in Mathematical Sciences. Previously an affiliate member."
+      },
+      "sources": [
+        {
+          "url": "https://www.abc.org.br/membros/robert-david-morris/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://www.abc.org.br/reportagens/novos-membros-da-abc-eleitos-em-2021/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        }
+      ]
+    },
+    {
       "id": "capes-2022-mattos",
       "year": 2022,
       "title": {
@@ -422,6 +497,41 @@
         "pt": "Edição denominada LATIN 2020, realizada em 2021. Também premiados: Mrinal Kumar e Benjamin Rossman. O título da versão de periódico acrescenta a palavra Robust.",
         "en": "The LATIN 2020 edition took place in 2021. Also awarded: Mrinal Kumar and Benjamin Rossman. The journal-version title adds the word Robust."
       }
+    },
+    {
+      "id": "abc-2018-afiliado-morris",
+      "year": 2018,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro afiliado",
+        "en": "Brazilian Academy of Sciences — admission as an affiliate member"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Eleito em 2017 para o quinquênio 2018–2022, na Regional Rio de Janeiro. Ingressou como membro titular em 2022.",
+        "en": "Elected in 2017 for the 2018–2022 term in the Rio de Janeiro region. Admitted as a full member in 2022."
+      },
+      "sources": [
+        {
+          "url": "https://www.abc.org.br/2018/09/16/simposio-e-diplomacao-de-novos-membros-afiliados-da-abc-2018-2022-da-regional-rio-de-janeiro/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://www.abc.org.br/reportagens/saiba-quem-sao-os-novos-membros-da-abc/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        }
+      ]
     },
     {
       "id": "fulkerson-2018-chromatic",
@@ -694,6 +804,41 @@
       ]
     },
     {
+      "id": "abc-2014-afiliado-benevides",
+      "year": 2014,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro afiliado",
+        "en": "Brazilian Academy of Sciences — admission as an affiliate member"
+      },
+      "recipients": [
+        {
+          "personId": "fabricio-benevides",
+          "name": "Fabricio Benevides"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Mandato 2014–2018, na Regional Nordeste e Espírito Santo. Posse registrada em 1º de janeiro de 2014.",
+        "en": "2014–2018 term in the Northeast and Espírito Santo region. Admission recorded on 1 January 2014."
+      },
+      "sources": [
+        {
+          "url": "https://www.abc.org.br/membros/fabricio-siqueira-benevides/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://ufc2012.ufc.br/noticias/noticias-de-2015/6339-professores-da-ufc-tornam-se-membros-afiliados-da-academia-brasileira-de-ciencias",
+          "label": "Universidade Federal do Ceará",
+          "checked": "2026-11-09"
+        }
+      ]
+    },
+    {
       "id": "ctd-2014-vinicius",
       "title": {
         "pt": "CTD/SBC — 2º lugar em doutorado",
@@ -832,6 +977,76 @@
         "pt": "",
         "en": ""
       }
+    },
+    {
+      "id": "abc-2001-titular-kohayakawa",
+      "year": 2001,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro titular",
+        "en": "Brazilian Academy of Sciences — admission as a full member"
+      },
+      "recipients": [
+        {
+          "personId": "yoshiharu-kohayakawa",
+          "name": "Yoshiharu Kohayakawa"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Titular desde 2001, após ingresso na Academia como associado em 1999. O currículo da USP distingue os dois ingressos.",
+        "en": "Full member since 2001, following admission as an associate member in 1999. His USP CV distinguishes the two admissions."
+      },
+      "sources": [
+        {
+          "url": "https://uspaberta.ime.usp.br/unidades/ime/docentes/4627360041573918",
+          "label": "USP Aberta — currículo / CV",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://www.abc.org.br/membros/yoshiharu-kohayakawa/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "abc-1999-associado-kohayakawa",
+      "year": 1999,
+      "title": {
+        "pt": "Academia Brasileira de Ciências — ingresso como membro associado",
+        "en": "Brazilian Academy of Sciences — admission as an associate member"
+      },
+      "recipients": [
+        {
+          "personId": "yoshiharu-kohayakawa",
+          "name": "Yoshiharu Kohayakawa"
+        }
+      ],
+      "awardingBody": {
+        "pt": "Academia Brasileira de Ciências (ABC)",
+        "en": "Brazilian Academy of Sciences (ABC)"
+      },
+      "category": "academy",
+      "notes": {
+        "pt": "Ingresso na Academia em 28 de abril de 1999. O currículo da USP identifica a categoria inicial como associado; tornou-se titular em 2001.",
+        "en": "Admitted to the Academy on 28 April 1999. His USP CV identifies the initial category as associate member; he became a full member in 2001."
+      },
+      "sources": [
+        {
+          "url": "https://www.abc.org.br/membros/yoshiharu-kohayakawa/",
+          "label": "Academia Brasileira de Ciências",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://uspaberta.ime.usp.br/unidades/ime/docentes/4627360041573918",
+          "label": "USP Aberta — currículo / CV",
+          "checked": "2026-11-09"
+        }
+      ]
     }
   ]
 }

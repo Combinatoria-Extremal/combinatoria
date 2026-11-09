@@ -21,7 +21,7 @@ SOURCE = Path(__file__).resolve().parents[1]
 STATES = set('AC AL AP AM BA CE DF ES GO MA MT MS MG PA PB PR PE PI RJ RN RS RO RR SC SP SE TO'.split())
 ROLES = {'advisor', 'coadvisor', 'joint', 'institutional'}
 LEVELS = {'masters', 'professional-masters', 'phd'}
-AWARD_CATEGORIES = {'research', 'book', 'paper', 'phd', 'masters', 'other'}
+AWARD_CATEGORIES = {'research', 'book', 'paper', 'phd', 'masters', 'academy', 'other'}
 
 
 class InvalidData(ValueError):

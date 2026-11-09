@@ -39,7 +39,7 @@ O destino relativo é resolvido a partir desta pasta, mesmo quando o comando é 
 | `data/site.json` | Data do cadastro atual, contato, textos da página inicial em PT/EN e paleta do mapa | Inicial e data do retrato institucional atual |
 | `data/faculty.json` | Identidade, nome, homepage, instituição, UF, ano do doutorado, fontes e situação atual de cada docente | Diretório de Membros, filtros, mapa da inicial, retrato atual de Instituições, nomes nos dados e vértices do grafo de Membros |
 | `data/history.json` | Pessoas, titulações e estágios de pós-doutorado; orientadores e fontes | Listas de Membros e painel Formação, incluindo contagens, filtros, barras e CSV |
-| `data/awards.json` | Prêmios de pesquisa, livros, artigos, teses e dissertações, com pessoas premiadas e fontes | Painel Prêmios, filtros, contagens, lista em PT/EN e CSV |
+| `data/awards.json` | Prêmios de pesquisa, livros, artigos, teses, dissertações e ingresso na ABC, com pessoas distinguidas e fontes | Painel Prêmios, filtros, contagens, lista em PT/EN e CSV |
 | `data/publications.json` | Um registro por trabalho, com título, autores, ano e link | Página Artigos, filtro/busca, BibTeX básico, gráficos de artigos e arestas/pesos do grafo de Membros |
 | `data/events.json` | Séries de eventos, edições, nomes, datas ISO, local confirmado e links | Lista de Eventos em PT/EN e datas apresentadas nas duas línguas |
 | `data/resources.json` | Categorias e materiais didáticos, descrições PT/EN e links compartilhados | Blocos de materiais e menu lateral em PT/EN |
@@ -125,7 +125,9 @@ Depois altere a afiliação/UF em `faculty.json` e a data do cadastro em `site.j
 
 ## Acrescentar uma premiação
 
-Em `awards.json.records`, registre `id`, `year`, `title.pt/en`, `category`, `awardingBody`, `recipients` e `sources`. As categorias são `research`, `book`, `paper`, `phd`, `masters` e `other`; use `other` apenas para outra premiação acadêmica de pesquisa que não se enquadre nas anteriores. Não inclua olimpíadas, prêmios de iniciação científica (IC), prêmios do Encontro de Teoria da Computação (ETC), bolsas, cargos nem participação em bancas ou comissões de premiação.
+Em `awards.json.records`, registre `id`, `year`, `title.pt/en`, `category`, `awardingBody`, `recipients` e `sources`. As categorias são `research`, `book`, `paper`, `phd`, `masters`, `academy` e `other`; use `other` apenas para outra premiação acadêmica de pesquisa que não se enquadre nas anteriores. Não inclua olimpíadas, prêmios de iniciação científica (IC), prêmios do Encontro de Teoria da Computação (ETC), bolsas, cargos administrativos nem participação em bancas ou comissões de premiação.
+
+Use `academy` para o ingresso na Academia Brasileira de Ciências (ABC). Identifique no título a categoria de membro (titular, associado ou afiliado), use o ano de ingresso/posse em `year` e esclareça em `notes.pt/en` o ano da eleição quando diferente. Para afiliados, registre o mandato confirmado, sem apresentar um vínculo encerrado como atual. Mudanças de categoria são distinções separadas; eleição, posse e diplomação para a mesma categoria formam um único registro. A fonte deve confirmar a condição de membro, não apenas citar a pessoa em uma notícia.
 
 Inclua prêmios dos docentes cadastrados em `faculty.json`. Para alunos e ex-alunos, inclua somente premiações relacionadas ao trabalho ou ao período de mestrado/doutorado sob orientação ou coorientação de um docente da comunidade. Um vínculo de ex-aluno, por si só, não torna elegíveis prêmios anteriores ou posteriores de sua carreira. Prêmios por tese ou dissertação podem ser recebidos depois da defesa.
 
