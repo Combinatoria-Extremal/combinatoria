@@ -1,0 +1,38 @@
+{{- $page := .Page -}}
+{{- $lang := $page.Lang -}}
+{{- $en := eq $lang "en" -}}
+{{- $resources := site.Data.resources -}}
+<link rel="stylesheet" href="{{ "css/resources.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/resources.css" | sha256) }}">
+<div class="resource-layout">
+  <nav class="resource-nav" aria-label="{{ if $en }}Learning resources{{ else }}Material didático{{ end }}">
+    <details open>
+      <summary>{{ if $en }}On this page{{ else }}Nesta página{{ end }}</summary>
+      <div class="resource-nav-groups">
+        {{- range $category := $resources.categories -}}
+        <div class="resource-nav-group">
+          <h3>{{ index (default $category.title $category.navTitle) $lang }}</h3>
+          <ul>
+            {{- range where $resources.items "category" $category.id -}}
+            <li><a href="#{{ .id }}">{{ index .navTitle $lang | safeHTML }}</a></li>
+            {{- end -}}
+          </ul>
+        </div>
+        {{- end -}}
+      </div>
+    </details>
+  </nav>
+  <div class="resource-content">
+    {{- range $category := $resources.categories -}}
+      {{- $page.RenderString (dict "display" "block") (printf "### %s" (index $category.title $lang)) -}}
+      {{- range where $resources.items "category" $category.id -}}
+        {{- $body := index .body $lang -}}
+        {{- range $key, $url := .links -}}
+          {{- $body = printf "%s\n\n[%s]: %s" $body $key $url -}}
+        {{- end -}}
+        <div class="modern-box resource-card" id="{{ .id }}">
+          {{- $page.RenderString (dict "display" "block") $body -}}
+        </div>
+      {{- end -}}
+    {{- end -}}
+  </div>
+</div>

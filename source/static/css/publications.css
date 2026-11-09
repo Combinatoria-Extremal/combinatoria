@@ -1,0 +1,236 @@
+.publication-catalogue [hidden] {
+  display: none !important;
+}
+
+.publication-filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.publication-filter label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 100%;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.publication-filter select,
+.publication-filter input,
+.publication-filter button,
+.publication-export button {
+  min-height: var(--site-control-height);
+  max-width: 100%;
+  padding: var(--site-control-padding);
+  border: 1px solid var(--border);
+  border-radius: var(--site-control-radius);
+  background: var(--entry);
+  color: var(--primary);
+  font: inherit;
+  font-size: var(--site-control-font-size);
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.publication-filter select {
+  width: 240px;
+}
+
+.publication-filter .publication-search-label {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.publication-filter input {
+  width: 100%;
+  cursor: text;
+}
+
+.publication-filter input::placeholder {
+  color: var(--secondary);
+  opacity: 1;
+}
+
+.publication-filter :is(select, input, button):focus-visible,
+.publication-export :is(button, textarea):focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 2px;
+}
+
+.publication-filter button,
+.publication-export button {
+  border-color: var(--site-accent);
+  color: var(--site-accent);
+}
+
+.publication-filter button:hover:not(:disabled),
+.publication-export button:hover:not(:disabled) {
+  background: var(--site-accent-soft);
+}
+
+.publication-filter button:disabled,
+.publication-export button:disabled {
+  opacity: .45;
+  cursor: default;
+}
+
+.publication-export {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin: -8px 0 24px;
+  font-size: 13px;
+  color: var(--secondary);
+}
+
+.publication-export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-export-status {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 13px;
+}
+
+.publication-export-status:empty {
+  display: none;
+}
+
+.publication-export-fallback {
+  flex-basis: 100%;
+  min-width: 0;
+}
+
+.publication-export-fallback textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--entry);
+  color: var(--primary);
+  font: 13px/1.5 monospace;
+  resize: vertical;
+}
+
+.publication-layout {
+  --publication-offset: 80px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 64px;
+  align-items: start;
+  gap: 24px;
+}
+
+.publication-section {
+  min-width: 0;
+  scroll-margin-top: var(--publication-offset);
+}
+
+.publication-section > h2 {
+  margin-top: 0;
+}
+
+.publication-section > h3 {
+  scroll-margin-top: var(--publication-offset);
+}
+
+.publication-year-nav {
+  position: sticky;
+  top: var(--publication-offset);
+  max-height: calc(100vh - var(--publication-offset) - 160px);
+  max-height: calc(100dvh - var(--publication-offset) - 160px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  padding: 8px 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--site-card-radius);
+  background: var(--entry);
+  text-align: center;
+}
+
+.publication-year-label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.publication-year-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.publication-year-nav li {
+  margin: 0;
+}
+
+.publication-year-nav a {
+  display: block;
+  padding: 4px 0;
+  border-radius: 4px;
+  color: var(--site-accent);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-variant-numeric: tabular-nums;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.publication-member {
+  color: var(--site-accent);
+}
+
+.publication-year-nav a:hover,
+.publication-year-nav a:focus-visible {
+  background: var(--site-accent-soft);
+}
+
+.publication-year-nav a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -2px;
+}
+
+@media (max-width: 1120px) {
+  .publication-layout {
+    --publication-offset: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .publication-filter label,
+  .publication-filter select {
+    width: 100%;
+  }
+
+  .publication-filter .publication-search-label {
+    flex-basis: 100%;
+  }
+
+  .publication-layout {
+    grid-template-columns: minmax(0, 1fr) 52px;
+    gap: 12px;
+  }
+
+  .publication-year-nav {
+    padding-inline: 2px;
+  }
+
+  .publication-year-nav a {
+    padding-block: 6px;
+    font-size: 12px;
+  }
+}

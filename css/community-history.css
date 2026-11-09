@@ -1,0 +1,72 @@
+.community-history{--ch-muted:var(--secondary);--ch-blue:var(--site-accent,#2563eb);--ch-soft:var(--site-accent-soft,#eff6ff)}
+.community-history [hidden]{display:none!important}
+.community-history .ch-intro p{margin:0;max-width:780px}
+.ch-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:24px;padding-top:20px;border-top:1px solid var(--border)}
+.ch-summary span{display:flex;flex-direction:column;color:var(--ch-muted);font-size:13px;line-height:1.5}
+.ch-summary strong{color:var(--ch-blue);font-size:30px;font-weight:650;font-variant-numeric:tabular-nums}
+.ch-tabs{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}
+.post-content .ch-tabs a{display:flex;align-items:center;justify-content:center;flex:1 0 auto;min-height:44px;padding:8px 16px;background:var(--entry);border:1px solid var(--border);border-radius:9px;color:var(--ch-blue);box-shadow:none;font-size:14px;font-weight:600;text-decoration:none}
+.post-content .ch-tabs a[aria-current=true]{background:var(--ch-blue);color:var(--theme);border-color:var(--ch-blue)}
+.community-history .ch-panel{scroll-margin-top:150px}
+.community-history .ch-panel>h2{margin-top:0}
+.ch-lead{font-size:15px;color:var(--ch-muted);line-height:1.6;max-width:850px}
+.ch-controls{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:24px 0}
+.ch-controls label{display:flex;flex-direction:column;gap:6px;min-width:135px;max-width:100%;font-size:13px;font-weight:600}
+.ch-controls label.ch-wide{flex:1 1 220px}
+.community-history select,.community-history input,.community-history button{font:inherit}
+.ch-controls select,.ch-controls input,.ch-controls button,.ch-download,.ch-reset,.ch-state-button{box-sizing:border-box;min-height:44px;padding:9px 12px;border:1px solid var(--border);border-radius:8px;background:var(--entry);color:var(--primary);font-size:14px;max-width:100%}
+.community-history button{cursor:pointer}
+.community-history :focus-visible{outline:3px solid var(--ch-blue);outline-offset:3px}
+.ch-statline{display:flex;align-items:center;gap:12px;justify-content:space-between;flex-wrap:wrap;margin:20px 0 12px;font-size:15px}
+.ch-statline strong{font-size:23px;color:var(--ch-blue)}
+.ch-caption{font-size:12px;color:var(--ch-muted);line-height:1.6}
+.ch-chart-scroll{overflow-x:auto;padding:12px 0 8px;overscroll-behavior-x:contain}
+.ch-chart{display:flex;align-items:end;gap:3px;min-width:max-content;height:230px;border-bottom:1px solid var(--border)}
+.ch-bar{position:relative;display:flex;flex:1 0 20px;flex-direction:column;justify-content:end;align-items:center;height:100%;min-width:20px;max-width:72px;background:transparent;padding:0 2px;border:0;color:var(--primary)}
+.ch-bar-value{flex-shrink:0;font-size:11px;line-height:22px;font-variant-numeric:tabular-nums;color:var(--ch-muted)}
+.ch-bar-fill{display:block;flex-shrink:0;width:100%;background-color:#bfdbfe;background-image:var(--ch-bar-gradient,none);background-size:100% var(--ch-bar-scale-height,168px);background-position:center bottom;background-repeat:no-repeat;border-radius:4px 4px 0 0}
+.ch-bar:hover .ch-bar-value{color:var(--ch-blue)}
+.ch-bar[aria-pressed=true] .ch-bar-fill{outline:2px solid var(--ch-blue);outline-offset:2px}
+.ch-bar-year{display:block;flex-shrink:0;font-size:10px;line-height:30px;letter-spacing:-.3px;color:var(--primary)}
+.ch-data-table{margin:14px 0;font-size:13px}
+.ch-data-table summary,.ch-records summary,.ch-method summary{cursor:pointer;color:var(--ch-blue);font-weight:600}
+.ch-table-scroll{overflow:auto;max-height:330px}
+.community-history table{width:100%;font-variant-numeric:tabular-nums}
+.ch-records{border-top:1px solid var(--border);margin-top:24px;padding-top:20px}
+.ch-records h3{margin:0 0 14px}
+.ch-record-list{max-height:440px;overflow:auto;overscroll-behavior:contain;padding-right:12px}
+.ch-record{padding:14px 0;border-bottom:1px solid var(--border);font-size:14px}
+.ch-record:last-child{border-bottom:0}
+.ch-record p{margin:4px 0;line-height:1.6}
+.ch-record .ch-subtext{font-size:12px;color:var(--ch-muted)}
+.ch-record details{font-size:12px;margin-top:8px}
+.ch-record summary{font-weight:400}
+.ch-record a,.ch-method a{overflow-wrap:anywhere}
+.ch-reset{color:var(--ch-blue)}
+.ch-method{font-size:14px;line-height:1.7}
+.community-history .ch-method p:last-child{margin-bottom:0}
+.ch-institution-grid{display:grid;grid-template-columns:minmax(220px,.9fr) minmax(260px,1.1fr);gap:28px;align-items:start}
+.ch-map svg{display:block;width:100%;max-height:420px}
+.ch-map [data-state][role=button]{cursor:pointer;transition:opacity .15s,fill .15s}
+.ch-map [data-state][role=button]:hover,.ch-map [data-state][aria-pressed=true]{fill:#60a5fa!important;stroke:#1d4ed8;stroke-width:1.8px}
+.ch-state-buttons{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+.ch-state-button{font-size:12px;min-width:44px}
+.ch-state-button[aria-pressed=true]{background:var(--ch-soft);color:var(--ch-blue);border-color:var(--ch-blue)}
+.ch-institution-list h3{font-size:17px;margin-top:0}
+.ch-institution-groups{columns:2;column-gap:24px}
+.ch-institution-group{break-inside:avoid;padding-bottom:16px}
+.ch-institution-list h4{font-size:15px;margin:0 0 5px}
+.ch-institution-list ul{font-size:13px;margin:0;padding-left:20px;line-height:1.9}
+.ch-institution-list a{overflow-wrap:anywhere}
+.ch-loading{font-size:14px;color:var(--ch-muted)}
+.ch-awards .ch-record-list{max-height:620px}
+.ch-awards .ch-record{padding:20px 0}
+.ch-awards h4{font-size:17px;line-height:1.5;margin:5px 0}
+.ch-awards .ch-award-meta{font-size:12px;color:var(--ch-blue);font-weight:600}
+.ch-awards .ch-award-recipients{font-weight:600}
+.ch-awards .ch-award-work{font-style:italic}
+.ch-awards .ch-award-sources{font-size:12px;margin-top:10px}
+@media(max-width:600px){.ch-summary{grid-template-columns:repeat(2,1fr);gap:16px}.ch-summary strong{font-size:26px}.ch-tabs{gap:6px}.post-content .ch-tabs a{flex:1 0 28%;padding:8px;font-size:12px}.community-history .ch-panel{padding:20px 14px}.ch-controls{gap:10px}.ch-controls label{flex:1 1 130px}.ch-controls label.ch-wide{flex-basis:100%}.ch-institution-grid{grid-template-columns:1fr;gap:24px}.ch-map svg{max-height:300px}.ch-record-list{max-height:400px}.ch-statline strong{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.community-history *{transition:none!important;scroll-behavior:auto!important}}
+@media(max-width:600px){.ch-bar{flex-basis:27px;min-width:27px}.post-content .ch-tabs a{flex-basis:40%}}
+@media(max-width:899px){.ch-institution-groups{columns:1}}

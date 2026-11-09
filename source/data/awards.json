@@ -1,0 +1,837 @@
+{
+  "updated": "2026-11-09",
+  "records": [
+    {
+      "id": "frontiers-2026-morris",
+      "year": 2026,
+      "title": {
+        "pt": "Frontiers of Science Award",
+        "en": "Frontiers of Science Award"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "International Congress of Basic Science (ICBS)",
+      "workTitle": "Flat Littlewood Polynomials Exist",
+      "category": "paper",
+      "sources": [
+        {
+          "url": "https://actu.epfl.ch/news/epfl-professor-marius-tiba-receives-2026-frontiers/",
+          "label": "EPFL",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://robiscounting.github.io/",
+          "label": "Rob Morris",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "Prêmio compartilhado com Paul Balister, Béla Bollobás, Julian Sahasrabudhe e Marius Tiba.",
+        "en": "Shared with Paul Balister, Béla Bollobás, Julian Sahasrabudhe and Marius Tiba."
+      }
+    },
+    {
+      "id": "capes-2024-campos",
+      "year": 2024,
+      "title": {
+        "pt": "Prêmio CAPES de Tese — Matemática / Probabilidade e Estatística",
+        "en": "CAPES Thesis Award — Mathematics / Probability and Statistics"
+      },
+      "recipients": [
+        {
+          "personId": "marcelo-campos",
+          "name": "Marcelo Campos"
+        }
+      ],
+      "awardingBody": "CAPES",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/tese-de-marcelo-campos-vence-premio-capes-2024/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Random Matrices, Additive Combinatorics, and Convex Geometry"
+    },
+    {
+      "id": "steele-2024-containers",
+      "year": 2024,
+      "title": {
+        "pt": "Prêmio Leroy P. Steele por contribuição seminal à pesquisa",
+        "en": "Leroy P. Steele Prize for Seminal Contribution to Research"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "American Mathematical Society",
+      "category": "paper",
+      "sources": [
+        {
+          "url": "https://www.ams.org/journals/notices/202404/rnoti-p534.pdf",
+          "label": "AMS — Notices, 2024",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Independent sets in hypergraphs",
+      "notes": {
+        "pt": "Prêmio de 2024, anunciado em novembro de 2023. Compartilhado com József Balogh, Wojciech Samotij, David Saxton e Andrew Thomason, pelos dois trabalhos que introduziram o método dos contêineres.",
+        "en": "The 2024 prize was announced in November 2023. Shared with József Balogh, Wojciech Samotij, David Saxton and Andrew Thomason, for the two papers introducing the container method."
+      }
+    },
+    {
+      "year": 2023,
+      "title": {
+        "pt": "Melhor artigo — LAGOS 2023",
+        "en": "Best Paper Award — LAGOS 2023"
+      },
+      "category": "paper",
+      "awardingBody": "XII Latin-American Algorithms, Graphs and Optimization Symposium (LAGOS)",
+      "id": "lagos-2023-canonical-list",
+      "recipients": [
+        {
+          "personId": "yoshiharu-kohayakawa",
+          "name": "Yoshiharu Kohayakawa"
+        },
+        {
+          "personId": "guilherme-mota",
+          "name": "Guilherme Mota"
+        }
+      ],
+      "workTitle": "A canonical Ramsey theorem with list constraints in random graphs",
+      "sources": [
+        {
+          "url": "https://matem-juriquilla.unam.mx/XII-Symposium-LAGOS-2023/AcceptedPaper",
+          "label": "LAGOS 2023 / UNAM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://repositorio.usp.br/directbitstream/3cb555f3-0533-47dd-b13a-0fd5023782ef/3165984.pdf",
+          "label": "LAGOS 2023 — anais / proceedings",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://lattes.ime.usp.br/ime/membro-3306150427973677.html",
+          "label": "Guilherme Mota — Lattes / USP",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://sites.google.com/site/patrickmorriscombinatorics",
+          "label": "Patrick Morris",
+          "checked": "2026-11-09"
+        }
+      ],
+      "notes": {
+        "pt": "Em coautoria com José Diego Alvarado Morales e Patrick Morris. Um dos dois trabalhos que dividiram o prêmio de melhor artigo da edição.",
+        "en": "Coauthored with José Diego Alvarado Morales and Patrick Morris. One of the two papers that shared this edition’s Best Paper Award."
+      }
+    },
+    {
+      "id": "elon-lages-lima-2023-combinatoria",
+      "title": {
+        "pt": "Prêmio Elon Lages Lima",
+        "en": "Elon Lages Lima Prize"
+      },
+      "year": 2023,
+      "recipients": [
+        {
+          "personId": "fabio-botler",
+          "name": "Fábio Botler"
+        },
+        {
+          "personId": "mauricio-collares",
+          "name": "Maurício Collares"
+        },
+        {
+          "personId": "taisa-martins",
+          "name": "Taísa Martins"
+        },
+        {
+          "personId": "walner-mendonca",
+          "name": "Walner Mendonça"
+        },
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        },
+        {
+          "personId": "guilherme-mota",
+          "name": "Guilherme Mota"
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Matemática; Sociedade Brasileira de Matemática Aplicada e Computacional",
+      "workTitle": "Combinatória",
+      "category": "book",
+      "sources": [
+        {
+          "url": "https://sbm.org.br/premio-elon-lages-lima/",
+          "label": "SBM",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "capes-2022-mattos",
+      "year": 2022,
+      "title": {
+        "pt": "Prêmio CAPES de Tese — Matemática / Probabilidade e Estatística",
+        "en": "CAPES Thesis Award — Mathematics / Probability and Statistics"
+      },
+      "recipients": [
+        {
+          "personId": "leticia-mattos",
+          "name": "Letícia Mattos",
+          "degreeId": "degree-leticia-mattos-phd-2021",
+          "studyConnection": {
+            "pt": "Premiação da tese de doutorado concluída em 2021 no IMPA, sob orientação de Rob Morris.",
+            "en": "Award for the PhD thesis completed at IMPA in 2021 under Rob Morris."
+          }
+        }
+      ],
+      "awardingBody": "CAPES",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/tese-de-leticia-mattos-vence-premio-capes/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Propriedades Combinatoriais de Grafos e Matrizes Aleatórios"
+    },
+    {
+      "id": "gutierrez-2022-mattos",
+      "year": 2022,
+      "title": {
+        "pt": "Prêmio Professor Carlos Teobaldo Gutierrez Vidalon — menção honrosa",
+        "en": "Professor Carlos Teobaldo Gutierrez Vidalon Prize — honourable mention"
+      },
+      "recipients": [
+        {
+          "personId": "leticia-mattos",
+          "name": "Letícia Mattos",
+          "degreeId": "degree-leticia-mattos-phd-2021",
+          "studyConnection": {
+            "pt": "Premiação da tese de doutorado concluída em 2021 no IMPA, sob orientação de Rob Morris.",
+            "en": "Award for the PhD thesis completed at IMPA in 2021 under Rob Morris."
+          }
+        }
+      ],
+      "awardingBody": "ICMC-USP e SBM",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/leticia-mattos-leva-mencao-honrosa-no-premio-gutierrez/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Propriedades Combinatoriais de Grafos e Matrizes Aleatórios"
+    },
+    {
+      "id": "cltm-2021-cavalar",
+      "title": {
+        "pt": "CLTM/CLEI — 1º prêmio de mestrado",
+        "en": "CLEI Latin American Master's Thesis Contest — first prize"
+      },
+      "year": 2021,
+      "recipients": [
+        {
+          "personId": "bruno-pasqualotto-cavalar",
+          "name": "Bruno Pasqualotto Cavalar",
+          "degreeId": "degree-bruno-pasqualotto-cavalar-masters-2020",
+          "studyConnection": {
+            "pt": "Premiação da dissertação de mestrado concluída em 2020 na USP, sob orientação de Yoshiharu Kohayakawa.",
+            "en": "Award for the master’s dissertation completed at USP in 2020 under Yoshiharu Kohayakawa."
+          }
+        }
+      ],
+      "awardingBody": "Centro Latinoamericano de Estudios en Informática",
+      "workTitle": "Sunflower Theorems in Monotone Circuit Complexity",
+      "category": "masters",
+      "sources": [
+        {
+          "url": "https://clei.org/pt/concurso-latino-americano-de-teses-de-mestrado/",
+          "label": "CLEI",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "ctd-2021-cavalar",
+      "title": {
+        "pt": "CTD/SBC — 1º lugar em mestrado",
+        "en": "SBC Thesis and Dissertation Contest — first place, master's"
+      },
+      "year": 2021,
+      "recipients": [
+        {
+          "personId": "bruno-pasqualotto-cavalar",
+          "name": "Bruno Pasqualotto Cavalar",
+          "degreeId": "degree-bruno-pasqualotto-cavalar-masters-2020",
+          "studyConnection": {
+            "pt": "Premiação da dissertação de mestrado concluída em 2020 na USP, sob orientação de Yoshiharu Kohayakawa.",
+            "en": "Award for the master’s dissertation completed at USP in 2020 under Yoshiharu Kohayakawa."
+          }
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Computação",
+      "workTitle": "Sunflower Theorems in Monotone Circuit Complexity",
+      "category": "masters",
+      "sources": [
+        {
+          "url": "https://csbc.ufsc.br/ctd-seleciona-as-melhores-teses-e-dissertacoes/",
+          "label": "CSBC 2021",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.ime.usp.br/estudante-do-ime-usp-e-premiado-no-concurso-de-teses-e-dissertacoes-do-csbc/",
+          "label": "IME-USP",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "impa-tese-2021-mattos",
+      "year": 2021,
+      "title": {
+        "pt": "Prêmio Tese do IMPA",
+        "en": "IMPA Thesis Prize"
+      },
+      "recipients": [
+        {
+          "personId": "leticia-mattos",
+          "name": "Letícia Mattos",
+          "degreeId": "degree-leticia-mattos-phd-2021",
+          "studyConnection": {
+            "pt": "Premiação da tese de doutorado concluída em 2021 no IMPA, sob orientação de Rob Morris.",
+            "en": "Award for the PhD thesis completed at IMPA in 2021 under Rob Morris."
+          }
+        }
+      ],
+      "awardingBody": "IMPA",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/leticia-mattos-leva-mencao-honrosa-no-premio-gutierrez/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Propriedades Combinatoriais de Grafos e Matrizes Aleatórios"
+    },
+    {
+      "id": "ctd-2020-siraichi",
+      "title": {
+        "pt": "CTD/SBC — 1º lugar em mestrado",
+        "en": "SBC Thesis and Dissertation Contest — first place, master's"
+      },
+      "year": 2020,
+      "recipients": [
+        {
+          "personId": "marcos-yukio-siraichi",
+          "name": "Marcos Yukio Siraichi",
+          "degreeId": "degree-marcos-yukio-siraichi-masters-2019",
+          "studyConnection": {
+            "pt": "Premiação da dissertação Qubit Allocation, concluída em 2019 na UFMG, com coorientação de Vinícius dos Santos.",
+            "en": "Award for Qubit Allocation, the master’s dissertation completed at UFMG in 2019, co-advised by Vinícius dos Santos."
+          }
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Computação",
+      "workTitle": "Qubit Allocation",
+      "category": "masters",
+      "sources": [
+        {
+          "url": "https://dcc.ufmg.br/3806/",
+          "label": "DCC/UFMG",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://dcc.ufmg.br/3743/",
+          "label": "DCC/UFMG",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "Prêmio de Marcos Yukio Siraichi. Sua dissertação foi orientada por Fernando Quintão Pereira, com coorientação de Vinícius dos Santos.",
+        "en": "Award to Marcos Yukio Siraichi. His dissertation was advised by Fernando Quintão Pereira, with Vinícius dos Santos as co-advisor."
+      }
+    },
+    {
+      "id": "latin-2020-cavalar",
+      "title": {
+        "pt": "LATIN 2020 — Prêmio Alejandro López-Ortiz de melhor artigo",
+        "en": "LATIN 2020 — Alejandro López-Ortiz Best Paper Award"
+      },
+      "year": 2020,
+      "recipients": [
+        {
+          "personId": "bruno-pasqualotto-cavalar",
+          "name": "Bruno Pasqualotto Cavalar",
+          "degreeId": "degree-bruno-pasqualotto-cavalar-masters-2020",
+          "studyConnection": {
+            "pt": "A FAPESP vincula o artigo premiado aos projetos de mestrado e estágio de pesquisa no mestrado de Bruno Cavalar, orientado por Yoshiharu Kohayakawa.",
+            "en": "FAPESP links the awarded paper to Bruno Cavalar’s master’s research and master’s research internship, supervised by Yoshiharu Kohayakawa."
+          }
+        }
+      ],
+      "awardingBody": "Latin American Theoretical Informatics Symposium",
+      "workTitle": "Monotone Circuit Lower Bounds from Sunflowers",
+      "category": "paper",
+      "sources": [
+        {
+          "url": "https://latin2020.ime.usp.br/",
+          "label": "LATIN 2020",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.cs.toronto.edu/~bpc/files/resume.pdf",
+          "label": {
+            "pt": "Currículo de Bruno Cavalar",
+            "en": "Bruno Cavalar’s CV"
+          },
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://bv.fapesp.br/pt/publicacao/286784/",
+          "label": "FAPESP — vínculo do artigo com o mestrado / master’s research link",
+          "checked": "2026-11-09"
+        }
+      ],
+      "notes": {
+        "pt": "Edição denominada LATIN 2020, realizada em 2021. Também premiados: Mrinal Kumar e Benjamin Rossman. O título da versão de periódico acrescenta a palavra Robust.",
+        "en": "The LATIN 2020 edition took place in 2021. Also awarded: Mrinal Kumar and Benjamin Rossman. The journal-version title adds the word Robust."
+      }
+    },
+    {
+      "id": "fulkerson-2018-chromatic",
+      "year": 2018,
+      "title": {
+        "pt": "Prêmio Delbert Ray Fulkerson",
+        "en": "Delbert Ray Fulkerson Prize"
+      },
+      "recipients": [
+        {
+          "personId": "yoshiharu-kohayakawa",
+          "name": "Yoshiharu Kohayakawa"
+        },
+        {
+          "personId": "simon-griffiths",
+          "name": "Simon Griffiths"
+        },
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "American Mathematical Society; Mathematical Optimization Society",
+      "category": "paper",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/robert-morris-ganha-o-delbert-ray-fulkerson-prize-20/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.mat.puc-rio.br/en/professor/simon-richard-griffiths/",
+          "label": "PUC-Rio",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "The chromatic thresholds of graphs",
+      "notes": {
+        "pt": "Prêmio compartilhado com Peter Allen e Julia Böttcher.",
+        "en": "Shared with Peter Allen and Julia Böttcher."
+      }
+    },
+    {
+      "id": "mercosul-2018-lucas-saldanha",
+      "title": {
+        "pt": "Prêmio Mercosul de Ciência e Tecnologia — menção honrosa em Integração",
+        "en": "Mercosur Science and Technology Award — honorable mention in Integration"
+      },
+      "year": 2018,
+      "recipients": [
+        {
+          "personId": "lucas-saldanha-ferreira",
+          "name": "Lucas Saldanha Ferreira",
+          "degreeId": "degree-lucas-saldanha-ferreira-phd-2024",
+          "studyConnection": {
+            "pt": "Pesquisa premiada na edição de 2018, durante o doutorado no CEFET-MG (2016–2024), orientado por Vinícius dos Santos. O trabalho premiado não é identificado como a tese.",
+            "en": "Research honoured in the 2018 edition, during the CEFET-MG PhD (2016–2024) advised by Vinícius dos Santos. The awarded work is not identified as the thesis."
+          }
+        }
+      ],
+      "awardingBody": "Reunião Especializada em Ciência e Tecnologia do Mercosul; CNPq",
+      "workTitle": "Aplicação de visão computacional para automatização do processo de reconhecimento de placas de aço bruto",
+      "category": "research",
+      "sources": [
+        {
+          "url": "https://memoria2.cnpq.br/web/guest/noticiasviews/-/journal_content/56_INSTANCE_a6MO/10157/7366442",
+          "label": "CNPq",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/auditorias/copy_of_RelatriodeGestode2019.pdf",
+          "label": "CNPq — 2019",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://cv.lucasf.com.br/",
+          "label": "Lucas Saldanha Ferreira — currículo / CV",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://homepages.dcc.ufmg.br/~viniciussantos/",
+          "label": "Vinícius dos Santos — orientações / supervision",
+          "checked": "2026-11-09"
+        }
+      ],
+      "notes": {
+        "pt": "Edição de 2018, anunciada e entregue em 2019. Lucas foi o autor principal do trabalho desenvolvido em equipe.",
+        "en": "The 2018 edition was announced and presented in 2019. Lucas was the lead author of the team’s work."
+      }
+    },
+    {
+      "id": "capes-2017-botler",
+      "title": {
+        "pt": "Prêmio CAPES de Tese — menção honrosa em Ciência da Computação",
+        "en": "CAPES Thesis Award — honorable mention in Computer Science"
+      },
+      "year": 2017,
+      "recipients": [
+        {
+          "personId": "fabio-botler",
+          "name": "Fábio Botler"
+        }
+      ],
+      "awardingBody": "CAPES",
+      "workTitle": "Decomposição de grafos em caminhos",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/copy_of_portarian1996102017.pdf",
+          "label": "CAPES",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://combo.ime.usp.br/awards/",
+          "label": "IME-USP CombO",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "gutierrez-2017-botler",
+      "title": {
+        "pt": "Prêmio Carlos Gutierrez — menção honrosa",
+        "en": "Carlos Gutierrez Prize — honorable mention"
+      },
+      "year": 2017,
+      "recipients": [
+        {
+          "personId": "fabio-botler",
+          "name": "Fábio Botler"
+        }
+      ],
+      "awardingBody": "ICMC-USP; Sociedade Brasileira de Matemática",
+      "workTitle": "Decomposição de grafos em caminhos",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://jornal.usp.br/ciencias/ciencias-exatas-e-da-terra/premio-gutierrez-de-teses-em-matematica-revela-vencedores/",
+          "label": "Jornal da USP",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "sbm-2017-morris",
+      "year": 2017,
+      "title": {
+        "pt": "Prêmio Sociedade Brasileira de Matemática",
+        "en": "Brazilian Mathematical Society Prize"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "SBM",
+      "category": "paper",
+      "sources": [
+        {
+          "url": "https://impa.br/notices/robert-morris-ganha-o-premio-sbm-2017/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ],
+      "workTitle": "Independent sets in hypergraphs"
+    },
+    {
+      "id": "mca-2017-morris",
+      "year": 2017,
+      "title": {
+        "pt": "Prêmio do Congresso Matemático das Américas",
+        "en": "Mathematical Congress of the Americas Prize"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "MCA",
+      "category": "research",
+      "sources": [
+        {
+          "url": "https://impa.br/sobre/premios/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "polya-2016-containers",
+      "year": 2016,
+      "title": {
+        "pt": "Prêmio George Pólya em Combinatória",
+        "en": "George Pólya Prize in Combinatorics"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "SIAM",
+      "category": "research",
+      "sources": [
+        {
+          "url": "https://www.siam.org/programs-initiatives/prizes-awards/major-prizes-lectures/george-polya-prize-in-applied-combinatorics/prize-history/",
+          "label": "SIAM",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "Pelo método dos contêineres de hipergrafos e suas aplicações. Prêmio compartilhado com József Balogh, Wojciech Samotij, David Saxton e Andrew Thomason.",
+        "en": "For the hypergraph container method and its applications. Shared with József Balogh, Wojciech Samotij, David Saxton and Andrew Thomason."
+      }
+    },
+    {
+      "id": "umalca-2016-morris",
+      "year": 2016,
+      "title": {
+        "pt": "Prêmio Reconocimiento UMALCA",
+        "en": "UMALCA Recognition Prize"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "UMALCA",
+      "category": "research",
+      "sources": [
+        {
+          "url": "https://www.umalca.org/eventos/premio-umalca/",
+          "label": "UMALCA",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "european-combinatorics-2015-morris",
+      "year": 2015,
+      "title": {
+        "pt": "European Prize in Combinatorics",
+        "en": "European Prize in Combinatorics"
+      },
+      "recipients": [
+        {
+          "personId": "rob-morris",
+          "name": "Rob Morris"
+        }
+      ],
+      "awardingBody": "EuroComb",
+      "category": "research",
+      "sources": [
+        {
+          "url": "https://impa.br/sobre/premios/",
+          "label": "IMPA",
+          "checked": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "ctd-2014-vinicius",
+      "title": {
+        "pt": "CTD/SBC — 2º lugar em doutorado",
+        "en": "SBC Thesis and Dissertation Contest — second place, PhD"
+      },
+      "year": 2014,
+      "recipients": [
+        {
+          "personId": "vinicius-dos-santos",
+          "name": "Vinícius dos Santos"
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Computação",
+      "workTitle": "Convexidades em Grafos: Intermediações, Parâmetros e Conversões",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://www.sbc.org.br/wp-content/uploads/2024/07/Relatorio-Anual-2014-2015.pdf",
+          "label": "SBC — 2014/2015",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "capes-2014-vinicius",
+      "title": {
+        "pt": "Prêmio CAPES de Tese — menção honrosa em Ciência da Computação",
+        "en": "CAPES Thesis Award — honorable mention in Computer Science"
+      },
+      "year": 2014,
+      "recipients": [
+        {
+          "personId": "vinicius-dos-santos",
+          "name": "Vinícius dos Santos"
+        }
+      ],
+      "awardingBody": "CAPES",
+      "workTitle": "Convexidades em Grafos: Intermediações, Parâmetros e Conversões",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://coppe.ufrj.br/planeta-coppe/tres-alunos-da-coppe-recebem-mencao-honrosa-no-premio-capes-2014/",
+          "label": "COPPE/UFRJ",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.inpe.br/noticias/arquivos/pdf/portaria134.pdf",
+          "label": {
+            "pt": "CAPES — Portaria 134/2014",
+            "en": "CAPES — Award decision 134/2014"
+          },
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "sbmac-2012-fritscher",
+      "title": {
+        "pt": "Prêmio de Pós-Graduação da SBMAC — menção honrosa em mestrado",
+        "en": "SBMAC Graduate Award — honourable mention for a master's dissertation"
+      },
+      "year": 2012,
+      "recipients": [
+        {
+          "personId": "eliseu-fritscher",
+          "name": "Eliseu Fritscher",
+          "degreeId": "degree-eliseu-fritscher-masters-2011",
+          "studyConnection": {
+            "pt": "Premiação da dissertação Propriedades espectrais de um grafo, concluída em 2011 na UFRGS, com coorientação de Carlos Hoppen.",
+            "en": "Award for Propriedades espectrais de um grafo, the master’s dissertation completed at UFRGS in 2011, co-advised by Carlos Hoppen."
+          }
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Matemática Aplicada e Computacional (SBMAC)",
+      "workTitle": "Propriedades espectrais de um grafo",
+      "category": "masters",
+      "sources": [
+        {
+          "url": "https://www.sbmac.org.br/premio-pos-graduacao/",
+          "label": "SBMAC",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://arquivo.sbmac.org.br/cnmac2012/premio.html",
+          "label": "CNMAC 2012",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "Menção honrosa pela dissertação defendida na UFRGS em 2011, orientada por Vilmar Trevisan e coorientada por Carlos Hoppen. O ano registrado é o da premiação.",
+        "en": "Honourable mention for the dissertation defended at UFRGS in 2011, advised by Vilmar Trevisan and co-advised by Carlos Hoppen. The recorded year is the award year."
+      }
+    },
+    {
+      "id": "ctd-2006-renato-carmo",
+      "title": {
+        "pt": "CTD/SBC — 2º lugar em doutorado",
+        "en": "SBC Thesis and Dissertation Contest — second place, PhD"
+      },
+      "year": 2006,
+      "recipients": [
+        {
+          "personId": "renato-carmo",
+          "name": "Renato Carmo",
+          "degreeId": "degree-renato-carmo-phd-2005",
+          "studyConnection": {
+            "pt": "Premiação da tese Dois problemas de busca, concluída em 2005 na USP, sob orientação de Yoshiharu Kohayakawa.",
+            "en": "Award for Dois problemas de busca, the PhD thesis completed at USP in 2005 under Yoshiharu Kohayakawa."
+          }
+        }
+      ],
+      "awardingBody": "Sociedade Brasileira de Computação",
+      "workTitle": "Dois problemas de busca",
+      "category": "phd",
+      "sources": [
+        {
+          "url": "https://www.ime.usp.br/~yoshi/FOCOS/repts/2007/relatorio06-07.pdf",
+          "label": "FOCOS/USP",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.ime.usp.br/~yoshi/FOCOS/repts/2006/relat2006.pdf",
+          "label": "FOCOS/USP",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      }
+    }
+  ]
+}

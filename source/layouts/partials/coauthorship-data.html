@@ -1,0 +1,41 @@
+{{- /* The publications page and graph share one catalogue; no external search data. */ -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $catalogue := $community.publications -}}
+{{- $orderedNodes := newScratch -}}
+{{- $orderedNodes.Set "nodes" (dict) -}}
+{{- range $community.faculty -}}
+  {{- $surname := lower (index (last 1 (split .name " ")) 0) -}}
+  {{- $key := printf "%04d|%s|%s" (int (default 9999 .phdYear)) $surname (lower .name) -}}
+  {{- $orderedNodes.SetInMap "nodes" $key . -}}
+{{- end -}}
+{{- $nodes := $orderedNodes.GetSortedMapValues "nodes" -}}
+{{- $nodeIDs := slice -}}
+{{- range $nodes -}}{{- $nodeIDs = $nodeIDs | append .id -}}{{- end -}}
+{{- $papers := slice -}}
+{{- $seen := slice -}}
+{{- $pairs := newScratch -}}
+{{- $pairs.Set "edges" (dict) -}}
+{{- range $catalogue.papers -}}
+  {{- $paper := . -}}
+  {{- if in $seen .id -}}{{- errorf "Duplicate publication ID: %s" .id -}}{{- end -}}
+  {{- $seen = $seen | append .id -}}
+  {{- $faculty := sort (intersect (uniq .faculty) $nodeIDs) -}}
+  {{- if ge (len $faculty) 2 -}}
+    {{- $papers = $papers | append $paper -}}
+    {{- range $i, $a := $faculty -}}
+      {{- range $j, $b := $faculty -}}
+        {{- if gt $j $i -}}
+          {{- $key := printf "%s|%s" $a $b -}}
+          {{- $ids := slice -}}
+          {{- with index ($pairs.Get "edges") $key -}}{{- $ids = .papers -}}{{- end -}}
+          {{- $ids = $ids | append $paper.id -}}
+          {{- $pairs.SetInMap "edges" $key (dict "source" $a "target" $b "papers" $ids "weight" (len $ids)) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $edges := $pairs.GetSortedMapValues "edges" -}}
+{{- $maximum := 0 -}}
+{{- range $edges -}}{{- if gt .weight $maximum -}}{{- $maximum = .weight -}}{{- end -}}{{- end -}}
+{{- return (dict "updated" $catalogue.updated "nodes" $nodes "papers" $papers "edges" $edges "maxWeight" $maximum "catalogueCount" (len $catalogue.papers) "sourceUrls" (slice ("artigos/" | absURL))) -}}

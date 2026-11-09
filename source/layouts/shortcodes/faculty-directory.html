@@ -1,0 +1,33 @@
+{{- $en := eq .Page.Lang "en" -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $columns := newScratch -}}
+{{- range slice "first" "rio" "south" -}}{{- $columns.Set . slice -}}{{- end -}}
+{{- $states := slice "CE" "PE" "BA" "RJ" "MG" "SP" "RS" -}}
+{{- $extra := slice -}}
+{{- range $community.faculty -}}
+  {{- if not (in $states .state) -}}{{- $extra = $extra | append .state -}}{{- end -}}
+{{- end -}}
+{{- $states = $states | append (sort (uniq $extra)) -}}
+{{- range $states -}}
+  {{- $members := sort (where $community.faculty "state" .) "name" -}}
+  {{- if $members -}}
+    {{- $column := "first" -}}
+    {{- if in (slice "RJ" "MG") . -}}{{- $column = "rio" -}}{{- else if in (slice "SP" "RS") . -}}{{- $column = "south" -}}{{- end -}}
+    {{- $columns.Add $column (slice (dict "state" . "name" (default . (index $community.institutions.states .)) "members" $members)) -}}
+  {{- end -}}
+{{- end -}}
+<link rel="stylesheet" href="{{ "css/faculty-directory.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/faculty-directory.css" | sha256) }}">
+<div class="faculty-directory" id="{{ if $en }}faculty{{ else }}docentes{{ end }}">
+  <div class="faculty-groups">
+    {{- range slice "first" "rio" "south" -}}
+      <div class="faculty-column">
+        {{- range $columns.Get . -}}
+          <section class="faculty-state" data-state="{{ .state }}">
+            {{- $.Page.RenderString (dict "display" "block") (printf "#### %s (%s)" .name .state) -}}
+            <ul>{{- range .members -}}<li><a href="{{ .url }}">{{ .name }}</a> ({{ .affiliation }})</li>{{- end -}}</ul>
+          </section>
+        {{- end -}}
+      </div>
+    {{- end -}}
+  </div>
+</div>

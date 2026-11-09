@@ -1,0 +1,1329 @@
+{
+  "updated": "2026-11-09",
+  "families": [
+    {
+      "id": "ebc",
+      "name": {
+        "pt": "EBC - Escola Brasileira de Combinatória",
+        "en": "EBC - Brazilian School of Combinatorics"
+      }
+    },
+    {
+      "id": "wbc",
+      "name": {
+        "pt": "WBC - Workshop Brasileiro de Combinatória",
+        "en": "WBC - Brazilian Workshop on Combinatorics"
+      }
+    },
+    {
+      "id": "fbec",
+      "name": {
+        "pt": "FBEC - Friends in Brazilian Extremal Combinatorics",
+        "en": "FBEC - Friends in Brazilian Extremal Combinatorics"
+      }
+    },
+    {
+      "id": "cbm",
+      "name": {
+        "pt": "Sessões temáticas no Colóquio Brasileiro de Matemática",
+        "en": "Thematic sessions at the Brazilian Mathematics Colloquium"
+      }
+    },
+    {
+      "id": "historical",
+      "name": {
+        "pt": "Outros encontros e escolas no Brasil",
+        "en": "Other meetings and schools in Brazil"
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "3aEBC",
+      "family": "ebc",
+      "edition": 3,
+      "start": "2027-02-22",
+      "end": "2027-02-26",
+      "city": "Recife",
+      "state": "PE",
+      "venue": "",
+      "name": {
+        "pt": "3ª EBC",
+        "en": "3rd EBC"
+      },
+      "url": {
+        "pt": "/3aEBC/",
+        "en": "/3aEBC/"
+      },
+      "sources": [
+        {
+          "url": "/3aEBC/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "2aEBC",
+      "family": "ebc",
+      "edition": 2,
+      "start": "2025-03-10",
+      "end": "2025-03-14",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "",
+      "name": {
+        "pt": "2ª EBC",
+        "en": "2nd EBC"
+      },
+      "url": {
+        "pt": "/2aEBC/",
+        "en": "/2aEBC/"
+      },
+      "sources": [
+        {
+          "url": "/2aEBC/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "1aEBC",
+      "family": "ebc",
+      "edition": 1,
+      "start": "2023-09-11",
+      "end": "2023-09-15",
+      "city": "São Sebastião",
+      "state": "SP",
+      "venue": "",
+      "name": {
+        "pt": "1ª EBC",
+        "en": "1st EBC"
+      },
+      "url": {
+        "pt": "/1aEBC/",
+        "en": "/1aEBC/"
+      },
+      "sources": [
+        {
+          "url": "/1aEBC/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "2oWBC",
+      "family": "wbc",
+      "edition": 2,
+      "start": "2026-06-15",
+      "end": "2026-06-19",
+      "city": "Fortaleza",
+      "state": "CE",
+      "venue": "",
+      "name": {
+        "pt": "2º WBC",
+        "en": "2nd WBC"
+      },
+      "url": {
+        "pt": "/2oWBC/",
+        "en": "/2oWBC/"
+      },
+      "sources": [
+        {
+          "url": "/2oWBC/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "1oWBC",
+      "family": "wbc",
+      "edition": 1,
+      "start": "2024-06-17",
+      "end": "2024-06-21",
+      "city": "Salvador",
+      "state": "BA",
+      "venue": "",
+      "name": {
+        "pt": "1º WBC",
+        "en": "1st WBC"
+      },
+      "url": {
+        "pt": "/1oWBC/",
+        "en": "/1oWBC/"
+      },
+      "sources": [
+        {
+          "url": "/1oWBC/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "2o-fbec",
+      "family": "fbec",
+      "edition": 2,
+      "start": "2027-01-18",
+      "end": "2027-01-29",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "2º FBEC",
+        "en": "2nd FBEC"
+      },
+      "url": {
+        "pt": "/2o-fbec/",
+        "en": "/en/2o-fbec/"
+      },
+      "sources": [
+        {
+          "url": "/2o-fbec/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "1o-fbec",
+      "family": "fbec",
+      "edition": 1,
+      "start": "2026-02-02",
+      "end": "2026-02-14",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "1º FBEC",
+        "en": "1st FBEC"
+      },
+      "url": {
+        "pt": "/1o-fbec/",
+        "en": "/en/1o-fbec/"
+      },
+      "sources": [
+        {
+          "url": "/1o-fbec/",
+          "label": "Página do evento / Event page"
+        }
+      ]
+    },
+    {
+      "id": "cntds-2026",
+      "family": "historical",
+      "start": "2026-10-19",
+      "end": "2026-10-23",
+      "city": "Fortaleza",
+      "state": "CE",
+      "venue": "Saint Martin Fortaleza",
+      "name": {
+        "pt": "3º Workshop on Combinatorics, Number Theory and Dynamical Systems",
+        "en": "3rd Workshop on Combinatorics, Number Theory and Dynamical Systems"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/3rd-workshop-on-combinatorics-number-theory-and-dynamical-systems/",
+        "en": "https://impa.br/evento/3rd-workshop-on-combinatorics-number-theory-and-dynamical-systems/"
+      },
+      "organizers": [
+        "Carlos Gustavo Moreira",
+        "Carlos Matheus",
+        "Joel Rivat",
+        "Ramon Nunes",
+        "Robert Morris",
+        "Suely Lima",
+        "Yoshiharu Kohayakawa",
+        "Yuri Lima"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/3rd-workshop-on-combinatorics-number-theory-and-dynamical-systems/",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma datas, Fortaleza, auditório do Saint Martin, comissão organizadora e relação com as edições de 2013 e 2015.",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Encontro interdisciplinar organizado conjuntamente pelo IMPA, USP e UFC, com Rob Morris e Yoshiharu Kohayakawa na comissão. Comissão conferida na página oficial do IMPA em 09/11/2026, incluindo Yuri Lima."
+    },
+    {
+      "id": "epa-2018",
+      "family": "historical",
+      "start": "2018-07-23",
+      "end": "2018-07-27",
+      "city": "São Paulo",
+      "state": "SP",
+      "venue": "USP",
+      "name": {
+        "pt": "Combinatorics: Extremal, Probabilistic and Additive",
+        "en": "Combinatorics: Extremal, Probabilistic and Additive"
+      },
+      "url": {
+        "pt": "https://epa-combinatorics2018.ime.usp.br/index.html",
+        "en": "https://epa-combinatorics2018.ime.usp.br/index.html"
+      },
+      "organizers": [
+        "Béla Bollobás",
+        "Yoshiharu Kohayakawa",
+        "Rob Morris",
+        "Maurício Collares",
+        "Carlos Hoppen",
+        "Guilherme Oliveira Mota"
+      ],
+      "sources": [
+        {
+          "url": "https://epa-combinatorics2018.ime.usp.br/index.html",
+          "label": "EPA 2018 — página oficial",
+          "evidence": "Confirma 23–27 de julho de 2018 na Universidade de São Paulo; encontro satélite do ICM 2018.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://epa-combinatorics2018.ime.usp.br/committee.html",
+          "label": "EPA 2018 — comissão organizadora",
+          "evidence": "Lista nominal dos seis organizadores.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Satélite do ICM 2018."
+    },
+    {
+      "id": "graphs-randomness-2018",
+      "family": "historical",
+      "start": "2018-02-19",
+      "end": "2018-03-04",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "Graphs and Randomness",
+        "en": "Graphs and Randomness"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/graphs-and-randomness-2/?lang=en",
+        "en": "https://impa.br/evento/graphs-and-randomness-2/?lang=en"
+      },
+      "organizers": [
+        "Rob Morris",
+        "Simon Griffiths",
+        "Bruce Reed",
+        "Roberto Imbuzeiro Oliveira"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/graphs-and-randomness-2/?lang=en",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma datas, IMPA/Rio, comissão organizadora e comitê científico distinto.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://impa.br/notices/impa-realiza-o-workshop-graphs-and-randomness/",
+          "label": "IMPA — notícia de 19/02/2018",
+          "evidence": "Confirma realização, datas e organizadores.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Uma das atividades do programa Graphs @ IMPA. Yoshiharu Kohayakawa integrou o comitê científico, não a comissão organizadora. Mantidas as datas do evento completo, que incluem os fins de semana."
+    },
+    {
+      "id": "rio-extremal-structural-2018",
+      "family": "historical",
+      "start": "2018-01-07",
+      "end": "2018-01-21",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "Rio Workshop on Extremal and Structural Combinatorics",
+        "en": "Rio Workshop on Extremal and Structural Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/rio-workshop-on-extremal-and-structural-combinatorics/",
+        "en": "https://impa.br/evento/rio-workshop-on-extremal-and-structural-combinatorics/"
+      },
+      "organizers": [
+        "Rob Morris",
+        "Simon Griffiths",
+        "Bruce Reed"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/rio-workshop-on-extremal-and-structural-combinatorics/",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma 7–21 de janeiro de 2018 no IMPA e os três organizadores; semanas de palestras 8–12 e 15–19.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://w3.impa.br/~graphs2018/",
+          "label": "Graphs @ IMPA — programa temático",
+          "evidence": "Relaciona este workshop e Graphs and Randomness como duas atividades de um programa maior.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Mantidas as datas do evento completo (7–21/1), sem substituir pelas datas das palestras (8–12 e 15–19/1). Yoshiharu Kohayakawa foi membro do comitê científico."
+    },
+    {
+      "id": "spsas-aco-2016",
+      "family": "historical",
+      "start": "2016-07-18",
+      "end": "2016-07-29",
+      "city": "São Paulo",
+      "state": "SP",
+      "venue": "Centro de Difusão Internacional da USP",
+      "name": {
+        "pt": "São Paulo School of Advanced Science on Algorithms, Combinatorics and Optimization",
+        "en": "São Paulo School of Advanced Science on Algorithms, Combinatorics and Optimization"
+      },
+      "url": {
+        "pt": "https://www.ime.usp.br/~spschool2016/",
+        "en": "https://www.ime.usp.br/~spschool2016/"
+      },
+      "organizers": [
+        "Yoshiko Wakabayashi",
+        "Carlos Eduardo Ferreira",
+        "Marcel Kenji de Carli Silva",
+        "Arnaldo Mandel",
+        "Cristina Gomes Fernandes",
+        "José Coelho de Pina Jr.",
+        "Sinai Robins",
+        "Yoshiharu Kohayakawa",
+        "Guilherme Oliveira Mota",
+        "Gabriel Coutinho",
+        "Roberto Freitas Parente"
+      ],
+      "sources": [
+        {
+          "url": "https://www.ime.usp.br/~spschool2016/",
+          "label": "SPSAS-ACO — página oficial",
+          "evidence": "Confirma período de 18–29/7/2016, cidade e local no Centro de Difusão Internacional da USP.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.ime.usp.br/~yw/2016/SPSAS/Anexo-relatorio.pdf",
+          "label": "SPSAS-ACO — relatório científico, página 1",
+          "evidence": "Lista os onze membros da comissão e distingue alunos que ajudaram na organização.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Escola de escopo amplo com cursos de regularidade, containers e limites de grafos. Rob Morris foi professor, não consta como membro da comissão organizadora. Fábio Botler aparece entre os estudantes que ajudaram, sem ser confundido com a comissão formal."
+    },
+    {
+      "id": "wfocos-2007",
+      "family": "historical",
+      "start": "2007-06-03",
+      "end": "2007-06-06",
+      "city": "São Sebastião",
+      "state": "SP",
+      "venue": "Maresias Beach Hotel",
+      "name": {
+        "pt": "Workshop em Fundamentos da Ciência da Computação: Algoritmos Combinatórios e Estruturas Discretas",
+        "en": "Workshop on Foundations of Computer Science: Combinatorial Algorithms and Discrete Structures"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/sobre/memoria/reunioes-cientificas/2007-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas/",
+        "en": "https://impa.br/arquivo_base/sobre/memoria/reunioes-cientificas/2007-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas/"
+      },
+      "organizers": [
+        "Carlos Gustavo Moreira",
+        "Cristina Gomes Fernandes",
+        "Yoshiharu Kohayakawa",
+        "Yoshiko Wakabayashi"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/reunioes-cientificas/2007-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas/",
+          "label": "IMPA — memória do evento de 2007",
+          "evidence": "Confirma 3–6/6/2007 em Maresias e comissão; foco em propriedades assintóticas de grafos/hipergrafos, regularidade e remoção.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://users.ime.usp.br/~cris/pronex2/program-wfocos07.html",
+          "label": "USP — programa oficial WFOCOS 2007",
+          "evidence": "Confirma datas e Maresias Beach Hotel em São Sebastião/SP; Rob Morris aparece como palestrante.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "A temática documentada inclui combinatória extremal. Não confundir com o encontro homônimo de 2006."
+    },
+    {
+      "id": "wfocos-2006",
+      "family": "historical",
+      "start": "2006-04-10",
+      "end": "2006-04-13",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "Workshop em Fundamentos da Ciência da Computação: Algoritmos Combinatórios e Estruturas Discretas",
+        "en": "Workshop on Foundations of Computer Science: Combinatorial Algorithms and Discrete Structures"
+      },
+      "url": {
+        "pt": "https://impa.br/sobre/memoria/reunioes-cientificas/2006-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas-2/",
+        "en": "https://impa.br/sobre/memoria/reunioes-cientificas/2006-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas-2/"
+      },
+      "organizers": [
+        "Carlos Gustavo Moreira",
+        "Vladas Sidoravicius",
+        "Yoshiharu Kohayakawa",
+        "Yoshiko Wakabayashi"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/sobre/memoria/reunioes-cientificas/2006-2/workshop-em-fundamentos-da-ciencia-da-computacao-algoritmos-combinatorios-e-estruturas-discretas-2/",
+          "label": "IMPA — memória do evento de 2006",
+          "evidence": "Confirma 10–13/4/2006 no IMPA e comissão; Carlos Gustavo Moreira e Yoshiharu Kohayakawa são coordenadores.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Não confundir com o encontro homônimo de Maresias em 2007."
+    },
+    {
+      "id": "combinatoria-concentracao-2005",
+      "family": "historical",
+      "start": "2005-02-23",
+      "end": "2005-02-25",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "Workshop de Combinatória e Concentração de Medida",
+        "en": "Workshop on Combinatorics and Concentration of Measure"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/workshop-de-combinatoria-e-concentracao-de-medida/",
+        "en": "https://impa.br/evento/workshop-de-combinatoria-e-concentracao-de-medida/"
+      },
+      "organizers": [
+        "Bruce Reed",
+        "Carlos Gustavo Moreira",
+        "Vladas Sidoravicius",
+        "Yoshiharu Kohayakawa"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/workshop-de-combinatoria-e-concentracao-de-medida/",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma 23–25/2/2005, IMPA/Rio, comissão e minicurso de desigualdades de concentração.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": ""
+    },
+    {
+      "id": "combinatoria-probabilidade-computacao-2004",
+      "family": "historical",
+      "start": "2004-02-12",
+      "end": "2004-02-14",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "Workshop de Combinatória, Probabilidade e Computação",
+        "en": "Workshop on Combinatorics, Probability and Computing"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/workshop-de-combinatoria-probabilidade-e-computacao/",
+        "en": "https://impa.br/evento/workshop-de-combinatoria-probabilidade-e-computacao/"
+      },
+      "organizers": [
+        "Carlos Gustavo Moreira",
+        "Vladas Sidoravicius",
+        "Yoshiharu Kohayakawa"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/workshop-de-combinatoria-probabilidade-e-computacao/",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma 12–14/2/2004 e comissão.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://milenio.impa.br/pt/2004/relcomb-04.pdf",
+          "label": "IMPA/Instituto do Milênio — relatório de atividades",
+          "evidence": "Confirma realização, foco em problemas extremais/métodos probabilísticos e comissão.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Rob Morris foi palestrante, não organizador."
+    },
+    {
+      "id": "combinatorics-algorithms-applications-2003",
+      "family": "historical",
+      "start": "2003-09-01",
+      "end": "2003-09-05",
+      "city": "Ubatuba",
+      "state": "SP",
+      "venue": "Hotel Sol e Vida",
+      "name": {
+        "pt": "Workshop on Combinatorics, Algorithms, and Applications",
+        "en": "Workshop on Combinatorics, Algorithms, and Applications"
+      },
+      "url": {
+        "pt": "https://www.ime.usp.br/~yoshi/pronex/Workshop/",
+        "en": "https://www.ime.usp.br/~yoshi/pronex/Workshop/"
+      },
+      "sources": [
+        {
+          "url": "https://www.ime.usp.br/~yoshi/pronex/Workshop/",
+          "label": "USP — página oficial",
+          "evidence": "Confirma 1–5/9/2003, Hotel Sol e Vida em Ubatuba, organização comunitária e contatos Carlos Eduardo Ferreira/Yoshiharu Kohayakawa.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.ime.usp.br/~yoshi/pronex/Workshop/program.pdf",
+          "label": "USP — programa do workshop",
+          "evidence": "Programa inclui sessão de combinatória probabilística.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "A página atribui organização à comunidade/projeto; Carlos Eduardo Ferreira e Yoshiharu Kohayakawa constam como contatos. Não foi inferida a comissão individual a partir desses contatos. A data de modificação da página (2005) não é a do evento."
+    },
+    {
+      "id": "extended-combinatorics-2002",
+      "family": "historical",
+      "start": "2002-03-04",
+      "end": "2002-03-14",
+      "city": "São Paulo / Ubatuba / Rio de Janeiro",
+      "venue": "",
+      "name": {
+        "pt": "Extended Workshop on Combinatorics",
+        "en": "Extended Workshop on Combinatorics"
+      },
+      "url": {
+        "pt": "https://users.ime.usp.br/~yoshi/pronex/NSFWorkshop/",
+        "en": "https://users.ime.usp.br/~yoshi/pronex/NSFWorkshop/"
+      },
+      "organizers": [
+        "Carlos Gustavo Moreira",
+        "Yoshiharu Kohayakawa"
+      ],
+      "sources": [
+        {
+          "url": "https://users.ime.usp.br/~yoshi/pronex/NSFWorkshop/",
+          "label": "USP — página do encontro",
+          "evidence": "Apresenta o workshop estendido e a série de palestras que o integra.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://users.ime.usp.br/~yoshi/pronex/NSFWorkshop/rept.pdf",
+          "label": "USP — relatório, páginas 1–2",
+          "evidence": "Confirma 4–14/3/2002, São Paulo/Ubatuba/Rio, organizadores Moreira/Kohayakawa e série interna no IMPA em 12–13/3/2002.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "A série Combinatorics, Random Structures, and Algorithms (IMPA, 12–13/3/2002) integra este workshop e não foi duplicada no catálogo. O relatório agregado do Milênio 2004 escreve 2003 para a série; adotado o relatório específico do evento, que confirma 2002.",
+      "states": [
+        "SP",
+        "RJ"
+      ]
+    },
+    {
+      "id": "forworc-2023",
+      "family": "historical",
+      "start": "2023-11-06",
+      "end": "2023-11-10",
+      "city": "Fortaleza",
+      "state": "CE",
+      "venue": "Universidade Federal do Ceará, Campus do Pici",
+      "name": {
+        "pt": "II Fortaleza Workshop em Combinatória (ForWorC)",
+        "en": "II Fortaleza Workshop in Combinatorics (ForWorC)"
+      },
+      "url": {
+        "pt": "https://pgmat.ufc.br/pt/forworc2/",
+        "en": "https://pgmat.ufc.br/en/forworc2en/"
+      },
+      "organizers": [
+        "Ana Shirley Silva",
+        "Ana Karolinna Maia",
+        "Fabrício Benevides",
+        "Júlio Araújo"
+      ],
+      "sources": [
+        {
+          "url": "https://pgmat.ufc.br/pt/forworc2/",
+          "label": "UFC — página oficial do II ForWorC",
+          "evidence": "Confirma 6–10/11/2023 no Departamento de Matemática, Campus do Pici, Fortaleza; lista comissão organizadora e distingue comissão científica.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://indico.pg.utfpr.edu.br/event/17/",
+          "label": "Indico UTFPR — inscrição oficial",
+          "evidence": "Confirma início em 6/11/2023 às 8h e encerramento em 10/11/2023 ao meio-dia.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Júlio Araújo presidiu a organização. Guilherme Mota integrou o comitê científico e ministrou minicurso com Roberto Parente; não foram convertidos em organizadores. O evento tem foco explícito em combinatória extremal, teoria de grafos/algoritmos e otimização combinatória."
+    },
+    {
+      "id": "pernambucano-extremal-2023",
+      "family": "historical",
+      "start": "2023-02-13",
+      "end": "2023-02-16",
+      "city": "Recife",
+      "state": "PE",
+      "venue": "Departamento de Matemática da UFPE",
+      "name": {
+        "pt": "I Workshop Pernambucano de Combinatória Extremal",
+        "en": "I Pernambuco Workshop on Extremal Combinatorics"
+      },
+      "url": {
+        "pt": "https://sites.google.com/view/veraoufpe2023/eventos",
+        "en": "https://sites.google.com/view/veraoufpe2023/eventos"
+      },
+      "organizers": [
+        "Luiz Moreira"
+      ],
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/veraoufpe2023/eventos",
+          "label": "UFPE — programa oficial do Verão 2023",
+          "evidence": "Anuncia o primeiro workshop em 13–16 de fevereiro, identifica o DMat como local e Luiz Moreira como organizador.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://sites.google.com/site/yanitsapehova/events",
+          "label": "Yani Pehova — arquivo de participação",
+          "evidence": "Confirma 13–16/2/2023 na Universidade Federal de Pernambuco, Recife.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Adotadas as datas 13–16/2 da programação oficial da UFPE, corroboradas por participante. O arquivo pessoal de Guilherme Mota informa 13–17/2; divergência preservada aqui. A data 28/4/2023 no índice de notícias da UFPE é de postagem, não do evento. Rob Morris e Simon Griffiths figuram entre convidados, não como organizadores."
+    },
+    {
+      "id": "forworc-2019",
+      "family": "historical",
+      "start": "2019-02-18",
+      "end": "2019-02-22",
+      "city": "Fortaleza",
+      "state": "CE",
+      "venue": "Universidade Federal do Ceará",
+      "name": {
+        "pt": "I Fortaleza Workshop em Combinatória (ForWorC)",
+        "en": "I Fortaleza Workshop in Combinatorics (ForWorC)"
+      },
+      "url": {
+        "pt": "https://pargo.ufc.br/pt/eventos/",
+        "en": "https://pargo.ufc.br/pt/eventos/"
+      },
+      "organizers": [
+        "Fabrício Benevides"
+      ],
+      "sources": [
+        {
+          "url": "https://pargo.ufc.br/pt/eventos/",
+          "label": "ParGO/UFC — arquivo de eventos",
+          "evidence": "Confirma a primeira edição em 2019 e sua relação com a edição de 2023.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://users.ime.usp.br/~mota/events/",
+          "label": "Guilherme Mota — arquivo de eventos",
+          "evidence": "Confirma 18–22/2/2019 em Fortaleza.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.lirmm.fr/~sau/CVIgnasiSau.pdf",
+          "label": "Ignasi Sau — currículo no LIRMM",
+          "evidence": "Registra minicurso ministrado no I ForWorC em fevereiro/2019 na Universidade Federal do Ceará, Fortaleza.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/24122018-resultado-final-edital-29-2018-pdf",
+          "label": "CAPES — resultado final PAEP, edital 29/2018",
+          "evidence": "Identifica Fabrício Siqueira Benevides como presidente do evento, proposta 646754.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "A antiga página oficial mat.ufc.br/portal/ptbr/events/229-forworc2019 não foi recuperada. Datas/local triangulados a partir do arquivo do participante Mota, currículo do ministrante Sau e arquivo institucional ParGO. Apenas a presidência de Fabrício está nominalmente confirmada; a lista de organizadores não pretende reproduzir a comissão completa."
+    },
+    {
+      "id": "ecbpm-extremal-2022",
+      "family": "historical",
+      "start": "2022-08-18",
+      "end": "2022-08-19",
+      "city": "Salvador",
+      "state": "BA",
+      "venue": "Instituto de Biologia da UFBA",
+      "name": {
+        "pt": "Sessão de Combinatória Extremal e Probabilística — Encontro Brasil–Portugal",
+        "en": "Extremal and Probabilistic Combinatorics Session — Brazil–Portugal Meeting"
+      },
+      "url": {
+        "pt": "https://sites.google.com/view/ecbpm/sess%C3%B5es-tem%C3%A1ticas",
+        "en": "https://sites.google.com/view/ecbpm/sess%C3%B5es-tem%C3%A1ticas"
+      },
+      "organizers": [
+        "Lucas Colucci",
+        "Roberto Parente"
+      ],
+      "sources": [
+        {
+          "url": "https://sites.google.com/view/ecbpm/sess%C3%B5es-tem%C3%A1ticas",
+          "label": "ECBPM — programação oficial das sessões",
+          "evidence": "Confirma sessão em 18–19/8, local no auditório do Instituto de Biologia e organização de Lucas Colucci e Roberto Parente.",
+          "accessed": "2026-11-08"
+        },
+        {
+          "url": "https://sites.google.com/view/ecbpm/p%C3%A1gina-principal",
+          "label": "ECBPM — página principal",
+          "evidence": "Confirma que o congresso foi realizado na UFBA, em Salvador, em agosto de 2022.",
+          "accessed": "2026-11-08"
+        }
+      ],
+      "researchNotes": "Cadastrada apenas a sessão especializada, em 18–19/8/2022; as datas 14–20/8 são do congresso inteiro. Rob Morris e Yoshiharu Kohayakawa foram palestrantes, não organizadores da sessão."
+    },
+    {
+      "id": "cntds-2015",
+      "family": "historical",
+      "start": "2015-08-24",
+      "end": "2015-08-28",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "venue": "IMPA",
+      "name": {
+        "pt": "2º Workshop on Combinatorics, Number Theory and Dynamical Systems",
+        "en": "2nd Workshop on Combinatorics, Number Theory and Dynamical Systems"
+      },
+      "url": {
+        "pt": "https://impa.br/evento/2nd-workshop-on-combinatorics-number-theory-and-dynamical-systems-2/?lang=en",
+        "en": "https://impa.br/evento/2nd-workshop-on-combinatorics-number-theory-and-dynamical-systems-2/?lang=en"
+      },
+      "organizers": [
+        "Yuri Lima",
+        "Christian Mauduit",
+        "Carlos Matheus Santos",
+        "Carlos Gustavo Moreira",
+        "Enrique Pujals",
+        "Marcelo Viana",
+        "Jean-Christophe Yoccoz"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/evento/2nd-workshop-on-combinatorics-number-theory-and-dynamical-systems-2/?lang=en",
+          "label": "IMPA — página oficial",
+          "evidence": "Confirma datas, local e comissão; Fabrício Benevides figura como palestrante.",
+          "accessed": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Incluído por solicitação do usuário em 09/11/2026, no bloco de outros encontros. A comissão oficial de 2015 não inclui os 19 docentes cadastrados; Fabrício Benevides e Yoshiharu Kohayakawa constam como palestrantes."
+    },
+    {
+      "id": "cbm-2025-combinatoria",
+      "family": "cbm",
+      "edition": 35,
+      "start": "2025-07-28",
+      "end": "2025-07-29",
+      "name": {
+        "pt": "35º CBM — Combinatória",
+        "en": "35th CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/combinatoria/",
+        "en": "https://impa.br/combinatoria/"
+      },
+      "dateScope": "event",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Guilherme Oliveira Mota",
+        "Marcelo Campos",
+        "Carlos Hoppen"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/combinatoria/",
+          "evidence": "O programa identifica os três coordenadores e separa as palestras por 28 e 29 de julho de 2025, no Auditório Ricardo Mañé.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/sessoes-tematicas-35o-cbm/",
+          "evidence": "Índice de sessões do 35º CBM liga para a sessão Combinatória e confirma os coordenadores e os dias da semana.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/35o-coloquio-brasileiro-de-matematica/",
+          "evidence": "Página geral confirma a edição, o IMPA como local e o período do colóquio.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "O programa inclui números de Ramsey, grafos aleatórios, imersão de árvores e decomposições monocromáticas."
+    },
+    {
+      "id": "cbm-2023-combinatoria",
+      "family": "cbm",
+      "edition": 34,
+      "start": "2023-07-24",
+      "end": "2023-07-25",
+      "name": {
+        "pt": "34º CBM — Combinatória",
+        "en": "34th CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/eventos-do-impa/2023-2/34o-coloquio-brasileiro-de-matematica-cbm/sessoes-tematicas-2/combinatoria/",
+        "en": "https://impa.br/arquivo_base/eventos-do-impa/2023-2/34o-coloquio-brasileiro-de-matematica-cbm/sessoes-tematicas-2/combinatoria/"
+      },
+      "dateScope": "event",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Simon Griffiths",
+        "Carlos Hoppen",
+        "Guilherme Oliveira Mota"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/eventos-do-impa/2023-2/34o-coloquio-brasileiro-de-matematica-cbm/sessoes-tematicas-2/combinatoria/",
+          "evidence": "Página específica traz os três coordenadores e as sessões de 24 e 25 de julho de 2023 no Auditório 3.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/eventos-do-impa/2023-2/34o-coloquio-brasileiro-de-matematica-cbm/sessoes-tematicas-2/",
+          "evidence": "Índice do 34º CBM lista Combinatória, seus coordenadores e horários.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/34o-coloquio-brasileiro-de-matematica-cbm/",
+          "evidence": "Página geral confirma a edição, o período de 24 a 28 de julho de 2023 e o IMPA.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "A sessão contém palestras de Ramsey (Taísa Martins, Simon Griffiths e Roberto Parente), grafos aleatórios e decomposição em caminhos."
+    },
+    {
+      "id": "cbm-2021-combinatoria",
+      "family": "cbm",
+      "edition": 33,
+      "start": "2021-08-04",
+      "end": "2021-08-06",
+      "name": {
+        "pt": "33º CBM — Combinatória",
+        "en": "33rd CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/eventos-do-impa/2021-2/33cbm/sessoes-tematicas/combinatoria/",
+        "en": "https://impa.br/arquivo_base/eventos-do-impa/2021-2/33cbm/sessoes-tematicas/combinatoria/"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2021-08-04",
+        "2021-08-06"
+      ],
+      "mode": "online",
+      "organizers": [
+        "Carlos Hoppen",
+        "Claudia Linhares Sales"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/eventos-do-impa/2021-2/33cbm/sessoes-tematicas/combinatoria/",
+          "evidence": "Página específica identifica Hoppen e Linhares Sales como coordenadores e lista a programação de quarta-feira 4 e sexta-feira 6 de agosto de 2021.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/33cbm/",
+          "evidence": "Página geral declara que a edição foi virtual via Zoom e YouTube, durante 2 a 6 de agosto de 2021.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "O programa inclui fatores de triângulos/ciclos hamiltonianos em grafos aleatoriamente perturbados, recobrimentos monocromáticos e grafos aleatórios regulares. Dias não consecutivos: não apresentar como intervalo contínuo de 4 a 6 de agosto. O endereço postal do IMPA no rodapé não é o local presencial da edição."
+    },
+    {
+      "id": "cbm-2019-combinatoria",
+      "family": "cbm",
+      "edition": 32,
+      "start": "2019-07-29",
+      "end": "2019-08-01",
+      "name": {
+        "pt": "32º CBM — Combinatória",
+        "en": "32nd CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2019/32o-coloquio-brasileiro-de-matematica/sessoes-tematicas/combinatoria/",
+        "en": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2019/32o-coloquio-brasileiro-de-matematica/sessoes-tematicas/combinatoria/"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2019-07-29",
+        "2019-07-30",
+        "2019-08-01"
+      ],
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Carlos Hoppen",
+        "Simon Griffiths"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2019/32o-coloquio-brasileiro-de-matematica/sessoes-tematicas/combinatoria/",
+          "evidence": "Página específica identifica Carlos Hoppen e Simon Griffiths e separa os programas de 29 e 30 de julho e 1º de agosto de 2019.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/32o-coloquio-brasileiro-de-matematica/",
+          "evidence": "Página geral identifica a edição e o intervalo do colóquio, de 28 de julho a 2 de agosto de 2019, no IMPA.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "O programa inclui números de Ramsey, colorações de Gallai, saturação fraca, problemas anti-Ramsey e size-Ramsey. Dias não consecutivos: o programa não inclui sessão de Combinatória em 31 de julho."
+    },
+    {
+      "id": "cbm31-combinatoria-2017",
+      "family": "cbm",
+      "edition": 31,
+      "start": "2017-08-02",
+      "end": "2017-08-04",
+      "name": {
+        "pt": "31º CBM — Combinatória",
+        "en": "31st CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2017/31o-coloquio-brasileiro-de-matematica/31o-cbm-sessoes-tematicas/31o-cbm-sessoes-tematicas-combinatoria/",
+        "en": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2017/31o-coloquio-brasileiro-de-matematica/31o-cbm-sessoes-tematicas/31o-cbm-sessoes-tematicas-combinatoria/"
+      },
+      "dateScope": "event",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Robert Morris",
+        "Carlos Hoppen"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/eventos-do-impa/eventos-2017/31o-coloquio-brasileiro-de-matematica/31o-cbm-sessoes-tematicas/31o-cbm-sessoes-tematicas-combinatoria/",
+          "evidence": "Página oficial individual identifica os dois coordenadores e traz programa de quarta-feira 02/08/2017, quinta-feira 03/08/2017 e sexta-feira 04/08/2017.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/31o-coloquio-brasileiro-de-matematica/",
+          "evidence": "Datas gerais do 31º CBM: 30/07–05/08/2017.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Programa inclui Guilherme Mota (local density for graphs of given odd-girth), Maurício Collares (counting r-transitive orientations of G(n,p)) e Jozef Skokan (decomposing tournaments into paths)."
+    },
+    {
+      "id": "cbm30-probabilidade-combinatoria-2015",
+      "family": "cbm",
+      "edition": 30,
+      "start": "2015-07-27",
+      "end": "2015-07-31",
+      "name": {
+        "pt": "30º CBM — Probabilidade e Combinatória",
+        "en": "30th CBM — Probability and Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2015_probabilidade.pdf",
+        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2015_probabilidade.pdf"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2015-07-27",
+        "2015-07-30",
+        "2015-07-31"
+      ],
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Roberto Imbuzeiro Oliveira",
+        "Augusto Quadros Teixeira"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/Coloquio2015_probabilidade.pdf",
+          "evidence": "PDF oficial da sessão identifica os dois coordenadores e a lista de apresentações.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/05/30CBM-sessoes_tematicas.pdf",
+          "evidence": "Tabela de salas, linha224: Probabilidade e Combinatória ocupa segunda27, quinta30 e sexta31; terça28 e quarta29 são Matemática e Teoria Quântica.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/05/30CBM-segunda27.pdf",
+          "evidence": "Programa diário27/07 inclui Fabrício Benevides na sessão Probabilidade e Combinatória.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/05/30CBM-quinta30.pdf",
+          "evidence": "Programa diário30/07 inclui Carlos Hoppen na sessão Probabilidade e Combinatória.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/05/30CBM-sexta31.pdf",
+          "evidence": "Programa diário31/07 inclui Maurício Collares, Anticadeias máximas em conjuntos aleatórios, na sessão Probabilidade e Combinatória.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Fabrício Benevides (Graph convexities and maximum infection time), Carlos Hoppen (resultados determinísticos e probabilísticos em grafos por algoritmos locais), Maurício Collares (anticadeias máximas em conjuntos aleatórios). Relacionado por conteúdo; os coordenadores não são membros dos 19 docentes do catálogo. Exibir os três dias, não intervalo contínuo27–31."
+    },
+    {
+      "id": "cbm29-combinatoria-2013",
+      "family": "cbm",
+      "edition": 29,
+      "start": "2013-07-21",
+      "end": "2013-08-02",
+      "name": {
+        "pt": "29º CBM — Combinatória algorítmica, extremal e probabilística",
+        "en": "29th CBM — Algorithmic, Extremal and Probabilistic Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2013_combinatoriaalgoritmica.pdf",
+        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2013_combinatoriaalgoritmica.pdf"
+      },
+      "dateScope": "parent",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Carlos Hoppen",
+        "Manoel Lemos"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/Coloquio2013_combinatoriaalgoritmica.pdf",
+          "evidence": "PDF oficial individual identifica o título, os coordenadores e as apresentações; não informa datas individuais.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/29o-coloquio-brasileiro-de-matematica-2013/sessoes-tematicas-de-2907-a-0208-thematic-sessions-july-29-august-2/",
+          "evidence": "Página oficial agrupa sessões temáticas de29/07 a02/08.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/29o-coloquio-brasileiro-de-matematica-2013/",
+          "evidence": "Datas gerais do29ºCBM:21/07–02/08/2013.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Título explicitamente extremal e probabilístico; programa inclui números de Ramsey de grafos de largura de banda pequena, conjuntos livres de soma aleatórios e arboricidade de grafos aleatórios. Não foi possível verificar datas individuais desta sessão. Não apresentar29/07–02/08 como duração própria da sessão. PDF do programa geral bloqueado à ferramenta: https://impa.br/wp-content/uploads/2017/12/Coloquio2013_programageral.pdf As datas exibidas são do colóquio; dias próprios da sessão não confirmados."
+    },
+    {
+      "id": "cbm28-combinatoria-2011",
+      "family": "cbm",
+      "edition": 28,
+      "start": "2011-07-25",
+      "end": "2011-07-29",
+      "name": {
+        "pt": "28º CBM — Combinatória",
+        "en": "28th CBM — Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_sessoesTODAS.pdf",
+        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_sessoesTODAS.pdf"
+      },
+      "dateScope": "event",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Julia Böttcher",
+        "Robert Morris"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_sessoesTODAS.pdf",
+          "evidence": "Página1: Sessão Temática de Combinatória, coordenadores Julia Bottcher(IME-USP) e Robert Morris(IMPA).",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_programageral.pdf",
+          "evidence": "Página2 programa: Combinatória – de25 a29(de2ª a6ªfeira) – Aud.3; segunda semana é25–29julho2011.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Programa inclui Allen (chromatic thresholds), Bollobás (Union-Closed), Schacht (extremal problems in pseudo-random and random graphs), Hoppen (edge colourings avoiding a fixed subgraph), Benevides (Ramsey cycles). A edição também tinha curso de Extremal and Probabilistic Combinatorics, distinto desta sessão; não confundir."
+    },
+    {
+      "id": "cbm27-estruturas-aleatorias-2009",
+      "family": "cbm",
+      "edition": 27,
+      "start": "2009-07-27",
+      "end": "2009-07-30",
+      "name": {
+        "pt": "27º CBM — Estruturas Aleatórias",
+        "en": "27th CBM — Random Structures"
+      },
+      "url": {
+        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2009_sess%C3%B5es.pdf",
+        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2009_sess%C3%B5es.pdf"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2009-07-27",
+        "2009-07-30"
+      ],
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Vladas Sidoravicius",
+        "Yoshiharu Kohayakawa"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/Coloquio2009_sess%C3%B5es.pdf",
+          "evidence": "Página3: Sessão Temática de Estruturas Aleatórias, coordenadores Vladas Sidoravicius(IMPA) e Yoshiharu Kohayakawa(USP).",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/wp-content/uploads/2017/12/geral-22.07.pdf",
+          "evidence": "Programa: Estruturas Aleatórias – 2ªfeira(27/07)–Sala347 / 5ªfeira(30/07)–Sala347.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Programa inclui Nati Linial (método probabilístico em topologia) e Carlos Hoppen (resultados assintóticos e determinísticos em grafos regulares aleatórios). Dois dias não consecutivos; não apresentar como intervalo contínuo27–30."
+    },
+    {
+      "id": "cbm-2005-combinatoria",
+      "family": "cbm",
+      "edition": 25,
+      "start": "2005-07-26",
+      "end": "2005-07-28",
+      "name": {
+        "pt": "25º CBM — Sessão de Combinatória",
+        "en": "25th CBM — Combinatorics Session"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/25o-coloquio-brasileiro-de-matematica-2005/25o-cbm-sessoes-especiais/25o-cbm-sessoes-especiais-sessao-de-combinatoria/",
+        "en": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/25o-coloquio-brasileiro-de-matematica-2005/25o-cbm-sessoes-especiais/25o-cbm-sessoes-especiais-sessao-de-combinatoria/"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2005-07-26",
+        "2005-07-28"
+      ],
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Yoshiko Wakabayashi"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/25o-coloquio-brasileiro-de-matematica-2005/25o-cbm-sessoes-especiais/25o-cbm-sessoes-especiais-sessao-de-combinatoria/",
+          "evidence": "Programa inclui palestra de Jozef Skokan sobre uma generalização do teorema de Turán, além de outros temas de grafos, redes e algoritmos.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/25o-coloquio-brasileiro-de-matematica-2005/25o-cbm-sessoes-especiais/",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/25o-coloquio-brasileiro-de-matematica-2005/",
+          "evidence": "Programa próprio explicita dia 26, terça-feira, e dia 28, quinta-feira.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Tema extremal diretamente confirmado no programa. Programa próprio explicita dia 26, terça-feira, e dia 28, quinta-feira."
+    },
+    {
+      "id": "cbm-2003-combinatoria",
+      "family": "cbm",
+      "edition": 24,
+      "start": "2003-07-30",
+      "end": "2003-08-01",
+      "name": {
+        "pt": "24º CBM — Sessão Especial de Combinatória",
+        "en": "24th CBM — Special Session on Combinatorics"
+      },
+      "url": {
+        "pt": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/24o-coloquio-brasileiro-de-matematica-2003/24o-cbm-sessoes-especiais/24o-cbm-sessoes-especiais-combinatoria/",
+        "en": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/24o-coloquio-brasileiro-de-matematica-2003/24o-cbm-sessoes-especiais/24o-cbm-sessoes-especiais-combinatoria/"
+      },
+      "dateScope": "event",
+      "sessionDates": [
+        "2003-07-30",
+        "2003-08-01"
+      ],
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "organizers": [
+        "Yoshiharu Kohayakawa"
+      ],
+      "sources": [
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/24o-coloquio-brasileiro-de-matematica-2003/24o-cbm-sessoes-especiais/24o-cbm-sessoes-especiais-combinatoria/",
+          "evidence": "Programa inclui Noga Alon sobre testes de digrafos grandes, Piotr Koszmider sobre propriedade de Ramsey e Cláudio Lucchesi sobre grafos extremais e cortes.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/arquivo_base/sobre/memoria/coloquios-brasileiros-de-matematica/24o-coloquio-brasileiro-de-matematica-2003/24o-cbm-sessoes-especiais/",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/24o-coloquio-brasileiro-de-matematica-2003/",
+          "evidence": "Programa próprio explicita quarta-feira, 30 de julho, e sexta-feira, 1 de agosto.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Temas relacionados a Combinatória Extremal diretamente confirmados no programa. Programa próprio explicita quarta-feira, 30 de julho, e sexta-feira, 1 de agosto."
+    },
+    {
+      "id": "cbm-1997-combinatoria",
+      "family": "cbm",
+      "edition": 21,
+      "start": "1997-07-21",
+      "end": "1997-07-25",
+      "name": {
+        "pt": "21º CBM — Sessão Especial de Combinatória",
+        "en": "21st CBM — Special Session on Combinatorics"
+      },
+      "url": {
+        "pt": "https://www.ime.usp.br/~yoshi/coloquio/",
+        "en": "https://www.ime.usp.br/~yoshi/coloquio/"
+      },
+      "dateScope": "parent",
+      "venue": "IMPA",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "sources": [
+        {
+          "url": "https://www.ime.usp.br/~yoshi/coloquio/",
+          "evidence": "Página de Yoshiharu reúne anúncio, inscrições e programa. Inclui Carlos Gustavo Moreira sobre problema extremal no hipercubo e Bruce Reed sobre largura arbórea e conectividade.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        },
+        {
+          "url": "https://impa.br/evento/21o-coloquio-brasileiro-de-matematica-1997/",
+          "evidence": "Página própria anuncia a sessão no CBM realizado entre 21 e 25 de julho. O intervalo é do CBM; não há atribuição inequívoca de todos esses dias à sessão.",
+          "label": "IMPA / USP — programa e memória do CBM",
+          "checked": "2026-11-09"
+        }
+      ],
+      "researchNotes": "Tema extremal diretamente confirmado no programa. Página própria anuncia a sessão no CBM realizado entre 21 e 25 de julho. O intervalo é do CBM; não há atribuição inequívoca de todos esses dias à sessão. As datas exibidas são do colóquio; dias próprios da sessão não confirmados."
+    }
+  ]
+}

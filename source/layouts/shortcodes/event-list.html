@@ -1,0 +1,13 @@
+{{- $lang := .Page.Lang -}}
+{{- range site.Data.events.families -}}
+{{- $family := . -}}
+{{- $name := index .name $lang -}}
+<section class="modern-box event-card" aria-labelledby="{{ $name | anchorize }}">
+  <h4 id="{{ $name | anchorize }}" style="margin-top:0">{{ $name }}</h4>
+  <ul style="margin-bottom:0">
+  {{- range sort (where site.Data.events.events "family" $family.id) "start" "desc" -}}
+    <li><strong><a href="{{ index .url $lang | relURL }}">{{ index .name $lang }}</a></strong> - {{ if eq .mode "online" }}{{ if eq $lang "en" }}Online{{ else }}On-line{{ end }}{{ else }}{{ with .venue }}{{ . }}, {{ end }}{{ .city }}{{ with .states }}, {{ delimit . "/" }}{{ else }}{{ with .state }}, {{ . }}{{ end }}{{ end }}{{ end }} - {{ partial "event-dates.html" (dict "event" . "lang" $lang) }}{{ if eq .dateScope "parent" }} {{ if eq $lang "en" }}(colloquium dates){{ else }}(datas do colóquio){{ end }}{{ end }}</li>
+  {{- end -}}
+  </ul>
+</section>
+{{- end -}}

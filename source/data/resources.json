@@ -1,0 +1,291 @@
+{
+  "updated": "2026-11-08",
+  "categories": [
+    {
+      "id": "ai-results",
+      "title": {
+        "pt": "Versões de resultados obtidos por IA",
+        "en": "Versions of results obtained by AI"
+      },
+      "navTitle": {
+        "pt": "Versões de resultados obtidos por IA",
+        "en": "Versions of results obtained by AI"
+      }
+    },
+    {
+      "id": "books",
+      "title": {
+        "pt": "Livros",
+        "en": "Books"
+      },
+      "navTitle": {
+        "pt": "Livros",
+        "en": "Books"
+      }
+    },
+    {
+      "id": "lecture-notes",
+      "title": {
+        "pt": "Notas de aula",
+        "en": "Lecture Notes"
+      },
+      "navTitle": {
+        "pt": "Notas de aula",
+        "en": "Lecture notes"
+      }
+    },
+    {
+      "id": "video-courses",
+      "title": {
+        "pt": "Cursos - Vídeo aulas",
+        "en": "Courses - Video lectures"
+      },
+      "navTitle": {
+        "pt": "Cursos - Vídeo aulas",
+        "en": "Courses - Video lectures"
+      }
+    },
+    {
+      "id": "talks",
+      "title": {
+        "pt": "Palestras",
+        "en": "Talks"
+      },
+      "navTitle": {
+        "pt": "Palestras",
+        "en": "Talks"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "resource-ai-ramsey",
+      "category": "ai-results",
+      "navTitle": {
+        "pt": "The OpenAI lower bound on R<sub>k</sub>(3)",
+        "en": "The OpenAI lower bound on R<sub>k</sub>(3)"
+      },
+      "body": {
+        "pt": "**The OpenAI lower bound on R<sub>k</sub>(3)** ([PDF][link1])\\\n*Rob Morris*\n\nExposição de uma construção obtida pela OpenAI para um limite inferior do número de Ramsey multicolorido do triângulo.",
+        "en": "**The OpenAI lower bound on R<sub>k</sub>(3)** ([PDF][link1])\\\n*Rob Morris*\n\nAn exposition of a construction obtained by OpenAI giving a lower bound for the multicolour Ramsey number of the triangle."
+      },
+      "links": {
+        "link1": "/textos-ia/openai-lower-bound-rk3.pdf"
+      }
+    },
+    {
+      "id": "resource-ai-erdos-sos",
+      "category": "ai-results",
+      "navTitle": {
+        "pt": "Conjectura de Erdős–Sós",
+        "en": "Erdős–Sós Conjecture"
+      },
+      "body": {
+        "pt": "**A simple proof of the Erdős–Sós Conjecture** ([PDF][link1])\\\n*Guilherme Oliveira Mota*\n\nVersão simplificada da prova da conjectura de Erdős–Sós obtida pela OpenAI.",
+        "en": "**A simple proof of the Erdős–Sós Conjecture** ([PDF][link1])\\\n*Guilherme Oliveira Mota*\n\nA simplified version of the proof of the Erdős–Sós conjecture obtained by OpenAI."
+      },
+      "links": {
+        "link1": "/textos-ia/erdos-sos-mota.pdf"
+      }
+    },
+    {
+      "id": "resource-book-basic-graph-theory",
+      "category": "books",
+      "navTitle": {
+        "pt": "Basic Graph Theory",
+        "en": "Basic Graph Theory"
+      },
+      "body": {
+        "pt": "**Basic Graph Theory** ([Link para compra][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n<br>\nEste livro oferece uma introdução acessível e moderna à teoria dos grafos, cobrindo desde fundamentos clássicos como emparelhamentos e coloração até áreas ativas de pesquisa como teoria dos grafos extremais e grafos aleatórios. Com foco em provas elegantes e técnicas essenciais, é ideal para estudantes que desejam ingressar na área.",
+        "en": "**Basic Graph Theory** ([Purchase][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n<br>\nThis book offers an accessible, modern introduction to graph theory, from classical foundations such as matchings and colouring to active research areas including extremal and random graphs. With its focus on elegant proofs and essential techniques, it is ideal for students entering the field."
+      },
+      "links": {
+        "link1": "https://www.cambridge.org/ga/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/basic-graph-theory?format=HB&isbn=9781009344333#description"
+      }
+    },
+    {
+      "id": "resource-book-combinatoria",
+      "category": "books",
+      "navTitle": {
+        "pt": "Combinatória",
+        "en": "Combinatória"
+      },
+      "body": {
+        "pt": "**Combinatória** ([Link para download][link1])\\\n*F. Botler, M. Collares, T. Martins, W. Mendonça, R. Morris, G. O. Mota, 2021*\\\n*(Vencedor do Prêmio Elon Lages Lima 2023 - SBM e SBMAC)*\n\n<br>\nEste livro está dividido em duas partes e abrange desde uma introdução à Combinatória até tópicos avançados de pesquisa. A Parte I apresenta técnicas básicas em Combinatória Extremal e Teoria de Ramsey, discutindo em detalhes o Método Probabilístico e grafos aleatórios, sendo ideal para cursos de graduação e pós-graduação. A Parte II aprofunda esses temas e introduz ferramentas modernas essenciais para a pesquisa na área, como o Lema Local de Lovász, a Escolha Aleatória Dependente, as desigualdades de Janson, o Método da Regularidade e o Método dos Contêineres.",
+        "en": "**Combinatória** ([Download][link1])\\\n*F. Botler, M. Collares, T. Martins, W. Mendonça, R. Morris, G. O. Mota, 2021*\\\n*(Winner of the 2023 Elon Lages Lima Prize — SBM and SBMAC)*\n\n<br>\nThis two-part book ranges from an introduction to combinatorics to advanced research topics. Part I presents basic techniques in extremal combinatorics and Ramsey theory, with detailed discussions of the probabilistic method and random graphs suitable for undergraduate and graduate courses. Part II develops these topics and introduces modern research tools, including the Lovász Local Lemma, dependent random choice, Janson’s inequalities, the regularity method and the container method."
+      },
+      "links": {
+        "link1": "https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf"
+      }
+    },
+    {
+      "id": "resource-book-extremal-probabilistic",
+      "category": "books",
+      "navTitle": {
+        "pt": "Extremal & probabilistic combinatorics",
+        "en": "Extremal & probabilistic combinatorics"
+      },
+      "body": {
+        "pt": "**Extremal and probabilistic combinatorics** ([Link para download][link1])\\\n*R. Morris, R. Imbuzeiro Oliveira, 2011*\\\nXXVIII Colóquio Brasileiro de Matemática (SBM/IMPA). [Vídeos][link2]\\\n<br>\nTexto acompanhante de um curso do CBM, esta obra introduz ferramentas centrais da combinatória probabilística e extremal. Tópicos como grafos aleatórios e o método probabilístico são discutidos em detalhes, fornecendo uma base sólida para a compreensão de resultados clássicos e contemporâneos na área.",
+        "en": "**Extremal and probabilistic combinatorics** ([Download][link1])\\\n*R. Morris, R. Imbuzeiro Oliveira, 2011*\\\nXXVIII Brazilian Mathematical Colloquium (SBM/IMPA). [Videos][link2]\\\n<br>\nWritten to accompany a course at the Brazilian Mathematical Colloquium, this text introduces central tools in probabilistic and extremal combinatorics. Random graphs and the probabilistic method are discussed in detail, providing a foundation for understanding classical and contemporary results."
+      },
+      "links": {
+        "link1": "https://impa.br/wp-content/uploads/2017/04/28CBM_04.pdf",
+        "link2": "https://www.youtube.com/playlist?list=PLo4jXE-LdDTSkmHd3xNGhcObfWXvpwmCL"
+      }
+    },
+    {
+      "id": "resource-book-topicos",
+      "category": "books",
+      "navTitle": {
+        "pt": "Tópicos em Combinatória",
+        "en": "Tópicos em Combinatória"
+      },
+      "body": {
+        "pt": "**Tópicos em Combinatória Contemporânea** ([Link para download][link1])\\\n([Link para compra][link2]\\)\n*C. G. Moreira, Y. Kohayakawa, 2010*\\\nPublicações Matemáticas, IMPA.\\\n<br>\nVoltado para alunos de graduação e jovens iniciantes, este texto introduz tópicos modernos da combinatória através de resultados clássicos. A obra aborda a teoria extremal dos conjuntos, a teoria de Ramsey euclidiana e a aplicação de métodos algébricos e probabilísticos, enfatizando as conexões da combinatória com outras áreas da matemática.",
+        "en": "**Tópicos em Combinatória Contemporânea** ([Download][link1])\\\n([Purchase][link2]\\)\n*C. G. Moreira, Y. Kohayakawa, 2010*\\\nPublicações Matemáticas, IMPA.\\\n<br>\nAimed at undergraduates and newcomers to the field, this text introduces modern combinatorics through classical results. It covers extremal set theory, Euclidean Ramsey theory, and applications of algebraic and probabilistic methods, emphasising connections with other areas of mathematics."
+      },
+      "links": {
+        "link1": "https://impa.br/wp-content/uploads/2017/04/PM_29.pdf",
+        "link2": "https://www.amazon.com.br/T%C3%B3picos-Combinat%C3%B3ria-Contempor%C3%A2nea-Gustavo-Moreira/dp/8578616456"
+      }
+    },
+    {
+      "id": "resource-book-introducao-grafos",
+      "category": "books",
+      "navTitle": {
+        "pt": "Introdução à Teoria dos Grafos",
+        "en": "Introdução à Teoria dos Grafos"
+      },
+      "body": {
+        "pt": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Link para download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nLivro introdutório ideal para estudantes de graduação. Explora conceitos fundamentais como emparelhamentos, coloração e grafos planares, conectando a teoria dos grafos a outras áreas como álgebra linear e probabilidade.\n<br>\nVeja também o link para o [site do livro][link2]",
+        "en": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nAn introductory book for undergraduate students. It explores fundamental concepts such as matchings, colouring and planar graphs, connecting graph theory with linear algebra and probability.\n<br>\nSee also the [book website][link2]"
+      },
+      "links": {
+        "link1": "https://www.ime.usp.br/~pf/teoriadosgrafos/texto/TeoriaDosGrafos.pdf",
+        "link2": "https://www.ime.usp.br/~pf/teoriadosgrafos/"
+      }
+    },
+    {
+      "id": "resource-notes-containers",
+      "category": "lecture-notes",
+      "navTitle": {
+        "pt": "Hypergraph containers",
+        "en": "Hypergraph containers"
+      },
+      "body": {
+        "pt": "**[The method of hypergraph containers][link1]**\\\n*J. Balogh, R. Morris, W. Samotij*\\\nProc. ICM, Rio de Janeiro, 2018.\\\n<br>\nEste artigo apresenta o método dos contêineres para hipergrafos, uma técnica com uma vasta gama de aplicações, permitindo controlar a estrutura de conjuntos independentes em hipergrafos. O método tem aplicações profundas em problemas de contagem e em resultados de transferência de propriedades extremais para o contexto esparso.",
+        "en": "**[The method of hypergraph containers][link1]**\\\n*J. Balogh, R. Morris, W. Samotij*\\\nProc. ICM, Rio de Janeiro, 2018.\\\n<br>\nThis article presents the hypergraph container method, a technique with a wide range of applications for controlling the structure of independent sets in hypergraphs. Applications include counting problems and results transferring extremal properties to sparse settings."
+      },
+      "links": {
+        "link1": "https://arxiv.org/pdf/1801.04584.pdf"
+      }
+    },
+    {
+      "id": "resource-notes-regularity",
+      "category": "lecture-notes",
+      "navTitle": {
+        "pt": "Regularity & blow-up lemmas",
+        "en": "Regularity & blow-up lemmas"
+      },
+      "body": {
+        "pt": "**[The regularity method and blow-up lemmas for sparse graphs][link1]**\\\n*Y. Kohayakawa, 2016*\\\nNotas de um curso ministrado na [São Paulo School of Advanced Science on Algorithms, Combinatorics and Optimization][link2]\n<br>\nEste curso introduz o método da regularidade e as aplicações clássicas do \"blow-up lemma\".\nApós uma recapitulação dos fundamentos do método de regularidade, são discutidos em mais detalhes o blow-up lemma e suas aplicações clássicas. Em seguida, o método da regularidade é explorado no contexto esparso. Então são apresentados resultados sobre o blow-up lemma no contexto esparso.",
+        "en": "**[The regularity method and blow-up lemmas for sparse graphs][link1]**\\\n*Y. Kohayakawa, 2016*\\\nNotes from a course at the [São Paulo School of Advanced Science on Algorithms, Combinatorics and Optimization][link2]\n<br>\nThis course introduces the regularity method and classical applications of the blow-up lemma.\nAfter reviewing the foundations of the regularity method, it discusses the blow-up lemma and its classical applications in detail. It then explores the regularity method and blow-up lemma results in the sparse setting."
+      },
+      "links": {
+        "link1": "/cursos/Yoshi-regularidade.pdf",
+        "link2": "https://www.ime.usp.br/~spschool2016/"
+      }
+    },
+    {
+      "id": "resource-course-introducao-extremal",
+      "category": "video-courses",
+      "navTitle": {
+        "pt": "Introdução à Combinatória Extremal",
+        "en": "Introduction to extremal combinatorics"
+      },
+      "body": {
+        "pt": "**[Uma introdução à Combinatória Extremal][link1]** - 5 aulas<br>\n*Fábio Botler, Maurício Collares, Taísa Martins, Walner Mendonça, Guilherme Mota*<br>\n<br>\n\nCurso introdutório apresentado no CBM, abordando resultados fundamentais como os Teoremas de Turán e Ramsey. As aulas oferecem uma visão panorâmica da área, discutindo a existência e estrutura de subgrafos proibidos e introduzindo conceitos-chave para estudantes iniciantes.",
+        "en": "**[Uma introdução à Combinatória Extremal][link1]** - 5 lectures<br>\n*Fábio Botler, Maurício Collares, Taísa Martins, Walner Mendonça, Guilherme Mota*<br>\n<br>\n\nAn introductory course at the Brazilian Mathematical Colloquium covering fundamental results such as Turán’s and Ramsey’s theorems. The lectures survey the field, discuss the existence and structure of forbidden subgraphs, and introduce key concepts for beginners."
+      },
+      "links": {
+        "link1": "https://www.youtube.com/playlist?list=PLvvfpeSf1IRL_wJWzxfGNfQofrv7B2k5V"
+      }
+    },
+    {
+      "id": "resource-course-erdos-hajnal",
+      "category": "video-courses",
+      "navTitle": {
+        "pt": "Conjectura de Erdős–Hajnal",
+        "en": "Erdős–Hajnal conjecture"
+      },
+      "body": {
+        "pt": "**[The Erdős–Hajnal conjecture - 2a EBC][link1]** - 4 aulas<br>\n*Alex Scott*<br><br>\nSérie de palestras sobre a famosa Conjectura de Erdős-Hajnal, que relaciona a ausência de subgrafos induzidos com a existência de grandes cliques ou conjuntos independentes. Alex Scott discute o estado da arte e avanços recentes neste problema central da teoria estrutural de grafos.",
+        "en": "**[The Erdős–Hajnal conjecture - 2nd EBC][link1]** - 4 lectures<br>\n*Alex Scott*<br><br>\nA lecture series on the Erdős–Hajnal conjecture, which connects forbidden induced subgraphs with the existence of large cliques or independent sets. Alex Scott discusses the state of the art and recent progress on this central problem in structural graph theory."
+      },
+      "links": {
+        "link1": "https://www.youtube.com/watch?v=RjK7_lL00-g&list=PLo4jXE-LdDTS3C9p-zE9VATHLeA3dI-qr&index=11"
+      }
+    },
+    {
+      "id": "resource-course-probabilistic-method",
+      "category": "video-courses",
+      "navTitle": {
+        "pt": "Método Probabilístico",
+        "en": "Probabilistic Method"
+      },
+      "body": {
+        "pt": "**[The Probabilistic Method - 2a EBC][link1]** - 4 aulas<br>\n*Rob Morris*<br><br>\nMinicurso focado no Método Probabilístico, uma das ferramentas mais poderosas da combinatória moderna. As aulas demonstram como o uso da aleatoriedade pode provar a existência de estruturas matemáticas complexas, cobrindo desde os fundamentos até aplicações mais sofisticadas.",
+        "en": "**[The Probabilistic Method - 2nd EBC][link1]** - 4 lectures<br>\n*Rob Morris*<br><br>\nA mini-course on the probabilistic method, one of the most powerful tools in modern combinatorics. The lectures show how randomness can prove the existence of complex mathematical structures, from basic principles to more sophisticated applications."
+      },
+      "links": {
+        "link1": "https://www.youtube.com/watch?v=RA32k-M8viw&list=PLo4jXE-LdDTS3C9p-zE9VATHLeA3dI-qr&index=15"
+      }
+    },
+    {
+      "id": "resource-course-extremal-probabilistic",
+      "category": "video-courses",
+      "navTitle": {
+        "pt": "Combinatória Extremal e Probabilística",
+        "en": "Extremal & probabilistic combinatorics"
+      },
+      "body": {
+        "pt": "**[Extremal and Probabilistic Combinatorics][link1]** - 14 aulas<br>\n*Rob Morris*<br><br>\nUm curso aprofundado que explora a interseção entre combinatória extremal e probabilística. As aulas cobrem tópicos avançados como a regularidade de Szemerédi, o Lema Local de Lovász e propriedades de grafos aleatórios, conectando teoria clássica com desenvolvimentos recentes.",
+        "en": "**[Extremal and Probabilistic Combinatorics][link1]** - 14 lectures<br>\n*Rob Morris*<br><br>\nAn in-depth course exploring the intersection of extremal and probabilistic combinatorics. Topics include Szemerédi regularity, the Lovász Local Lemma and properties of random graphs, connecting classical theory with recent developments."
+      },
+      "links": {
+        "link1": "https://www.youtube.com/playlist?list=PLo4jXE-LdDTSkmHd3xNGhcObfWXvpwmCL"
+      }
+    },
+    {
+      "id": "resource-course-ramsey-random",
+      "category": "video-courses",
+      "navTitle": {
+        "pt": "Ramsey e grafos aleatórios",
+        "en": "Ramsey & random graphs"
+      },
+      "body": {
+        "pt": "**[Ramsey Theory and Random Graphs][link1]** - 5 aulas<br>\n*Rob Morris*<br><br>\nCurso de nível avançado que investiga a Teoria de Ramsey e modelos de grafos aleatórios. As aulas discutem fronteiras de pesquisa, como a evolução de grafos aleatórios e limites para números de Ramsey, utilizando técnicas probabilísticas refinadas para resolver problemas determinísticos.",
+        "en": "**[Ramsey Theory and Random Graphs][link1]** - 5 lectures<br>\n*Rob Morris*<br><br>\nAn advanced course on Ramsey theory and random graph models. The lectures discuss research topics such as the evolution of random graphs and bounds on Ramsey numbers, using refined probabilistic techniques to solve deterministic problems."
+      },
+      "links": {
+        "link1": "https://www.youtube.com/playlist?list=PLo4jXE-LdDTTUDYMaYoWD0Z3ltOQ_XIoc"
+      }
+    },
+    {
+      "id": "resource-talks-ebc",
+      "category": "talks",
+      "navTitle": {
+        "pt": "Plenárias da 2ª EBC",
+        "en": "2nd EBC plenary talks"
+      },
+      "body": {
+        "pt": "**[Plenary talks - 2a EBC][link1]** - 11 palestras",
+        "en": "**[Plenary talks - 2nd EBC][link1]** - 11 talks"
+      },
+      "links": {
+        "link1": "https://www.youtube.com/playlist?list=PLo4jXE-LdDTS3C9p-zE9VATHLeA3dI-qr"
+      }
+    }
+  ]
+}

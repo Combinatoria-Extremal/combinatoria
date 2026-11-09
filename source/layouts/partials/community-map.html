@@ -1,0 +1,26 @@
+{{- /* Geometry is fixed; current highlighted states come only from faculty. */ -}}
+{{- $data := partialCached "community-data.html" site -}}
+{{- $states := slice -}}
+{{- range $data.faculty -}}{{- $states = $states | append .state -}}{{- end -}}
+{{- $states = sort (uniq $states) -}}
+{{- $svg := readFile "static/images/brazil_home_illustration.svg" -}}
+{{- range findRE `<path\s[^>]*>` $svg -}}
+  {{- $original := . -}}
+  {{- $state := replaceRE `.*data-state="([A-Z]{2})".*` "$1" . -}}
+  {{- $fill := "#eef2f6" -}}
+  {{- $member := "false" -}}
+  {{- if in $states $state -}}
+    {{- $member = "true" -}}
+    {{- $fill = index site.Data.site.mapColors $state -}}
+    {{- if not $fill -}}
+      {{- range $i, $uf := $states -}}
+        {{- if eq $uf $state -}}{{- $fill = index site.Data.site.mapPalette (mod $i (len site.Data.site.mapPalette)) -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $path := replaceRE `fill="[^"]*"` (printf `fill="%s"` $fill) $original -}}
+  {{- $path = replaceRE `data-community="[^"]*"` (printf `data-community="%s"` $member) $path -}}
+  {{- $svg = replace $svg $original $path -}}
+{{- end -}}
+{{- $resource := resources.FromString "images/community-map.svg" $svg -}}
+{{- return ($resource | fingerprint "sha256") -}}

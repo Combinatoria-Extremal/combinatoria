@@ -1,0 +1,516 @@
+{
+  "updated": "2026-11-08",
+  "people": [
+    {
+      "id": "bela-bollobas",
+      "name": "Béla Bollobás",
+      "aliases": [
+        "Bela Bollobas"
+      ],
+      "facultyId": null,
+      "url": "https://umwa.memphis.edu/fcv/viewcv.php?personUUID=bollobas"
+    },
+    {
+      "id": "nicholas-wormald",
+      "name": "Nicholas Wormald",
+      "aliases": [
+        "Nick Wormald",
+        "N. Wormald"
+      ],
+      "facultyId": null,
+      "url": null
+    },
+    {
+      "id": "dieter-rautenbach",
+      "name": "Dieter Rautenbach",
+      "aliases": [],
+      "facultyId": null,
+      "url": null
+    },
+    {
+      "id": "orlando-lee",
+      "name": "Orlando Lee",
+      "aliases": [],
+      "facultyId": null,
+      "url": null
+    },
+    {
+      "id": "daniel-kral",
+      "name": "Daniel Kráľ",
+      "aliases": [
+        "Daniel Král’",
+        "Daniel Kral"
+      ],
+      "facultyId": null,
+      "url": null
+    },
+    {
+      "id": "ervin-gyori",
+      "name": "Ervin Győri",
+      "aliases": [
+        "Ervin Gyori"
+      ],
+      "facultyId": null,
+      "url": null
+    }
+  ],
+  "degrees": [
+    {
+      "id": "faculty-education-yoshiharu-kohayakawa-phd-1991",
+      "personId": "yoshiharu-kohayakawa",
+      "level": "phd",
+      "institution": "University of Cambridge",
+      "year": 1991,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "1991",
+        "en": "1991"
+      },
+      "advisors": [
+        {
+          "personId": "bela-bollobas",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://bv.fapesp.br/pt/pesquisador/362/yoshiharu-kohayakawa/",
+          "label": {
+            "pt": "FAPESP: perfil do pesquisador, com formação e orientação",
+            "en": "FAPESP: researcher profile, education and advisor"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://users.ime.usp.br/~yoshi/",
+          "label": {
+            "pt": "Página pessoal institucional: doutorado e ano",
+            "en": "Institutional personal page: PhD and year"
+          },
+          "kind": "primary_researcher_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-rob-morris-phd-2006",
+      "personId": "rob-morris",
+      "level": "phd",
+      "institution": "University of Memphis",
+      "year": 2006,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2006",
+        "en": "2006"
+      },
+      "advisors": [
+        {
+          "personId": "bela-bollobas",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://robiscounting.github.io/",
+          "label": {
+            "pt": "Página pessoal de Rob Morris: orientador e instituição do doutorado",
+            "en": "Rob Morris personal page: doctoral advisor and institution"
+          },
+          "kind": "primary_researcher_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://umwa.memphis.edu/fcv/viewcv.php?personUUID=bollobas",
+          "label": {
+            "pt": "CV institucional de Béla Bollobás: orientações doutorais",
+            "en": "Béla Bollobás institutional CV: doctoral advising"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-carlos-hoppen-phd-2008",
+      "personId": "carlos-hoppen",
+      "level": "phd",
+      "institution": "University of Waterloo",
+      "year": 2008,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2008",
+        "en": "2008"
+      },
+      "advisors": [
+        {
+          "personId": "nicholas-wormald",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://uwaterloo.ca/combinatorics-and-optimization/graduate-studies-combinatorics-and-optimization/past-students/phd-recipients",
+          "label": {
+            "pt": "Waterloo: doutorados concluídos, seção 2008",
+            "en": "Waterloo: PhD recipients, 2008 section"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-fabricio-benevides-phd-2011",
+      "personId": "fabricio-benevides",
+      "level": "phd",
+      "institution": "University of Memphis",
+      "year": 2011,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2011",
+        "en": "2011"
+      },
+      "advisors": [
+        {
+          "personId": "bela-bollobas",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://digitalcommons.memphis.edu/etd/210/",
+          "label": {
+            "pt": "Memphis: registro institucional da tese de Fabricio Benevides",
+            "en": "Memphis: institutional record of Fabricio Benevides’s dissertation"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://umwa.memphis.edu/fcv/viewcv.php?personUUID=bollobas",
+          "label": {
+            "pt": "CV institucional de Béla Bollobás: orientações doutorais",
+            "en": "Béla Bollobás institutional CV: doctoral advising"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-cristiane-maria-sato-phd-2013",
+      "personId": "cristiane-maria-sato",
+      "level": "phd",
+      "institution": "University of Waterloo",
+      "year": 2013,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2013",
+        "en": "2013"
+      },
+      "advisors": [
+        {
+          "personId": "nicholas-wormald",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://uwaterloo.ca/combinatorics-and-optimization/news/co-graduates-fall-2013-convocation",
+          "label": {
+            "pt": "Waterloo: conclusão do PhD em 2013 e orientador",
+            "en": "Waterloo: PhD graduation in 2013 and supervisor"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://bulletin.uwaterloo.ca/2013/aug/08th.html",
+          "label": {
+            "pt": "Waterloo: anúncio da defesa e nome completo do orientador",
+            "en": "Waterloo: defence announcement and full advisor name"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-vinicius-dos-santos-phd-2013",
+      "personId": "vinicius-dos-santos",
+      "level": "phd",
+      "institution": "UFRJ",
+      "year": 2013,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2013",
+        "en": "2013"
+      },
+      "advisors": [
+        {
+          "personId": "jayme-luiz-szwarcfiter",
+          "role": "advisor"
+        },
+        {
+          "personId": "dieter-rautenbach",
+          "role": "coadvisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pesc.coppe.ufrj.br/pt/academica/teses-e-dissertacoes/details/15/2360",
+          "label": {
+            "pt": "PESC/UFRJ: registro da tese com orientador e coorientador",
+            "en": "PESC/UFRJ: dissertation record with advisor and co-advisor"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://dcc.ufmg.br/professor/vinicius-fernandes-dos-santos/",
+          "label": {
+            "pt": "DCC/UFMG: doutorado na UFRJ em 2013",
+            "en": "DCC/UFMG: PhD at UFRJ in 2013"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-fabio-botler-phd-2016",
+      "personId": "fabio-botler",
+      "level": "phd",
+      "institution": "USP",
+      "year": 2016,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2016",
+        "en": "2016"
+      },
+      "advisors": [
+        {
+          "personId": "yoshiko-wakabayashi",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pesc.coppe.ufrj.br/~fbotler/fbotler-cv.pdf",
+          "label": {
+            "pt": "CV de Fábio Botler: formação, página 1",
+            "en": "Fábio Botler CV: education, page 1"
+          },
+          "kind": "primary_researcher_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.ime.usp.br/~yw/",
+          "label": {
+            "pt": "Página de Yoshiko Wakabayashi: teses orientadas",
+            "en": "Yoshiko Wakabayashi page: supervised theses"
+          },
+          "kind": "primary_researcher_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-maycon-sambinelli-phd-2018",
+      "personId": "maycon-sambinelli",
+      "level": "phd",
+      "institution": "UNICAMP",
+      "year": 2018,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2018",
+        "en": "2018"
+      },
+      "advisors": [
+        {
+          "personId": "orlando-lee",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www2.unicamp.br/anuario/2018/IC/IC-tesesdoutorado.html",
+          "label": {
+            "pt": "Anuário UNICAMP 2018: teses de doutorado do IC",
+            "en": "UNICAMP 2018 yearbook: IC doctoral dissertations"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-taisa-martins-phd-2018",
+      "personId": "taisa-martins",
+      "level": "phd",
+      "institution": "University of Warwick",
+      "year": 2018,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2018",
+        "en": "2018"
+      },
+      "advisors": [
+        {
+          "personId": "daniel-kral",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.professores.uff.br/tlmartins/",
+          "label": {
+            "pt": "Página pessoal institucional de Taísa Martins: formação",
+            "en": "Taísa Martins institutional personal page: education"
+          },
+          "kind": "primary_researcher_source",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faculty-education-lucas-colucci-phd-2019",
+      "personId": "lucas-colucci",
+      "level": "phd",
+      "institution": "Central European University",
+      "year": 2019,
+      "startYear": null,
+      "displayPeriod": {
+        "pt": "2019",
+        "en": "2019"
+      },
+      "advisors": [
+        {
+          "personId": "ervin-gyori",
+          "role": "advisor"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://uspaberta.ime.usp.br/docentes/2794752834376467",
+          "label": {
+            "pt": "USP Aberta: formação acadêmica de Lucas Colucci",
+            "en": "USP Aberta: Lucas Colucci’s academic education"
+          },
+          "kind": "primary_institutional_source",
+          "checked": "2026-11-08"
+        },
+        {
+          "url": "https://www.etd.ceu.edu/2020/colucci_lucas.pdf",
+          "label": {
+            "pt": "Tese na CEU: folha de rosto indexada",
+            "en": "CEU dissertation: indexed title page"
+          },
+          "kind": "primary_thesis_indexed_title_page",
+          "checked": "2026-11-08"
+        }
+      ],
+      "notes": {
+        "pt": "",
+        "en": ""
+      },
+      "scope": "faculty-education",
+      "verification": {
+        "status": "primary_confirmed",
+        "checked": "2026-11-08",
+        "confidence": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "updated": "2026-11-08",
+  "contactEmail": "extremal@combinatoria.org",
+  "home": {
+    "pt": {
+      "welcomeTitle": "Bem-vindo!",
+      "welcomeIntro": "Este é o portal da comunidade brasileira de Combinatória Extremal. Aqui você se mantém informado sobre as atividades da comunidade, pode conhecer todos os docentes que atuam na área, os eventos científicos e muito mais.",
+      "contactBefore": "Se você é docente e atua em Combinatória Extremal, escreva para ",
+      "contactAfter": " para incluirmos você no site.",
+      "learningTitle": "Por onde começar em Combinatória Extremal",
+      "learningIntro": "A Combinatória Extremal estuda quais propriedades uma estrutura precisa ter quando certas condições são satisfeitas. Quantas arestas pode ter um grafo sem triângulos? Que padrões aparecem necessariamente em grafos suficientemente grandes?",
+      "readings": [
+        "Para começar, é útil conhecer técnicas básicas de demonstração, contagem e probabilidade. Em Teoria dos Grafos, uma primeira referência que indicamos é [Uma Introdução Sucinta à Teoria dos Grafos](https://www.ime.usp.br/~pf/teoriadosgrafos/), de Paulo Feofiloff, Yoshiharu Kohayakawa e Yoshiko Wakabayashi.",
+        "O livro [Combinatória](https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf) oferece uma sequência de estudo que inclui problemas extremais, Teoria de Ramsey e método probabilístico. Resolver exercícios e trabalhar exemplos pequenos são partes importantes desse percurso."
+      ],
+      "nextStep": "Para conhecer possibilidades de iniciação científica, mestrado ou doutorado, consulte os interesses de pesquisa dos docentes e as informações dos respectivos programas de pós-graduação.",
+      "mapAlt": "Mapa do Brasil com os estados dos docentes da comunidade destacados."
+    },
+    "en": {
+      "welcomeTitle": "Welcome!",
+      "welcomeIntro": "This is the portal of the Brazilian extremal combinatorics community. Here you can keep up with the community's activities, get to know all the faculty members working in the field, find scientific events, and much more.",
+      "contactBefore": "If you are a faculty member working in extremal combinatorics, email ",
+      "contactAfter": " so that we can include you on the website.",
+      "learningTitle": "Getting started in Extremal Combinatorics",
+      "learningIntro": "Extremal Combinatorics studies which properties a structure must have when certain conditions are satisfied. How many edges can a triangle-free graph have? Which patterns must appear in sufficiently large graphs?",
+      "readings": [
+        "To get started, it is useful to know basic proof techniques, counting, and probability. For Graph Theory, a first reference we recommend is [Uma Introdução Sucinta à Teoria dos Grafos](https://www.ime.usp.br/~pf/teoriadosgrafos/), by Paulo Feofiloff, Yoshiharu Kohayakawa, and Yoshiko Wakabayashi.",
+        "The book [Combinatória](https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf) offers a course of study that includes extremal problems, Ramsey Theory, and the probabilistic method. Solving exercises and working through small examples are important parts of this journey."
+      ],
+      "nextStep": "To explore opportunities for undergraduate research, master's degrees, or doctorates, consult the faculty members' research interests and the information provided by their respective graduate programs.",
+      "mapAlt": "Map of Brazil highlighting states with faculty members in the community."
+    }
+  },
+  "mapColors": {
+    "BA": "#fde68a",
+    "CE": "#fed7aa",
+    "MG": "#bbf7d0",
+    "PE": "#ddd6fe",
+    "RJ": "#fecdd3",
+    "RS": "#a5f3fc",
+    "SP": "#bfdbfe"
+  },
+  "mapPalette": [
+    "#ffd8ad",
+    "#d4c5f9",
+    "#b8e2f3",
+    "#c4e8bd",
+    "#f8c5da",
+    "#f7e8a4",
+    "#b8e8df",
+    "#e8d0b6",
+    "#cad6fa",
+    "#f8d4c7",
+    "#dce8ac",
+    "#c9e0d8"
+  ]
+}

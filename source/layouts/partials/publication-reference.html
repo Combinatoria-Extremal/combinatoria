@@ -1,0 +1,12 @@
+{{- /* Prefer reviewed MathSciNet references; new papers use the live catalogue. */ -}}
+{{- $paper := . -}}
+{{- $reference := "" -}}
+{{- with site.Data.bibliography -}}
+  {{- with index . $paper.id -}}
+    {{- $reference = .canonicalBibtex | default .bibtex -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $reference -}}
+  {{- $reference = partial "publication-bibtex.html" $paper -}}
+{{- end -}}
+{{- return $reference -}}

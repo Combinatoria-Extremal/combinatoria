@@ -1,0 +1,51 @@
+{{- $event := .event -}}
+{{- $en := eq .lang "en" -}}
+{{- $start := time.AsTime $event.start -}}
+{{- $end := time.AsTime $event.end -}}
+{{- $sameMonth := eq ($start.Format "2006-01") ($end.Format "2006-01") -}}
+{{- $sameDay := eq $event.start $event.end -}}
+{{- $text := "" -}}
+{{- if $en -}}
+  {{- if $sameDay -}}
+    {{- $text = $start.Format "January 2, 2006" -}}
+  {{- else if $sameMonth -}}
+    {{- $text = printf "%s–%s" ($start.Format "January 2") ($end.Format "2, 2006") -}}
+  {{- else -}}
+    {{- $text = printf "%s – %s" ($start.Format "January 2, 2006") ($end.Format "January 2, 2006") -}}
+  {{- end -}}
+{{- else -}}
+  {{- $months := slice "janeiro" "fevereiro" "março" "abril" "maio" "junho" "julho" "agosto" "setembro" "outubro" "novembro" "dezembro" -}}
+  {{- $first := printf "%d de %s de %d" $start.Day (index $months (sub (int $start.Month) 1)) $start.Year -}}
+  {{- $last := printf "%d de %s de %d" $end.Day (index $months (sub (int $end.Month) 1)) $end.Year -}}
+  {{- if $sameDay -}}{{- $text = $first -}}
+  {{- else if $sameMonth -}}{{- $text = printf "%d a %s" $start.Day $last -}}
+  {{- else -}}{{- $text = printf "%s a %s" $first $last -}}{{- end -}}
+{{- end -}}
+{{- with $event.sessionDates -}}
+  {{- $dates := . -}}
+  {{- $sameYear := eq $start.Year $end.Year -}}
+  {{- $months := slice "janeiro" "fevereiro" "março" "abril" "maio" "junho" "julho" "agosto" "setembro" "outubro" "novembro" "dezembro" -}}
+  {{- $parts := slice -}}
+  {{- range $dates -}}
+    {{- $date := time.AsTime . -}}
+    {{- $part := printf "%d" $date.Day -}}
+    {{- if not $sameMonth -}}
+      {{- if $en -}}{{- $part = $date.Format "January 2" -}}
+      {{- else -}}{{- $part = printf "%d de %s" $date.Day (index $months (sub (int $date.Month) 1)) -}}{{- end -}}
+    {{- end -}}
+    {{- if not $sameYear -}}{{- $part = printf "%s (%d)" $part $date.Year -}}{{- end -}}
+    {{- $parts = $parts | append $part -}}
+  {{- end -}}
+  {{- $last := index $parts (sub (len $parts) 1) -}}
+  {{- $leading := first (sub (len $parts) 1) $parts -}}
+  {{- $join := " e " -}}{{- if $en -}}{{- $join = " and " -}}{{- end -}}
+  {{- $text = printf "%s%s%s" (delimit $leading ", ") $join $last -}}
+  {{- if $sameMonth -}}
+    {{- if $en -}}{{- $text = printf "%s %s, %d" ($start.Format "January") $text $start.Year -}}
+    {{- else -}}{{- $text = printf "%s de %s de %d" $text (index $months (sub (int $start.Month) 1)) $start.Year -}}{{- end -}}
+  {{- else if $sameYear -}}
+    {{- if $en -}}{{- $text = printf "%s, %d" $text $start.Year -}}
+    {{- else -}}{{- $text = printf "%s de %d" $text $start.Year -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $text -}}

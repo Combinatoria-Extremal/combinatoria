@@ -1,0 +1,252 @@
+/* Portal header: PaperMod common/header.css and the portal's extended/main.css.
+   Keep these rules scoped so the EBC page retains its own typography and layout. */
+html {
+  scrollbar-gutter: stable;
+  scroll-padding-top: calc(var(--portal-header-height, 60px) + 24px);
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.header {
+  --gap: 24px;
+  --header-height: 60px;
+  --theme: rgb(255, 255, 255);
+  --primary: rgb(30, 30, 30);
+  --site-accent: #2563eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--theme);
+  color: var(--primary);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
+[data-theme="dark"] .header {
+  --theme: rgb(29, 30, 32);
+  --primary: rgb(218, 218, 219);
+  --site-accent: #93c5fd;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header a,
+.header a:hover,
+.header button {
+  color: var(--primary);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header button {
+  padding: 0;
+  font: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.header .nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1320px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  gap: 0 24px;
+  font-size: 15px;
+  line-height: var(--header-height);
+}
+
+.header .nav a {
+  display: block;
+}
+
+.header .logo,
+.header #menu {
+  display: flex;
+  margin: 0;
+}
+
+.header .logo {
+  flex-wrap: inherit;
+  max-width: 100%;
+}
+
+.header .logo a {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.header .logo > a {
+  max-width: 100%;
+}
+
+.header .logo a img,
+.header .logo a svg {
+  display: inline;
+  vertical-align: middle;
+  pointer-events: none;
+  transform: translate(0, -10%);
+  border-radius: 6px;
+  margin-inline-end: 8px;
+}
+
+.header button#theme-toggle {
+  font-size: 26px;
+  margin: auto 4px;
+}
+
+[data-theme="dark"] .header #moon,
+[data-theme="light"] .header #sun {
+  display: none;
+}
+
+.header #menu {
+  list-style: none;
+  word-break: keep-all;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.header #menu li + li {
+  margin-inline-start: var(--gap);
+}
+
+.header #menu a {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header #menu .active {
+  font-weight: 500;
+  border-bottom: 2px solid currentColor;
+  color: var(--site-accent);
+}
+
+.header .lang-switch a,
+.header .nav a:hover {
+  color: var(--site-accent);
+}
+
+.header a:focus-visible,
+.header button:focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 3px;
+}
+
+.header .lang-switch li,
+.header .lang-switch ul,
+.header .logo-switches {
+  display: inline-flex;
+  margin: auto 4px;
+}
+
+.header .lang-switch,
+.header .logo-switches {
+  flex-wrap: inherit;
+}
+
+.header .lang-switch {
+  display: flex;
+}
+
+.header .lang-switch a {
+  margin: auto 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Keep the existing skip link above the sticky portal header when focused. */
+.skip {
+  z-index: 1001;
+}
+
+@media screen and (max-width: 1120px) {
+  html {
+    scroll-padding-top: calc(var(--portal-header-height, 120px) + 24px);
+  }
+
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header .logo,
+  .header #menu {
+    justify-content: center;
+  }
+
+  .header .logo > a {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    scroll-padding-top: calc(var(--portal-header-height, 160px) + 24px);
+  }
+
+  .header {
+    --gap: 14px;
+  }
+
+  .header .nav {
+    padding-block: 12px;
+    padding-inline: 8px;
+    line-height: 1.4;
+    gap: 8px;
+  }
+
+  .header .logo {
+    row-gap: 6px;
+  }
+
+  .header .logo > a {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  .header .nav #menu {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    gap: 4px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    padding-bottom: 0;
+  }
+
+  .header #menu li,
+  .header #menu li + li {
+    display: block;
+    flex: 0 0 auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .header #menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 4px 0;
+    font-size: clamp(12px, 3.2vw, 14px);
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+  }
+}

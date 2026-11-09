@@ -1,0 +1,18 @@
+{{- $home := index site.Data.site.home .Lang -}}
+{{- $map := partialCached "community-map.html" site -}}
+<section class="home-welcome">
+  <div class="home-welcome-copy">
+    <h1>{{ $home.welcomeTitle }}</h1>
+    <p>{{ $home.welcomeIntro | markdownify }}</p>
+    <p class="home-contact">{{ $home.contactBefore | safeHTML }}<a href="mailto:{{ site.Data.site.contactEmail }}">{{ site.Data.site.contactEmail }}</a>{{ $home.contactAfter | safeHTML }}</p>
+  </div>
+  <figure class="home-map"><img src="{{ $map.RelPermalink }}" alt="{{ $home.mapAlt }}" width="350" height="350"></figure>
+</section>
+<section class="home-learning">
+  <div class="home-learning-intro">
+    <h2>{{ $home.learningTitle }}</h2>
+    <p>{{ $home.learningIntro | markdownify }}</p>
+  </div>
+  <div class="home-reading-grid">{{ range $home.readings }}<p>{{ . | markdownify }}</p>{{ end }}</div>
+  <p class="home-next-step">{{ $home.nextStep | markdownify }}</p>
+</section>

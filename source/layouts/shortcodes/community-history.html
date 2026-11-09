@@ -1,0 +1,30 @@
+{{- $en := eq .Page.Lang "en" -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $bundle := dict "history" $community.history "faculty" $community.faculty "facultyAll" $community.facultyAll "publications" $community.publications "institutions" $community.institutions "awards" site.Data.awards -}}
+{{- $json := resources.FromString "data/community-history.json" ($bundle | jsonify) -}}
+{{- $json = $json | fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ "css/community-history.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/community-history.css" | sha256) }}">
+<script src="{{ "js/community-history.js" | relURL }}?v={{ printf "%.12s" (readFile "static/js/community-history.js" | sha256) }}" defer></script>
+<div class="community-history" data-lang="{{ .Page.Lang }}" data-source="{{ $json.RelPermalink }}">
+  <div class="modern-box ch-intro">
+    <p>{{ if $en }}Explore the community’s training, papers, institutional presence and awards. Use the filters and select a year or state to view the records.{{ else }}Explore a formação, os artigos, a presença institucional e os prêmios da comunidade. Use os filtros e selecione um ano ou um estado para consultar os registros.{{ end }}</p>
+    <div class="ch-summary" data-summary></div>
+  </div>
+  <nav class="ch-tabs" aria-label="{{ if $en }}Explore community data{{ else }}Explore os dados da comunidade{{ end }}">
+  {{- $ids := slice "formacao" "artigos" "instituicoes" "premios" -}}
+  {{- $names := slice "Formação" "Artigos" "Instituições" "Prêmios" -}}
+  {{- if $en }}{{ $names = slice "Training" "Papers" "Institutions" "Awards" }}{{ end -}}
+  {{- range $i, $id := $ids -}}
+    <a href="#{{ $id }}" data-panel-link="{{ $id }}">{{ index $names $i }}</a>
+  {{- end -}}
+  </nav>
+  <p class="ch-loading" role="status">{{ if $en }}Loading the records…{{ else }}Carregando os registros…{{ end }}</p>
+  {{- range $i, $id := $ids -}}
+  <section class="modern-box ch-panel" id="{{ $id }}" aria-labelledby="ch-title-{{ $id }}" hidden>
+    <h2 id="ch-title-{{ $id }}">{{ index $names $i }}</h2>
+    <div data-view="{{ $id }}"></div>
+    {{ if eq $id "instituicoes" }}<template data-map-template>{{ readFile "static/images/brazil_home_illustration.svg" | safeHTML }}</template>{{ end }}
+  </section>
+  {{- end -}}
+  <noscript><p>{{ if $en }}Enable JavaScript for interactive views. The records are also available on the{{ else }}Ative o JavaScript para usar as visualizações. Os registros também estão nas páginas de{{ end }} <a href="{{ if $en }}/en{{ end }}/membros/">{{ if $en }}members{{ else }}membros{{ end }}</a> {{ if $en }}and{{ else }}e{{ end }} <a href="{{ if $en }}/en{{ end }}/artigos/">{{ if $en }}papers{{ else }}artigos{{ end }}</a>.</p></noscript>
+</div>

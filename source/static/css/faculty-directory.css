@@ -1,0 +1,66 @@
+#docentes, #faculty { scroll-margin-top: 140px; }
+.faculty-collaborations {
+  margin-bottom: 28px;
+  padding: var(--site-card-padding);
+  border: 1px solid var(--border, #ddd);
+  border-radius: var(--site-card-radius);
+  background: var(--entry, #fff);
+  box-shadow: var(--site-card-shadow);
+}
+.faculty-directory {
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.faculty-directory .faculty-groups {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+.faculty-directory .faculty-column { min-width: 0; }
+.faculty-directory .faculty-state {
+  break-inside: avoid;
+  margin: 0 0 12px;
+}
+.faculty-directory .faculty-column .faculty-state:last-child { margin-bottom: 0; }
+.post-content .faculty-directory h3 {
+  margin: 0 0 14px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+.post-content .faculty-directory h4 {
+  margin: 0 0 5px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.post-content .faculty-directory ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.post-content .faculty-directory li { margin: 0 0 3px; }
+.faculty-directory a { overflow-wrap: anywhere; }
+.cg-diagram-row {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+.coauthorship-graph .cg-diagram-row > .cg-viewport { min-width: 0; width: 100%; margin: 0; align-self: center; }
+.faculty-collaborations > .coauthorship-graph {
+  min-width: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  left: auto;
+  transform: none;
+}
+@media (max-width: 899px) {
+  .cg-diagram-row { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .coauthorship-graph .cg-diagram-row > .cg-viewport { width: 80%; margin: 0 auto; }
+}
+@media (max-width: 600px) {
+  .faculty-collaborations { padding: 16px 12px; }
+}

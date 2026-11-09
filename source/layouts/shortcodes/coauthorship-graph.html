@@ -1,0 +1,26 @@
+{{- $en := eq .Page.Lang "en" -}}
+{{- $id := printf "coauthorship-%d" .Ordinal -}}
+{{- $data := partial "coauthorship-data.html" . -}}
+{{- $resource := resources.FromString "data/coauthorship.json" ($data | jsonify) -}}
+{{- if not (.Page.Scratch.Get "coauthorship-graph-assets") -}}
+{{- .Page.Scratch.Set "coauthorship-graph-assets" true -}}
+<link rel="stylesheet" href="{{ "css/coauthorship-graph.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/coauthorship-graph.css" | sha256) }}">
+<script src="{{ "js/coauthorship-graph.js" | relURL }}?v={{ printf "%.12s" (readFile "static/js/coauthorship-graph.js" | sha256) }}" defer></script>
+{{- end -}}
+<section class="coauthorship-graph" id="{{ $id }}" data-lang="{{ .Page.Lang }}" data-source="{{ $resource.RelPermalink }}" aria-label="{{ if $en }}Faculty and collaborations{{ else }}Docentes e colaborações{{ end }}">
+  <p class="cg-status" data-role="status" role="status">{{ if $en }}Loading coauthorship data…{{ else }}Carregando os dados de coautoria…{{ end }}</p>
+  <div class="cg-interactive" hidden>
+    <div class="cg-controls">
+      <label>{{ if $en }}Faculty member{{ else }}Docente{{ end }}
+        <select data-role="faculty"><option value="">{{ if $en }}All faculty members{{ else }}Todos os docentes{{ end }}</option></select>
+      </label>
+      <button type="button" data-action="reset">{{ if $en }}Show all{{ else }}Mostrar todos{{ end }}</button>
+    </div>
+  </div>
+  <div class="cg-diagram-row">
+    {{ .Inner }}
+    <div class="cg-viewport" tabindex="0" role="region" aria-label="{{ if $en }}Coauthorship graph{{ else }}Grafo de coautorias{{ end }}" data-role="viewport" hidden></div>
+  </div>
+  <div class="cg-detail" data-role="detail" aria-label="{{ if $en }}Selected collaboration{{ else }}Colaboração selecionada{{ end }}" hidden></div>
+  <noscript><p>{{ if $en }}Enable JavaScript to explore the graph.{{ else }}Ative o JavaScript para explorar o grafo.{{ end }} <a href="{{ "data/coauthorship.json" | relURL }}">{{ if $en }}View the coauthorship data.{{ else }}Consulte os dados de coautoria.{{ end }}</a></p></noscript>
+</section>

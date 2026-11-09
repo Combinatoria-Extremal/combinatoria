@@ -1,0 +1,256 @@
+[
+  {
+    "id": "yoshiharu-kohayakawa",
+    "name": "Yoshiharu Kohayakawa",
+    "affiliation": "USP",
+    "url": "http://www.ime.usp.br/~yoshi/",
+    "phdYear": 1991,
+    "phdSources": [
+      "https://users.ime.usp.br/~yoshi/",
+      "https://www.ime.usp.br/~yoshi/fullpubs.pdf"
+    ],
+    "state": "SP",
+    "aliases": []
+  },
+  {
+    "id": "rob-morris",
+    "name": "Rob Morris",
+    "affiliation": "IMPA",
+    "url": "https://robiscounting.github.io/",
+    "phdYear": 2006,
+    "phdSources": [
+      "https://umwa.memphis.edu/fcv/viewcv.php?personUUID=bollobas",
+      "https://robiscounting.github.io/"
+    ],
+    "state": "RJ",
+    "aliases": [
+      "Robert Morris"
+    ]
+  },
+  {
+    "id": "carlos-hoppen",
+    "name": "Carlos Hoppen",
+    "affiliation": "UFRGS",
+    "url": "http://www.mat.ufrgs.br/~choppen",
+    "phdYear": 2008,
+    "phdSources": [
+      "https://uwaterloo.ca/combinatorics-and-optimization/graduate-studies-combinatorics-and-optimization/past-students/phd-recipients"
+    ],
+    "state": "RS",
+    "aliases": []
+  },
+  {
+    "id": "simon-griffiths",
+    "name": "Simon Griffiths",
+    "affiliation": "PUC-Rio",
+    "url": "http://www.mat.puc-rio.br/en/professor/simon-richard-griffiths",
+    "phdYear": 2008,
+    "phdSources": [
+      "https://www.mat.puc-rio.br/en/professor/simon-richard-griffiths/"
+    ],
+    "state": "RJ",
+    "aliases": []
+  },
+  {
+    "id": "fabricio-benevides",
+    "name": "Fabricio Benevides",
+    "affiliation": "UFC",
+    "url": "http://lattes.cnpq.br/4695081445531168",
+    "phdYear": 2011,
+    "phdSources": [
+      "https://homepages.dcc.ufmg.br/~adrianov/titular/premiacoes/ABC.pdf"
+    ],
+    "state": "CE",
+    "aliases": [
+      "Fabricio Siqueira Benevides",
+      "Fabrício Siqueira Benevides"
+    ]
+  },
+  {
+    "id": "cristiane-maria-sato",
+    "name": "Cristiane Maria Sato",
+    "affiliation": "UFABC",
+    "url": "https://www.ufabc.edu.br/ensino/docentes/cristiane-maria-sato",
+    "phdYear": 2013,
+    "phdSources": [
+      "https://www.ufabc.edu.br/ensino/docentes/cristiane-maria-sato"
+    ],
+    "state": "SP",
+    "aliases": [
+      "Cristiane M. Sato"
+    ]
+  },
+  {
+    "id": "guilherme-mota",
+    "name": "Guilherme Mota",
+    "affiliation": "USP",
+    "url": "http://www.ime.usp.br/~mota",
+    "phdYear": 2013,
+    "phdSources": [
+      "https://users.ime.usp.br/~mota/publications/",
+      "https://orcid.org/0000-0001-9722-1819"
+    ],
+    "state": "SP",
+    "aliases": [
+      "Guilherme Oliveira Mota"
+    ]
+  },
+  {
+    "id": "vinicius-dos-santos",
+    "name": "Vinícius dos Santos",
+    "affiliation": "UFMG",
+    "url": "https://homepages.dcc.ufmg.br/~viniciussantos/",
+    "phdYear": 2013,
+    "phdSources": [
+      "https://dcc.ufmg.br/professor/vinicius-fernandes-dos-santos/"
+    ],
+    "state": "MG",
+    "aliases": [
+      "Vinicius Fernandes dos Santos",
+      "Vinícius Fernandes dos Santos"
+    ]
+  },
+  {
+    "id": "mauricio-collares",
+    "name": "Maurício Collares",
+    "affiliation": "USP",
+    "url": "http://lattes.cnpq.br/9400871572268469",
+    "phdYear": 2014,
+    "phdSources": [
+      "https://impa.br/ensino/programas-de-formacao/doutorado/titulos-de-doutor-concedidos/graus-de-doutor-concedidos-em-2014/"
+    ],
+    "state": "SP",
+    "aliases": [
+      "Mauricio Collares"
+    ]
+  },
+  {
+    "id": "fabio-botler",
+    "name": "Fábio Botler",
+    "affiliation": "USP",
+    "url": "http://www.ime.usp.br/~fbotler",
+    "phdYear": 2016,
+    "phdSources": [
+      "https://pesc.coppe.ufrj.br/~fbotler/fbotler-cv.pdf"
+    ],
+    "state": "SP",
+    "aliases": []
+  },
+  {
+    "id": "roberto-parente",
+    "name": "Roberto Parente",
+    "affiliation": "UFBA",
+    "url": "https://computacao.ufba.br/pt-br/roberto-freitas-parente",
+    "phdYear": 2016,
+    "phdSources": [
+      "https://teses.usp.br/teses/disponiveis/45/45134/tde-24052017-183349/pt-br.html"
+    ],
+    "state": "BA",
+    "aliases": [
+      "Roberto Freitas Parente"
+    ]
+  },
+  {
+    "id": "maycon-sambinelli",
+    "name": "Maycon Sambinelli",
+    "affiliation": "UFABC",
+    "url": "https://www.ufabc.edu.br/ensino/docentes/maycon-sambinelli",
+    "phdYear": 2018,
+    "phdSources": [
+      "https://bv.fapesp.br/pt/pesquisador/181556/maycon-sambinelli/"
+    ],
+    "state": "SP",
+    "aliases": []
+  },
+  {
+    "id": "taisa-martins",
+    "name": "Taísa Martins",
+    "affiliation": "UFF",
+    "url": "https://www.professores.uff.br/tlmartins/",
+    "phdYear": 2018,
+    "phdSources": [
+      "https://www.professores.uff.br/tlmartins/"
+    ],
+    "state": "RJ",
+    "aliases": []
+  },
+  {
+    "id": "lucas-colucci",
+    "name": "Lucas Colucci",
+    "affiliation": "USP",
+    "url": "http://www.ime.usp.br/~lcolucci",
+    "phdYear": 2019,
+    "phdSources": [
+      "https://lattes.ime.usp.br/mat/membro-2794752834376467.html"
+    ],
+    "state": "SP",
+    "aliases": [
+      "Lucas Colucci Cavalcante de Souza"
+    ]
+  },
+  {
+    "id": "luiz-moreira",
+    "name": "Luiz Moreira",
+    "affiliation": "UFPE",
+    "url": "https://ppgdmat-ufpe.recife.br/docentes/luiz-paulo-freire-moreira/",
+    "phdYear": 2020,
+    "phdSources": [
+      "https://www.ead.ufpe.br/dmat/docentes"
+    ],
+    "state": "PE",
+    "aliases": []
+  },
+  {
+    "id": "walner-mendonca",
+    "name": "Walner Mendonça",
+    "affiliation": "UFC",
+    "url": "https://walnerm.github.io/",
+    "phdYear": 2020,
+    "phdSources": [
+      "https://walnerm.github.io/publications/",
+      "https://walnerm.github.io/"
+    ],
+    "state": "CE",
+    "aliases": [
+      "Walner Mendonça dos Santos"
+    ]
+  },
+  {
+    "id": "pedro-araujo",
+    "name": "Pedro Araújo",
+    "affiliation": "UFPE",
+    "url": "https://ppgdmat-ufpe.recife.br/docentes/pedro-campos-araujo/",
+    "phdYear": 2021,
+    "phdSources": [
+      "https://sigaa.ufpe.br/sigaa/public/docente/portal.jsf?siape=3474290",
+      "https://impa.br/ensino/programas-de-formacao/doutorado/titulos-de-doutor-concedidos/graus-de-doutor-concedidos-em-2021/"
+    ],
+    "state": "PE",
+    "aliases": []
+  },
+  {
+    "id": "marcelo-campos",
+    "name": "Marcelo Campos",
+    "affiliation": "IMPA",
+    "url": "https://marceloscampos.github.io/",
+    "phdYear": 2023,
+    "phdSources": [
+      "https://marceloscampos.github.io/"
+    ],
+    "state": "RJ",
+    "aliases": []
+  },
+  {
+    "id": "lucas-aragao",
+    "name": "Lucas Aragão",
+    "affiliation": "UFRJ",
+    "url": "https://aragaolucas.github.io/",
+    "phdYear": 2024,
+    "phdSources": [
+      "https://impa.br/notices/medalhista-da-obmep-defende-tese-de-doutorado-no-impa-2/",
+      "https://aragaolucas.github.io/"
+    ],
+    "state": "RJ",
+    "aliases": []
+  }
+]

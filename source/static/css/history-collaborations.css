@@ -1,0 +1,74 @@
+.history-collaborations {
+  --hc-surface: var(--entry, #fff);
+  --hc-ink: var(--primary, #1e1e1e);
+  --hc-muted: var(--secondary, #686868);
+  --hc-border: var(--border, #ddd);
+  min-width: 0;
+  color: var(--hc-ink);
+}
+.history-collaborations [hidden] { display: none !important; }
+.history-collaborations .hc-scope,
+.history-collaborations .hc-hint { margin: 0 0 14px; color: var(--hc-muted); font-size: 14px; line-height: 1.6; }
+.history-collaborations .hc-controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; margin: 20px 0 14px; }
+.history-collaborations .hc-controls label { display: flex; flex-direction: column; gap: 6px; max-width: 100%; min-width: 0; font-size: 13px; color: var(--hc-muted); }
+.history-collaborations .hc-controls .hc-faculty-filter { flex: 1 1 230px; max-width: 360px; }
+.history-collaborations select,
+.history-collaborations button { min-height: var(--site-control-height, 44px); max-width: 100%; padding: var(--site-control-padding, 10px 12px); border: 1px solid var(--hc-border); border-radius: var(--site-control-radius, 8px); background: var(--hc-surface); color: var(--hc-ink); font: inherit; font-size: var(--site-control-font-size, 14px); line-height: 1.4; cursor: pointer; }
+.history-collaborations button { border-color: var(--site-accent, #2563eb); color: var(--site-accent, #2563eb); }
+.history-collaborations button:hover:not(:disabled),
+.history-collaborations button[aria-pressed="true"] { background: var(--site-accent-soft, #eff6ff); }
+.history-collaborations button:disabled { opacity: .45; cursor: default; }
+.history-collaborations :is(button, select, .hc-viewport):focus-visible { outline: 2px solid var(--site-accent, #2563eb); outline-offset: 3px; }
+.history-collaborations .hc-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+.history-collaborations .hc-summary { margin: 0 0 10px; font-size: 15px; font-weight: 600; line-height: 1.6; font-variant-numeric: tabular-nums; }
+.history-collaborations .hc-empty { padding: 16px; border: 1px solid var(--hc-border); border-radius: 8px; color: var(--hc-muted); font-size: 14px; }
+.history-collaborations .hc-viewport { position: relative; width: 100%; min-width: 0; margin: 16px 0 24px; overflow: auto; overscroll-behavior: contain; border-radius: 8px; background: var(--hc-surface); scroll-margin-top: 160px; }
+.history-collaborations .hc-svg { display: block; width: 100%; max-width: none; height: auto; touch-action: pan-x pan-y; }
+.history-collaborations .hc-viewport.is-zoomed { max-height: min(70vh, 720px); border: 1px solid var(--hc-border); }
+.history-collaborations .hc-viewport.is-zoomed .hc-svg { width: max(900px, 150%); }
+.history-collaborations .hc-ring { fill: none; stroke: var(--hc-border); stroke-width: 1; stroke-dasharray: 3 7; }
+.history-collaborations .hc-edge,
+.history-collaborations .hc-edge-label,
+.history-collaborations .hc-node { cursor: pointer; transition: opacity 120ms ease; }
+.history-collaborations .hc-edge-line { fill: none; stroke-width: 2; opacity: .5; }
+.history-collaborations .hc-edge-hit { fill: none; stroke: transparent; stroke-width: 16; pointer-events: stroke; }
+.history-collaborations .hc-edge-label { opacity: .85; }
+.history-collaborations .hc-weight-bg { fill: var(--hc-surface); stroke: var(--hc-border); stroke-width: .7; }
+.history-collaborations .hc-weight { fill: var(--hc-ink); font-size: 21px; font-weight: 650; text-anchor: middle; dominant-baseline: central; pointer-events: none; }
+.history-collaborations .hc-node-hit { fill: transparent; stroke: none; }
+.history-collaborations .hc-node-dot { fill: var(--hc-ink); stroke: var(--hc-surface); stroke-width: 3; }
+.history-collaborations .hc-node-label { fill: var(--hc-ink); font-size: 23px; font-weight: 550; paint-order: stroke; stroke: var(--hc-surface); stroke-width: 5px; stroke-linejoin: round; }
+.history-collaborations .hc-node-affiliation { fill: var(--hc-muted); font-size: 16px; font-weight: 400; }
+.history-collaborations :is(.hc-edge, .hc-edge-label).is-muted { opacity: .08; }
+.history-collaborations .hc-node.is-muted { opacity: .3; }
+.history-collaborations .hc-edge.is-highlighted .hc-edge-line { stroke-width: 3.5; opacity: 1; }
+.history-collaborations .hc-edge-label.is-highlighted { opacity: 1; }
+.history-collaborations .hc-edge-label.is-highlighted .hc-weight-bg { stroke: var(--hc-ink); stroke-width: 1; }
+.history-collaborations .hc-node.is-selected .hc-node-dot,
+.history-collaborations .hc-node:focus .hc-node-dot { fill: var(--hc-surface); stroke: var(--hc-ink); stroke-width: 3; }
+.history-collaborations .hc-edge:focus .hc-edge-line { stroke-width: 5; opacity: 1; }
+.history-collaborations .hc-node:focus,
+.history-collaborations .hc-edge:focus { outline: none; }
+.history-collaborations .hc-detail { margin-top: 20px; padding: 20px; border: 1px solid var(--hc-border); border-radius: 12px; background: var(--code-bg, #f5f5f5); font-size: 14px; line-height: 1.65; overflow-wrap: anywhere; }
+.history-collaborations .hc-detail h3 { margin: 0 0 10px; color: var(--hc-ink); font-size: 18px; line-height: 1.4; }
+.history-collaborations .hc-detail p { margin: 0 0 12px; }
+.history-collaborations .hc-detail p:last-child { margin-bottom: 0; }
+.history-collaborations .hc-detail a { color: var(--site-accent, #2563eb); }
+.history-collaborations .hc-partners { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.history-collaborations .hc-partners li { margin: 0; }
+.history-collaborations .hc-partners button { text-align: left; }
+.history-collaborations .hc-papers { margin: 14px 0 0; padding-left: 24px; }
+.history-collaborations .hc-papers li { margin: 0 0 14px; }
+.history-collaborations .hc-papers li:last-child { margin-bottom: 0; }
+.history-collaborations .hc-paper-meta { display: block; margin-top: 4px; color: var(--hc-muted); font-size: 13px; line-height: 1.55; }
+@media (max-width: 600px) {
+  .history-collaborations .hc-controls .hc-faculty-filter { flex-basis: 100%; max-width: none; }
+  .history-collaborations .hc-controls label:not(.hc-faculty-filter) { flex: 1 1 100px; }
+  .history-collaborations .hc-actions button { flex: 1 1 140px; }
+  .history-collaborations .hc-detail { padding: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .history-collaborations .hc-edge,
+  .history-collaborations .hc-edge-label,
+  .history-collaborations .hc-node { transition: none; }
+}

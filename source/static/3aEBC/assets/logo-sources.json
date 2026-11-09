@@ -1,0 +1,63 @@
+{
+  "ufpe.png": {
+    "institution": "Universidade Federal de Pernambuco",
+    "source_page": "https://www.ufpe.br/institucional/identidade-visual",
+    "asset_url": "https://www.ufpe.br/image/company_logo?img_id=20911",
+    "variant": "Assinatura horizontal branca utilizada no portal oficial"
+  },
+  "usp.png": {
+    "institution": "Universidade de São Paulo",
+    "source_page": "https://scs.usp.br/identidadevisual/logotipos/",
+    "asset_url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/usp-logo-png-1.png"
+  },
+  "ufc.png": {
+    "institution": "Universidade Federal do Ceará",
+    "source_page": "https://biblioteca.ufc.br/pt/sobre-o-sibi-ufc/conheca-o-sibi/logomarca-bu/",
+    "asset_url": "https://biblioteca.ufc.br/wp-content/uploads/2023/08/logohorizontalufc-azulmarinho.png",
+    "variant": "Assinatura horizontal azul-marinho"
+  },
+  "impa.png": {
+    "institution": "Instituto de Matemática Pura e Aplicada",
+    "source_page": "https://impa.br/",
+    "asset_url": "https://impa.br/wp-content/uploads/2025/03/logo.png"
+  },
+  "cnpq.png": {
+    "institution": "CNPq",
+    "source_page": "https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual/marca-defesoeleitoral",
+    "asset_url": "https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual/CNPq_v2017_rgb.png"
+  },
+  "capes.png": {
+    "institution": "CAPES",
+    "source_page": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/logo-original-fundo-claro-png.png",
+    "asset_url": "https://www.gov.br/capes/pt-br/centrais-de-conteudo/logo-original-fundo-claro-png.png/@@images/image-180-124c72ceec27321f111bdb4faaa44534.png"
+  },
+  "facepe.png": {
+    "institution": "FACEPE",
+    "source_page": "https://www2.facepe.br/marcas-2/",
+    "asset_url": "https://www2.facepe.br/wp-content/uploads/2026/01/facepe-logo-1-1030x380.png"
+  },
+  "ufc-white.png": {
+    "institution": "Universidade Federal do Ceará",
+    "source_page": "https://biblioteca.ufc.br/pt/sobre-o-sibi-ufc/conheca-o-sibi/logomarca-bu/",
+    "asset_url": "https://biblioteca.ufc.br/wp-content/uploads/2023/08/logohorizontalufc-branco.png",
+    "variant": "Official white horizontal mark with transparent background"
+  },
+  "cnpq-white.png": {
+    "institution": "CNPq",
+    "source_page": "https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual/marca-defesoeleitoral",
+    "asset_url": "https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual/CNPq_v2017_rgb_neg.png",
+    "variant": "Official negative mark with transparent background"
+  },
+  "usp-white.svg": {
+    "institution": "Universidade de São Paulo",
+    "source_page": "https://scs.usp.br/identidadevisual/logotipos/",
+    "asset_url": "https://scs.usp.br/identidadevisual/wp-content/uploads/2022/08/usp-logo-pdf.pdf",
+    "variant": "Official vector outlines converted to SVG, with white fill and cropped empty margins"
+  },
+  "impa-white.svg": {
+    "institution": "Instituto de Matemática Pura e Aplicada",
+    "source_page": "https://impa.br/",
+    "asset_url": "https://impa.br/",
+    "variant": "Official inline SVG mark from the portal header, with white fill"
+  }
+}

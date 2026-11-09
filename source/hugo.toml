@@ -1,0 +1,134 @@
+baseURL = 'https://extremal.combinatoria.org/'
+publishDir = 'public'
+languageCode = 'pt-br'
+defaultContentLanguage = 'pt'
+defaultContentLanguageInSubdir = false
+title = 'Combinatória Extremal no Brasil'
+theme = 'PaperMod'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Combinatória Extremal no Brasil"
+  defaultTheme = 'auto'
+  displayFullLangName = true
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  UseHugoToc = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Combinatória Extremal no Brasil"
+
+    imageUrl = ""
+    imageTitle = "Combinatória Extremal"
+
+# Reuse the existing site map for browser icons.
+[params.assets]
+  favicon = 'images/brazil_map.png'
+  favicon16x16 = 'images/brazil_map.png'
+  favicon32x32 = 'images/brazil_map.png'
+  apple_touch_icon = 'images/brazil_map.png'
+  safari_pinned_tab = 'images/brazil_map_vector.svg'
+
+[menu]
+  [[menu.main]]
+    identifier = "membros"
+    name = "Membros"
+    url = "/membros/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "eventos"
+    name = "Eventos"
+    url = "/eventos/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "turne"
+    name = "Turnê"
+    url = "/turne"
+    weight = 32
+
+  [[menu.main]]
+    identifier = "material-didatico"
+    name = "Material Didático"
+    url = "/material-didatico"
+    weight = 35
+
+
+
+  [[menu.main]]
+    identifier = "artigos"
+    name = "Artigos"
+    url = "/artigos"
+    weight = 50
+
+[[menu.main]]
+  identifier = "historia"
+  name = "História"
+  url = "/historia/"
+  weight = 20
+
+[languages.pt]
+  languageName = "Português"
+  languageCode = "pt-BR"
+  weight = 1
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en"
+  title = "Extremal Combinatorics in Brazil"
+  weight = 2
+
+[languages.en.params]
+  author = "Extremal Combinatorics in Brazil"
+
+[languages.en.params.profileMode]
+  enabled = true
+  title = "Extremal Combinatorics in Brazil"
+
+  imageTitle = "Extremal Combinatorics"
+
+[[languages.en.menu.main]]
+  identifier = "membros"
+  name = "Members"
+  url = "/membros/"
+  weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "eventos"
+  name = "Events"
+  url = "/eventos/"
+  weight = 30
+
+[[languages.en.menu.main]]
+  identifier = "turne"
+  name = "Outreach Tour"
+  url = "/turne/"
+  weight = 32
+
+[[languages.en.menu.main]]
+  identifier = "material-didatico"
+  name = "Learning Resources"
+  url = "/material-didatico/"
+  weight = 35
+
+[[languages.en.menu.main]]
+  identifier = "artigos"
+  name = "Papers"
+  url = "/artigos/"
+  weight = 50
+
+[[languages.en.menu.main]]
+  identifier = "historia"
+  name = "History"
+  url = "/historia/"
+  weight = 20

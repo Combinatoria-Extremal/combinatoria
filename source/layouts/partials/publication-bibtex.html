@@ -1,0 +1,81 @@
+{{- /* Returns BibTeX for one catalogue paper. The private text branch keeps the
+     escaping in this single partial. Existing valid TeX/math is preserved;
+     Unicode letters are encoded for classic BibTeX, not transliterated. */ -}}
+{{- $result := "" -}}
+{{- if isset . "__bibtex_text" -}}
+  {{- $text := .__bibtex_text -}}
+  {{- $math := .__bibtex_math | default false -}}
+  {{- /* This decomposed spelling occurs in the source author list. */ -}}
+  {{- $text = replace $text "ı́" `\'{\i}` -}}
+  {{- $letters := dict
+    "à" "{\\`{a}}" "á" `{\'{a}}` "â" `{\^{a}}` "ã" `{\~{a}}` "ä" `{\"{a}}`
+    "ç" `{\c{c}}` "é" `{\'{e}}` "ê" `{\^{e}}` "ë" `{\"{e}}`
+    "í" `{\'{i}}` "ï" `{\"{i}}` "ñ" `{\~{n}}` "ó" `{\'{o}}` "ô" `{\^{o}}` "õ" `{\~{o}}` "ö" `{\"{o}}`
+    "ú" `{\'{u}}` "ü" `{\"{u}}` "ý" `{\'{y}}` "ě" `{\v{e}}` "ı" `{\i}`
+    "Ł" `{\L}` "ł" `{\l}` "ń" `{\'{n}}` "ő" `{\H{o}}` "Š" `{\v{S}}` "š" `{\v{s}}`
+    "À" "{\\`{A}}" "Á" `{\'{A}}` "Â" `{\^{A}}` "Ã" `{\~{A}}` "Ä" `{\"{A}}`
+    "Ç" `{\c{C}}` "É" `{\'{E}}` "Ê" `{\^{E}}` "Ë" `{\"{E}}` "Í" `{\'{I}}` "Ï" `{\"{I}}`
+    "Ñ" `{\~{N}}` "Ó" `{\'{O}}` "Ô" `{\^{O}}` "Õ" `{\~{O}}` "Ö" `{\"{O}}` "Ú" `{\'{U}}` "Ü" `{\"{U}}`
+    "Ő" `{\H{O}}` "ű" `{\H{u}}` "Ű" `{\H{U}}` "Ń" `{\'{N}}`
+    "–" "--" "—" "---" "‐" "-" "’" "'" "‘" "'" "“" "``" "”" "''" " " "~"
+  -}}
+  {{- $symbols := dict "ℤ" `\mathbb{Z}` "ℓ" `\ell` "ε" `\varepsilon` -}}
+  {{- $special := dict "&" `\&` "%" `\%` "#" `\#` "$" `\$` "_" `\_` "^" `\textasciicircum{}` "~" `\textasciitilde{}` -}}
+  {{- $pattern := `\$[^$]+\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\\[A-Za-z]+|\\.|[A-Za-z][A-Za-z0-9]*(?:[_^](?:\{[^}]+\}|[A-Za-z0-9]))+|(?s:.)` -}}
+  {{- if $math -}}{{- $pattern = `\\[A-Za-z]+|\\.|(?s:.)` -}}{{- end -}}
+  {{- range findRE $pattern $text -}}
+    {{- $token := . -}}
+    {{- $encoded := $token -}}
+    {{- if and (not $math) (or (hasPrefix $token "$") (hasPrefix $token `\(`) (hasPrefix $token `\[`)) (gt (len $token) 1) -}}
+      {{- /* Recurse only into the contents of a complete math delimiter pair. */ -}}
+      {{- $inner := trim $token "$" -}}
+      {{- if hasPrefix $token `\(` -}}{{- $inner = strings.TrimSuffix `\)` (strings.TrimPrefix `\(` $token) -}}{{- end -}}
+      {{- if hasPrefix $token `\[` -}}{{- $inner = strings.TrimSuffix `\]` (strings.TrimPrefix `\[` $token) -}}{{- end -}}
+      {{- $encoded = printf "$%s$" (partial "publication-bibtex.html" (dict "__bibtex_text" $inner "__bibtex_math" true)) -}}
+    {{- else if hasPrefix $token `\` -}}
+      {{- /* Keep control sequences and already escaped characters intact. */ -}}
+    {{- else if isset $letters $token -}}
+      {{- $encoded = index $letters $token -}}
+    {{- else if isset $symbols $token -}}
+      {{- $encoded = index $symbols $token -}}
+      {{- if not $math -}}{{- $encoded = printf `\ensuremath{%s}` $encoded -}}{{- end -}}
+    {{- else if eq $token "₃" -}}
+      {{- $encoded = `\textsubscript{3}` -}}
+      {{- if $math -}}{{- $encoded = `_{3}` -}}{{- end -}}
+    {{- else if and (not $math) (gt (len $token) 1) (or (in $token "^") (in $token "_")) -}}
+      {{- $encoded = printf `\ensuremath{%s}` $token -}}
+    {{- else if and (not $math) (isset $special $token) -}}
+      {{- $encoded = index $special $token -}}
+    {{- end -}}
+    {{- $result = printf "%s%s" $result $encoded -}}
+  {{- end -}}
+{{- else -}}
+  {{- $paper := . -}}
+  {{- if not $paper.id -}}{{- errorf "BibTeX export requires a publication ID" -}}{{- end -}}
+  {{- $key := printf "ec-%s" (sha256 $paper.id) -}}
+  {{- $type := "misc" -}}
+  {{- if eq $paper.type "journal" -}}{{- $type = "article" -}}{{- end -}}
+  {{- $authors := slice -}}
+  {{- range $paper.authors -}}
+    {{- $authors = $authors | append (partial "publication-bibtex.html" (dict "__bibtex_text" .name)) -}}
+  {{- end -}}
+  {{- $title := $paper.title -}}
+  {{- with $paper.titleHtml -}}
+    {{- $title = replaceRE `<sub>([^<]+)</sub>` `\textsubscript{$1}` . -}}
+    {{- $title = replaceRE `<sup>([^<]+)</sup>` `\textsuperscript{$1}` $title -}}
+    {{- $title = htmlUnescape (plainify $title) -}}
+  {{- end -}}
+  {{- $title = partial "publication-bibtex.html" (dict "__bibtex_text" $title) -}}
+  {{- $fields := slice (printf "  author = {%s}" (delimit $authors " and ")) (printf "  title = {{%s}}" $title) -}}
+  {{- with $paper.year -}}{{- $fields = $fields | append (printf "  year = {%v}" .) -}}{{- end -}}
+  {{- if eq $paper.type "arxiv" -}}
+    {{- $eprint := strings.TrimPrefix "arxiv:" $paper.id -}}
+    {{- $fields = $fields | append (printf "  eprint = {%s}" $eprint) "  archivePrefix = {arXiv}" -}}
+  {{- else if eq $paper.type "journal" -}}
+    {{- with $paper.venue -}}{{- $fields = $fields | append (printf "  journal = {%s}" (partial "publication-bibtex.html" (dict "__bibtex_text" .))) -}}{{- end -}}
+  {{- end -}}
+  {{- with $paper.doi -}}{{- $fields = $fields | append (printf "  doi = {%s}" .) -}}{{- end -}}
+  {{- with $paper.url -}}{{- $fields = $fields | append (printf "  url = {%s}" .) -}}{{- end -}}
+  {{- $result = printf "@%s{%s,\n%s\n}\n" $type $key (delimit $fields ",\n") -}}
+{{- end -}}
+{{- return $result -}}

@@ -1,0 +1,47 @@
+{{- $kind := .Get "kind" -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $history := $community.history -}}
+{{- $lang := .Page.Language.Lang -}}
+{{- $en := eq $lang "en" -}}
+{{- if eq $kind "updated" -}}
+<small>{{ if $en }}Last updated: {{ time.Format "January 2, 2006" $history.updated }}.{{ else }}Última atualização: {{ time.Format "02/01/2006" $history.updated }}.{{ end }}</small>
+{{- else -}}
+{{- if not (in (slice "degrees" "postdocs") $kind) -}}{{- errorf "supervision-list: kind must be degrees, postdocs or updated" -}}{{- end -}}
+{{- $people := dict -}}
+{{- range $history.people -}}{{- $people = merge $people (dict .id .) -}}{{- end -}}
+{{- $ordered := newScratch -}}{{- $ordered.Set "records" dict -}}
+{{- range index $history $kind -}}
+  {{- $year := .year -}}{{- $group := 1 -}}
+  {{- if eq $kind "postdocs" -}}{{- $year = .reportedYear -}}{{- if eq .status "current" -}}{{- $group = 0 -}}{{- end -}}{{- end -}}
+  {{- $person := index $people .personId -}}
+  {{- $key := printf "%d|%04d|%s|%s" $group (sub 9999 (int $year)) (lower $person.name) .id -}}
+  {{- $ordered.SetInMap "records" $key . -}}
+{{- end -}}
+{{- $records := $ordered.GetSortedMapValues "records" -}}
+{{- $levels := cond $en (dict "phd" "PhD" "masters" "MSc" "professional-masters" "Professional MSc") (dict "phd" "Doutorado" "masters" "Mestrado" "professional-masters" "Mestrado profissional") -}}
+<div class="compact-list" data-supervision-list="{{ $kind }}">
+{{- range $index, $record := $records }}
+  {{- $person := index $people .personId -}}
+  {{- $name := $person.name -}}
+  {{- if not $person.facultyId -}}{{- $name = default $name .displayName -}}{{- end -}}
+  {{- $period := index .displayPeriod $lang -}}
+  <p>{{ sub (len $records) $index }}. <strong>{{ $period }}</strong> - {{ $name | markdownify }}{{ if eq $kind "degrees" }} - ({{ index $levels .level }}){{ end }} ({{ .institution }})<br>
+  {{- $labels := slice -}}{{- $groups := newScratch -}}
+  {{- range .advisors -}}
+    {{- if not .displayInNotes -}}
+      {{- $advisor := index $people .personId -}}
+      {{- $label := cond $en "Advisor" "Orientador" -}}
+      {{- if eq $kind "postdocs" -}}{{- $label = "Supervisor" -}}{{- end -}}
+      {{- if eq .role "coadvisor" -}}{{- $label = cond $en "Co-advisor" "Coorientador" -}}{{- end -}}
+      {{- if eq .role "joint" -}}{{- $label = cond $en "Joint supervisor" "Orientação conjunta" -}}{{- end -}}
+      {{- if eq .role "institutional" -}}{{- $label = cond $en "Institutional supervisor" "Orientador institucional" -}}{{- end -}}
+      {{- with .label -}}{{- $label = index . $lang -}}{{- end -}}
+      {{- if not (in $labels $label) -}}{{- $labels = $labels | append $label -}}{{- $groups.Set $label slice -}}{{- end -}}
+      {{- $groups.Add $label (slice $advisor.name) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range $i, $label := $labels -}}{{ if $i }}<br>{{ end }}{{ $label }}: {{ delimit ($groups.Get $label) " / " }}{{- end -}}
+  {{- with index .notes $lang -}}{{- range split . "\n" -}}<br>{{ . }}{{- end -}}{{- end -}}</p>
+{{- end }}
+</div>
+{{- end -}}

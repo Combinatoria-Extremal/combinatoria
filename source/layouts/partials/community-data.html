@@ -1,0 +1,84 @@
+{{- /* Canonical data adapter. Source JSON is never modified by a build. */ -}}
+{{- $facultyAll := site.Data.faculty -}}
+{{- $faculty := slice -}}
+{{- $facultyByID := dict -}}
+{{- range $facultyAll -}}
+  {{- $facultyByID = merge $facultyByID (dict .id .) -}}
+  {{- if not (and (isset . "active") (eq .active false)) -}}{{- $faculty = $faculty | append . -}}{{- end -}}
+{{- end -}}
+
+{{- /* Names, URLs and PhD metadata are maintained only in faculty.json. */ -}}
+{{- $people := slice -}}
+{{- $seenFaculty := slice -}}
+{{- range site.Data.history.people -}}
+  {{- $person := . -}}
+  {{- with index $facultyByID (default .id .facultyId) -}}
+    {{- $aliases := uniq (union (default slice $person.aliases) (default slice .aliases)) -}}
+    {{- if ne $person.name .name -}}{{- $aliases = $aliases | append $person.name -}}{{- end -}}
+    {{- $person = merge $person (dict "name" .name "url" .url "facultyId" .id "aliases" (uniq $aliases) "phdYear" .phdYear "phdSources" (default slice .phdSources)) -}}
+    {{- $seenFaculty = $seenFaculty | append .id -}}
+  {{- end -}}
+  {{- $people = $people | append $person -}}
+{{- end -}}
+{{- range $facultyAll -}}
+  {{- if not (in $seenFaculty .id) -}}
+    {{- $people = $people | append (dict "id" .id "name" .name "facultyId" .id "aliases" (default slice .aliases) "url" .url "phdYear" .phdYear "phdSources" (default slice .phdSources)) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* A new record needs no duplicate translated date or cached total. */ -}}
+{{- $degrees := slice -}}{{- $postdocs := slice -}}
+{{- $counts := newScratch -}}
+{{- $counts.Set "degreeCounts" (dict "masters" 0 "professional-masters" 0 "phd" 0) -}}
+{{- $unconfirmed := 0 -}}
+{{- range site.Data.history.degrees -}}
+  {{- $period := dict "pt" (printf "%v" .year) "en" (printf "%v" .year) -}}
+  {{- $record := merge (dict "displayPeriod" $period "notes" (dict "pt" "" "en" "") "advisors" slice) . -}}
+  {{- $degrees = $degrees | append $record -}}
+  {{- $counts.SetInMap "degreeCounts" .level (add 1 (default 0 (index ($counts.Get "degreeCounts") .level))) -}}
+  {{- if eq .verification.startYearStatus "preserved_legacy_not_independently_verified" -}}{{- $unconfirmed = add $unconfirmed 1 -}}{{- end -}}
+{{- end -}}
+{{- range site.Data.history.postdocs -}}
+  {{- $year := default .startYear (default .endYear .reportedYear) -}}
+  {{- $pt := printf "%v" $year -}}{{- $en := $pt -}}
+  {{- if eq .status "current" -}}
+    {{- $pt = printf "%v–atual" (default $year .startYear) -}}{{- $en = printf "%v–present" (default $year .startYear) -}}
+  {{- else if and .startYear .endYear -}}
+    {{- $pt = printf "%v–%v" .startYear .endYear -}}{{- $en = $pt -}}
+  {{- end -}}
+  {{- $record := merge (dict "reportedYear" $year "displayPeriod" (dict "pt" $pt "en" $en) "notes" (dict "pt" "" "en" "") "advisors" slice) . -}}
+  {{- $postdocs = $postdocs | append $record -}}
+  {{- if eq .verification.startYearStatus "preserved_legacy_not_independently_verified" -}}{{- $unconfirmed = add $unconfirmed 1 -}}{{- end -}}
+{{- end -}}
+{{- $coverage := merge (default dict site.Data.history.coverage) (dict "degreeCount" (len $degrees) "postdocCount" (len $postdocs) "degreeCounts" ($counts.Get "degreeCounts") "unconfirmedLegacyStarts" $unconfirmed) -}}
+{{- $history := merge site.Data.history (dict "people" $people "degrees" $degrees "postdocs" $postdocs "coverage" $coverage) -}}
+
+{{- /* Only authors[].facultyId identifies membership; paper.faculty is derived. */ -}}
+{{- $papers := slice -}}
+{{- range site.Data.publications.papers -}}
+  {{- $ids := slice -}}
+  {{- range .authors -}}
+    {{- with .facultyId -}}
+      {{- if not (isset $facultyByID .) -}}{{- errorf "Unknown faculty ID in publication author: %s" . -}}{{- end -}}
+      {{- if not (in $ids .) -}}{{- $ids = $ids | append . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $papers = $papers | append (merge . (dict "faculty" (sort $ids))) -}}
+{{- end -}}
+{{- $publications := merge site.Data.publications (dict "papers" $papers) -}}
+
+{{- /* State labels are stable geography, not a second faculty directory. */ -}}
+{{- $states := dict "AC" "Acre" "AL" "Alagoas" "AP" "Amapá" "AM" "Amazonas" "BA" "Bahia" "CE" "Ceará" "DF" "Distrito Federal" "ES" "Espírito Santo" "GO" "Goiás" "MA" "Maranhão" "MT" "Mato Grosso" "MS" "Mato Grosso do Sul" "MG" "Minas Gerais" "PA" "Pará" "PB" "Paraíba" "PR" "Paraná" "PE" "Pernambuco" "PI" "Piauí" "RJ" "Rio de Janeiro" "RN" "Rio Grande do Norte" "RS" "Rio Grande do Sul" "RO" "Rondônia" "RR" "Roraima" "SC" "Santa Catarina" "SP" "São Paulo" "SE" "Sergipe" "TO" "Tocantins" -}}
+{{- $institutionHistory := index site.Data "institution-history" -}}
+{{- $updated := default $history.updated site.Data.site.updated -}}
+{{- $snapshots := slice -}}
+{{- range $institutionHistory.snapshots -}}
+  {{- if ne .date $updated -}}{{- $snapshots = $snapshots | append . -}}{{- end -}}
+{{- end -}}
+{{- $members := slice -}}
+{{- range $faculty -}}
+  {{- $members = $members | append (dict "facultyId" .id "institution" .affiliation "state" .state) -}}
+{{- end -}}
+{{- $snapshots = $snapshots | append (dict "date" $updated "source" (dict "pt" "/membros/" "en" "/en/membros/") "members" $members) -}}
+{{- $institutions := merge $institutionHistory (dict "states" $states "snapshots" (sort $snapshots "date")) -}}
+{{- return (dict "faculty" $faculty "facultyAll" $facultyAll "history" $history "publications" $publications "institutions" $institutions) -}}

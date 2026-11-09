@@ -1,0 +1,446 @@
+/* assets/css/extended/main.css */
+
+/* Keep only essential fixes and requested layout changes */
+
+:root {
+    --site-accent: #2563eb;
+    --site-accent-hover: #1d4ed8;
+    --site-accent-soft: #eff6ff;
+    --site-page-background: #f5f5f5;
+    --site-card-radius: 16px;
+    --site-card-padding: clamp(20px, 2.5vw, 28px);
+    --site-card-shadow: 0 3px 14px rgb(0 0 0 / 0.025);
+    --site-control-height: 44px;
+    --site-control-radius: 8px;
+    --site-control-font-size: 14px;
+    --site-control-padding: 10px 12px;
+}
+
+:root[data-theme="dark"] {
+    --site-accent: #93c5fd;
+    --site-accent-hover: #bfdbfe;
+    --site-accent-soft: #1e304b;
+    --site-page-background: var(--theme);
+}
+
+#menu .active,
+.lang-switch a,
+.nav a:hover {
+    color: var(--site-accent);
+}
+
+a:focus-visible,
+button:focus-visible,
+select:focus-visible,
+input:focus-visible,
+summary:focus-visible {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 3px;
+}
+
+.resource-content a,
+.event-card a,
+.home-portal a,
+.faculty-directory a {
+    color: var(--site-accent);
+    box-shadow: 0 1px 0 currentColor;
+}
+
+.resource-content a:hover,
+.event-card a:hover,
+.home-portal a:hover,
+.faculty-directory a:hover {
+    color: var(--site-accent-hover);
+}
+
+/* Sticky Header - Requested by user */
+.header {
+    background: var(--theme) !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Homepage: a clear introduction, a separate map, and a compact reading guide. */
+.main:has(.home-portal, .faculty-collaborations, .publication-catalogue, .resource-layout, .community-history) {
+    max-width: 1120px;
+}
+
+/* Shared page treatment; prose-only pages keep the narrower reading column. */
+body:has(.post-single) {
+    background: var(--site-page-background);
+}
+
+.post-single .post-header {
+    margin: 24px 0;
+}
+
+.post-single .post-title {
+    color: var(--site-accent);
+    font-size: clamp(28px, 3.2vw, 36px);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+}
+
+.post-single .post-content {
+    margin: 24px 0 32px;
+}
+
+.post-content > :is(h2, h3),
+.post-content .resource-content > h3,
+.post-content .publication-section > h2 {
+    margin: 32px 0 20px;
+    color: var(--primary);
+    font-size: clamp(22px, 2.5vw, 26px);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+}
+
+.post-content > :is(h2, h3)::before,
+.post-content .resource-content > h3::before,
+.post-content .publication-section > h2::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin-bottom: 12px;
+    background: var(--site-accent);
+}
+
+.post-content .resource-content > h3:first-child,
+.post-content .publication-section > h2:first-child {
+    margin-top: 0;
+}
+
+.main .home-portal {
+    display: block;
+    min-height: 0;
+    margin: 24px 0 40px;
+    text-align: left;
+}
+
+.home-portal .profile_inner,
+.home-portal .profile-content {
+    display: block;
+    width: 100%;
+}
+
+.home-welcome,
+.home-learning {
+    padding: clamp(24px, 4vw, 44px);
+    border: 1px solid var(--border);
+    border-radius: var(--site-card-radius);
+    background: var(--entry);
+    box-shadow: var(--site-card-shadow);
+}
+
+.home-welcome {
+    display: grid;
+    grid-template-columns: minmax(0, 1.65fr) minmax(220px, 1fr);
+    align-items: center;
+    gap: 44px;
+}
+
+.home-portal h1 {
+    margin: 0 0 22px;
+    padding: 0;
+    font-size: clamp(32px, 4vw, 46px);
+    line-height: 1.1;
+    letter-spacing: -0.035em;
+    color: var(--site-accent);
+}
+
+.home-portal p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.home-welcome-copy > p:first-of-type {
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.home-portal .home-contact {
+    margin-top: 24px;
+    padding-left: 16px;
+    border-left: 2px solid var(--site-accent);
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.home-map {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    padding: 18px;
+    justify-self: center;
+    background: var(--site-accent-soft);
+    border-radius: 50%;
+}
+
+.home-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+.home-learning {
+    margin-top: 28px;
+}
+
+.home-learning-intro {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.8fr);
+    gap: 36px;
+    align-items: start;
+}
+
+.home-portal h2 {
+    margin: 0;
+    padding: 0;
+    font-size: clamp(23px, 2.5vw, 28px);
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+}
+
+.home-portal h2::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 3px;
+    margin-bottom: 16px;
+    background: var(--site-accent);
+}
+
+.home-reading-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid var(--border);
+}
+
+.home-reading-grid > p + p {
+    padding-left: 32px;
+    border-left: 1px solid var(--border);
+}
+
+.home-portal .home-next-step {
+    margin-top: 28px;
+    padding-top: 22px;
+    border-top: 1px solid var(--border);
+    color: var(--secondary);
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+@media (max-width: 660px) {
+    .main .home-portal {
+        margin-top: 12px;
+    }
+
+    .home-welcome {
+        position: relative;
+        display: block;
+    }
+
+    .home-portal h1 {
+        min-height: 78px;
+        margin-right: 112px;
+        margin-bottom: 22px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-map {
+        position: absolute;
+        top: 18px;
+        right: 18px;
+        width: 100px;
+        padding: 6px;
+    }
+
+    .home-learning-intro,
+    .home-reading-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .home-reading-grid > p + p {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+/* Map specific styles - These were previously working and needed */
+.brazil-map {
+    max-width: 500px !important;
+    width: 100%;
+    margin: 2rem auto;
+    display: block;
+    height: auto;
+}
+
+/* Ensure graph nodes are visible in dark mode (requested previously) */
+@media (prefers-color-scheme: dark) {
+    .header {
+        background: var(--theme) !important;
+    }
+}
+
+/* Modern box for standout content (requested for Articles page) */
+.modern-box {
+    background-color: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--site-card-radius);
+    padding: var(--site-card-padding);
+    margin-bottom: 28px;
+    box-shadow: var(--site-card-shadow);
+}
+
+.post-content .modern-box > :first-child {
+    margin-top: 0;
+}
+
+.post-content .modern-box > :last-child {
+    margin-bottom: 0;
+}
+
+/* Mobile/Responsive Menu - Requested by user */
+@media screen and (max-width: 768px) {
+
+    /* Keep every link on one line, with scrolling for enlarged text. */
+    .nav #menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        gap: 4px;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: thin;
+    }
+
+    #menu li,
+    #menu li + li {
+        display: block;
+        flex: 0 0 auto;
+        min-width: 0;
+        margin: 0;
+    }
+
+    #menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 4px 0;
+        font-size: clamp(12px, 3.2vw, 14px);
+        line-height: 1.3;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+    /* Adjust profile/logo size on mobile if needed */
+    .logo {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Compact List Spacing - Requested by user */
+.compact-list p {
+    margin-bottom: 0.4rem !important;
+}
+
+/* Button Link Styling - Requested for homepage link */
+.button-link {
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+
+.button-link:hover {
+    text-decoration: none !important;
+    opacity: 0.8;
+}
+
+/* Stable header geometry across short and long pages. */
+html {
+    scrollbar-gutter: stable;
+}
+
+/* Use the same typography and header layout in both languages. */
+.nav {
+    max-width: 1320px;
+    padding-inline: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 24px;
+}
+
+.logo,
+#menu {
+    margin: 0;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.logo > a {
+    font-size: 22px;
+    max-width: 100%;
+}
+
+#menu a {
+    font-weight: 400;
+}
+
+.lang-switch a {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1120px) {
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo,
+    #menu {
+        justify-content: center;
+    }
+
+    .logo > a {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        padding-block: 12px;
+        padding-inline: 8px;
+        line-height: 1.4;
+        gap: 8px;
+    }
+
+    .logo {
+        row-gap: 6px;
+    }
+
+    .logo > a {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    #menu {
+        padding-bottom: 0;
+    }
+}

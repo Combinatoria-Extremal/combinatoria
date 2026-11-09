@@ -1,0 +1,118 @@
+{
+  "states": {
+    "CE": "Ceará",
+    "PE": "Pernambuco",
+    "BA": "Bahia",
+    "RJ": "Rio de Janeiro",
+    "MG": "Minas Gerais",
+    "SP": "São Paulo",
+    "RS": "Rio Grande do Sul"
+  },
+  "snapshots": [
+    {
+      "date": "2026-11-08",
+      "source": {
+        "pt": "/membros/",
+        "en": "/en/membros/"
+      },
+      "members": [
+        {
+          "facultyId": "yoshiharu-kohayakawa",
+          "institution": "USP",
+          "state": "SP"
+        },
+        {
+          "facultyId": "rob-morris",
+          "institution": "IMPA",
+          "state": "RJ"
+        },
+        {
+          "facultyId": "carlos-hoppen",
+          "institution": "UFRGS",
+          "state": "RS"
+        },
+        {
+          "facultyId": "simon-griffiths",
+          "institution": "PUC-Rio",
+          "state": "RJ"
+        },
+        {
+          "facultyId": "fabricio-benevides",
+          "institution": "UFC",
+          "state": "CE"
+        },
+        {
+          "facultyId": "cristiane-maria-sato",
+          "institution": "UFABC",
+          "state": "SP"
+        },
+        {
+          "facultyId": "guilherme-mota",
+          "institution": "USP",
+          "state": "SP"
+        },
+        {
+          "facultyId": "vinicius-dos-santos",
+          "institution": "UFMG",
+          "state": "MG"
+        },
+        {
+          "facultyId": "mauricio-collares",
+          "institution": "USP",
+          "state": "SP"
+        },
+        {
+          "facultyId": "fabio-botler",
+          "institution": "USP",
+          "state": "SP"
+        },
+        {
+          "facultyId": "roberto-parente",
+          "institution": "UFBA",
+          "state": "BA"
+        },
+        {
+          "facultyId": "maycon-sambinelli",
+          "institution": "UFABC",
+          "state": "SP"
+        },
+        {
+          "facultyId": "taisa-martins",
+          "institution": "UFF",
+          "state": "RJ"
+        },
+        {
+          "facultyId": "lucas-colucci",
+          "institution": "USP",
+          "state": "SP"
+        },
+        {
+          "facultyId": "luiz-moreira",
+          "institution": "UFPE",
+          "state": "PE"
+        },
+        {
+          "facultyId": "walner-mendonca",
+          "institution": "UFC",
+          "state": "CE"
+        },
+        {
+          "facultyId": "pedro-araujo",
+          "institution": "UFPE",
+          "state": "PE"
+        },
+        {
+          "facultyId": "marcelo-campos",
+          "institution": "IMPA",
+          "state": "RJ"
+        },
+        {
+          "facultyId": "lucas-aragao",
+          "institution": "UFRJ",
+          "state": "RJ"
+        }
+      ]
+    }
+  ],
+  "affiliationPeriods": []
+}

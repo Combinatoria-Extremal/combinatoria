@@ -1,0 +1,6 @@
+/public/
+/output/
+/scratch/
+/.hugo_build.lock
+__pycache__/
+*.pyc

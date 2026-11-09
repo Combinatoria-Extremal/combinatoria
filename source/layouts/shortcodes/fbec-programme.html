@@ -1,0 +1,19 @@
+{{- if not (.Page.Scratch.Get "fbec-programme-styled") -}}
+{{- .Page.Scratch.Set "fbec-programme-styled" true -}}
+<style>
+.fbec-programme { overflow-x: auto; margin: 1rem 0 1.5rem; border: 1px solid var(--border); border-radius: 10px; }
+.post-content .fbec-programme table { display: table; width: 100%; min-width: 560px; table-layout: fixed; margin: 0; }
+.post-content .fbec-programme th, .post-content .fbec-programme table:not(.highlighttable) td { padding: 14px 16px; vertical-align: top; line-height: 1.5; }
+.post-content .fbec-programme th { background: var(--code-bg); font-size: .9em; }
+.post-content .fbec-programme th:first-child { width: 20%; }
+.post-content .fbec-programme tbody tr:last-child td { border-bottom: 0; }
+.post-content .fbec-programme td:first-child { font-weight: 600; font-size: .95em; }
+.fbec-programme:focus-visible { outline: 2px solid var(--site-accent); outline-offset: 3px; }
+@media (max-width: 600px) {
+  .post-content .fbec-programme th, .post-content .fbec-programme table:not(.highlighttable) td { padding: 12px; }
+}
+</style>
+{{- end -}}
+<div class="fbec-programme" role="region" tabindex="0" aria-label="{{ .Get "label" | default (cond (eq .Page.Lang "en") "Programme table" "Tabela da programação") }}">
+{{ .Inner | markdownify }}
+</div>

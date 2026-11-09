@@ -1,0 +1,68 @@
+{{- $en := eq .Page.Lang "en" -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $catalog := $community.publications -}}
+{{- $papers := sort $catalog.papers "year" "desc" -}}
+{{- $years := slice -}}
+{{- range $papers -}}
+  {{- if not (in $years .year) -}}{{- $years = $years | append .year -}}{{- end -}}
+{{- end -}}
+<link rel="stylesheet" href="{{ "css/publications.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/publications.css" | sha256) }}">
+<script src="{{ "js/publications.js" | relURL }}?v={{ printf "%.12s" (readFile "static/js/publications.js" | sha256) }}" defer></script>
+<div class="publication-catalogue" data-lang="{{ .Page.Lang }}">
+<div class="modern-box">
+  {{ if $en }}Our catalogue contains a total of <b>{{ len $papers }} papers</b> by faculty members of our community.<br>Community members’ names are highlighted in blue.{{ else }}Nosso catálogo reúne um total de <b>{{ len $papers }} artigos</b> de docentes da comunidade.<br>Os nomes dos membros da comunidade estão destacados em azul.{{ end }}<br><br>
+  {{ if $en }}Last updated: {{ time.Format "January 2, 2006" $catalog.updated }}.{{ else }}Última atualização: {{ time.Format "02/01/2006" $catalog.updated }}.{{ end }}
+</div>
+<form class="publication-filter" role="search" aria-label="{{ if $en }}Search papers{{ else }}Buscar artigos{{ end }}" hidden>
+  <label for="publication-faculty">{{ if $en }}Filter by faculty member{{ else }}Filtrar por docente{{ end }}
+    <select id="publication-faculty" aria-controls="article-list">
+      <option value="">{{ if $en }}All faculty members{{ else }}Todos os docentes{{ end }}</option>
+      {{- range sort $community.facultyAll "name" -}}
+      <option value="{{ .id }}">{{ .name }}</option>
+      {{- end -}}
+    </select>
+  </label>
+  <label for="publication-search" class="publication-search-label">{{ if $en }}Author or title{{ else }}Autor ou título{{ end }}
+    <input type="search" id="publication-search" placeholder="{{ if $en }}Part of a name or title{{ else }}Parte do nome ou do título{{ end }}" aria-controls="article-list" autocomplete="off">
+  </label>
+  <button type="submit">{{ if $en }}Search{{ else }}Buscar{{ end }}</button>
+  <button type="button" data-action="reset-publications">{{ if $en }}Show all{{ else }}Mostrar todos{{ end }}</button>
+</form>
+<div class="publication-export" hidden>
+  <span data-role="export-count"></span>
+  <div class="publication-export-actions">
+    <button type="button" data-action="copy-bibtex">{{ if $en }}Copy BibTeX{{ else }}Copiar BibTeX{{ end }}</button>
+    <button type="button" data-action="download-bibtex">{{ if $en }}Download .bib{{ else }}Baixar .bib{{ end }}</button>
+  </div>
+  <p class="publication-export-status" role="status" aria-live="polite"></p>
+  <label class="publication-export-fallback" hidden>{{ if $en }}Select and copy the references below:{{ else }}Selecione e copie as referências abaixo:{{ end }}
+    <textarea readonly rows="8" spellcheck="false" aria-label="{{ if $en }}References in BibTeX format{{ else }}Referências em formato BibTeX{{ end }}"></textarea>
+  </label>
+</div>
+<div class="publication-layout">
+  <section class="publication-section" id="article-list">
+    <h2 data-role="list-heading" aria-live="polite" aria-atomic="true">{{ if $en }}List of papers{{ else }}Lista de artigos{{ end }} · {{ len $papers }}</h2>
+    <p class="publication-empty" hidden>{{ if $en }}No papers match your search. Try another term or select “Show all”.{{ else }}Nenhum artigo encontrado. Tente outro termo ou selecione “Mostrar todos”.{{ end }}</p>
+    {{- $currentYear := 0 -}}
+    {{- range $index, $paper := $papers -}}
+      {{- if ne $currentYear $paper.year -}}
+        {{- $currentYear = $paper.year -}}
+        <h3 id="articles-{{ $paper.year }}" data-publication-year="{{ $paper.year }}">{{ $paper.year }}</h3>
+      {{- end -}}
+      <p class="publication-entry" data-publication-id="{{ $paper.id }}" data-publication-type="{{ $paper.type }}" data-year="{{ $paper.year }}" data-bibtex="{{ partial "publication-reference.html" $paper }}">
+        <span class="publication-number">{{ sub (len $papers) $index }}.</span> <strong><a href="{{ $paper.url }}">{{ with $paper.titleHtml }}{{ . | safeHTML }}{{ else }}{{ $paper.title }}{{ end }}</a></strong><br>
+        <em>{{ range $authorIndex, $author := $paper.authors }}{{ if $authorIndex }}, {{ end }}{{ if $author.facultyId }}<span class="publication-member" data-faculty-id="{{ $author.facultyId }}">{{ $author.name }}</span>{{ else }}{{ $author.name }}{{ end }}{{ end }}</em>
+        {{- with $paper.venue }}<br><span class="publication-venue">{{ . }}</span>{{ end -}}
+      </p>
+    {{- end -}}
+  </section>
+  <nav class="publication-year-nav" aria-label="{{ if $en }}Papers by year{{ else }}Artigos por ano{{ end }}">
+    <span class="publication-year-label">{{ if $en }}Years{{ else }}Anos{{ end }}</span>
+    <ul>
+      {{- range $years -}}
+      <li data-publication-year="{{ . }}"><a href="#articles-{{ . }}" aria-label="{{ if $en }}Papers from {{ . }}{{ else }}Artigos de {{ . }}{{ end }}">{{ . }}</a></li>
+      {{- end -}}
+    </ul>
+  </nav>
+</div>
+</div>
