@@ -35,8 +35,7 @@ Os campos opcionais `displayName` e `displayRoles: {pt, en}` preservam as grafia
 5. Execute o validador e o build. Não publique automaticamente.
 
 ```powershell
-python extremal_update_20261106/source/scripts/validate-history.py
-hugo --source extremal_update_20261106/source --environment production --minify
+python scripts/update-site.py
 ```
 
 O validador verifica identidades, aliases, referências, papéis exibidos, fontes, limites de datas, contagens, duplicatas e ausência de ciclos no grafo de doutorado. Para a base inicial, use também `--expected-degrees 140 --expected-postdocs 38`.

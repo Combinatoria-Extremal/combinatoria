@@ -1,0 +1,95 @@
+{
+  "updated": "2026-11-09",
+  "files": [
+    {
+      "path": "/materiais/combinatoria.pdf",
+      "source_url": "https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf",
+      "resolved_source_url": "https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 1827249,
+      "pages": 315,
+      "sha256": "99c70fb500e4a7b8f01ee5df0a0111fd4a699daf1cc8bf0e44a890cb8e4ae5cf"
+    },
+    {
+      "path": "/materiais/introducao-sucinta-teoria-grafos.pdf",
+      "source_url": "https://www.ime.usp.br/~pf/teoriadosgrafos/texto/TeoriaDosGrafos.pdf",
+      "resolved_source_url": "https://users.ime.usp.br/~pf/teoriadosgrafos/texto/TeoriaDosGrafos.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 523862,
+      "pages": 61,
+      "sha256": "74a108d08746c0aba3f0b28e6341f95b791427e522bee2bd5d0cf607238cfc6c"
+    },
+    {
+      "path": "/materiais/extremal-probabilistic-combinatorics.pdf",
+      "source_url": "https://impa.br/wp-content/uploads/2017/04/28CBM_04.pdf",
+      "resolved_source_url": "https://impa.br/wp-content/uploads/2017/04/28CBM_04.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 507757,
+      "pages": 85,
+      "sha256": "402dbc7e644ca7601964af51f73e92514fcf62f1a9875fe4267d8f000bc109fa"
+    },
+    {
+      "path": "/materiais/topicos-combinatoria-contemporanea.pdf",
+      "source_url": "https://impa.br/wp-content/uploads/2017/04/PM_29.pdf",
+      "resolved_source_url": "https://impa.br/wp-content/uploads/2017/04/PM_29.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 886932,
+      "pages": 150,
+      "sha256": "bc1b524d9f6e502d89610eeadf58aafd38ba6c1e2370a743fdc9135ac5439fb8"
+    },
+    {
+      "path": "/materiais/method-hypergraph-containers.pdf",
+      "source_url": "https://arxiv.org/pdf/1801.04584.pdf",
+      "resolved_source_url": "https://arxiv.org/pdf/1801.04584",
+      "downloaded": "2026-11-09",
+      "bytes": 392759,
+      "pages": 29,
+      "sha256": "1dc14d91c5d3e46090e8966f96c25acedfe184251737a9cdc83bdc6da5e42b9a"
+    },
+    {
+      "path": "/1aEBC/programacao.pdf",
+      "source_url": "https://impa.br/wp-content/uploads/2023/09/Programacao-final.pdf",
+      "resolved_source_url": "https://impa.br/wp-content/uploads/2023/09/Programacao-final.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 181838,
+      "pages": 1,
+      "sha256": "a18308698fe08b0cc3c3e5a1d4ce3c5164dd113284eb363f9d6fa1ce393a65a0"
+    },
+    {
+      "path": "/2aEBC/foto-evento.pdf",
+      "source_url": "https://impa.br/wp-content/uploads/2025/03/IMG_5016.pdf",
+      "resolved_source_url": "https://impa.br/wp-content/uploads/2025/03/IMG_5016.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 285340,
+      "pages": 1,
+      "sha256": "fbaba6153b528048a1f5fd3ed1ec636b0999f9ff9e16e061ddad46d81f52e5e3"
+    },
+    {
+      "path": "/materiais/basic-graph-theory-chapter-1.pdf",
+      "source_url": "https://robiscounting.github.io/BGT_Chapter_1.pdf",
+      "resolved_source_url": "https://robiscounting.github.io/BGT_Chapter_1.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 1785446,
+      "pages": 49,
+      "sha256": "b953b23c7157671338a1db22a31e1fd6fb23d964659ec10fb768b487ecb24eab"
+    },
+    {
+      "path": "/materiais/basic-graph-theory-discount.pdf",
+      "source_url": "https://robiscounting.github.io/BGT_discount.pdf",
+      "resolved_source_url": "https://robiscounting.github.io/BGT_discount.pdf",
+      "downloaded": "2026-11-09",
+      "bytes": 1383594,
+      "pages": 1,
+      "sha256": "504c09de6830d3a3adc10617e75a212c385afd787c0804e9905f04cbed9341c3"
+    },
+    {
+      "path": "/2oWBC/programacao.pdf",
+      "source_url": "https://drive.google.com/file/d/1lrzoHpOuWUtuDB_TH2Rzpchxp8-ytX5b/view?usp=drive_link",
+      "resolved_source_url": "https://drive.google.com/file/d/1lrzoHpOuWUtuDB_TH2Rzpchxp8-ytX5b/view?usp=drive_link",
+      "downloaded": "2026-11-09",
+      "bytes": 215022,
+      "pages": 3,
+      "sha256": "348b7ef971d0c042bf580d2a94121e261211d57680ebf4282d46ab6ac626ac6b"
+    }
+  ]
+}

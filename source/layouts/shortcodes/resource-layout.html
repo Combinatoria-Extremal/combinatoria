@@ -10,7 +10,7 @@
       <div class="resource-nav-groups">
         {{- range $category := $resources.categories -}}
         <div class="resource-nav-group">
-          <h3>{{ index (default $category.title $category.navTitle) $lang }}</h3>
+          <h3><a href="#{{ index $category.title $lang | anchorize }}">{{ index (default $category.title $category.navTitle) $lang }}</a></h3>
           <ul>
             {{- range where $resources.items "category" $category.id -}}
             <li><a href="#{{ .id }}">{{ index .navTitle $lang | safeHTML }}</a></li>

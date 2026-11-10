@@ -1,17 +1,6 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "categories": [
-    {
-      "id": "ai-results",
-      "title": {
-        "pt": "Versões de resultados obtidos por IA",
-        "en": "Versions of results obtained by AI"
-      },
-      "navTitle": {
-        "pt": "Versões de resultados obtidos por IA",
-        "en": "Versions of results obtained by AI"
-      }
-    },
     {
       "id": "books",
       "title": {
@@ -55,6 +44,17 @@
         "pt": "Palestras",
         "en": "Talks"
       }
+    },
+    {
+      "id": "ai-results",
+      "title": {
+        "pt": "Versões de resultados obtidos por IA",
+        "en": "Versions of results obtained by AI"
+      },
+      "navTitle": {
+        "pt": "Versões de resultados obtidos por IA",
+        "en": "Versions of results obtained by AI"
+      }
     }
   ],
   "items": [
@@ -89,21 +89,6 @@
       }
     },
     {
-      "id": "resource-book-basic-graph-theory",
-      "category": "books",
-      "navTitle": {
-        "pt": "Basic Graph Theory",
-        "en": "Basic Graph Theory"
-      },
-      "body": {
-        "pt": "**Basic Graph Theory** ([Link para compra][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n<br>\nEste livro oferece uma introdução acessível e moderna à teoria dos grafos, cobrindo desde fundamentos clássicos como emparelhamentos e coloração até áreas ativas de pesquisa como teoria dos grafos extremais e grafos aleatórios. Com foco em provas elegantes e técnicas essenciais, é ideal para estudantes que desejam ingressar na área.",
-        "en": "**Basic Graph Theory** ([Purchase][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n<br>\nThis book offers an accessible, modern introduction to graph theory, from classical foundations such as matchings and colouring to active research areas including extremal and random graphs. With its focus on elegant proofs and essential techniques, it is ideal for students entering the field."
-      },
-      "links": {
-        "link1": "https://www.cambridge.org/ga/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/basic-graph-theory?format=HB&isbn=9781009344333#description"
-      }
-    },
-    {
       "id": "resource-book-combinatoria",
       "category": "books",
       "navTitle": {
@@ -115,7 +100,40 @@
         "en": "**Combinatória** ([Download][link1])\\\n*F. Botler, M. Collares, T. Martins, W. Mendonça, R. Morris, G. O. Mota, 2021*\\\n*(Winner of the 2023 Elon Lages Lima Prize — SBM and SBMAC)*\n\n<br>\nThis two-part book ranges from an introduction to combinatorics to advanced research topics. Part I presents basic techniques in extremal combinatorics and Ramsey theory, with detailed discussions of the probabilistic method and random graphs suitable for undergraduate and graduate courses. Part II develops these topics and introduces modern research tools, including the Lovász Local Lemma, dependent random choice, Janson’s inequalities, the regularity method and the container method."
       },
       "links": {
-        "link1": "https://impa.br/wp-content/uploads/2022/01/33CBM02-eBook.pdf"
+        "link1": "/materiais/combinatoria.pdf"
+      }
+    },
+    {
+      "id": "resource-book-introducao-grafos",
+      "category": "books",
+      "navTitle": {
+        "pt": "Introdução à Teoria dos Grafos",
+        "en": "Introdução à Teoria dos Grafos"
+      },
+      "body": {
+        "pt": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Link para download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nLivro introdutório ideal para estudantes de graduação. Explora conceitos fundamentais como emparelhamentos, coloração e grafos planares, conectando a teoria dos grafos a outras áreas como álgebra linear e probabilidade.\n<br>\nVeja também o link para o [site do livro][link2]",
+        "en": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nAn introductory book for undergraduate students. It explores fundamental concepts such as matchings, colouring and planar graphs, connecting graph theory with linear algebra and probability.\n<br>\nSee also the [book website][link2]"
+      },
+      "links": {
+        "link1": "/materiais/introducao-sucinta-teoria-grafos.pdf",
+        "link2": "https://www.ime.usp.br/~pf/teoriadosgrafos/"
+      }
+    },
+    {
+      "id": "resource-book-basic-graph-theory",
+      "category": "books",
+      "navTitle": {
+        "pt": "Basic Graph Theory",
+        "en": "Basic Graph Theory"
+      },
+      "body": {
+        "pt": "**Basic Graph Theory** ([Link para compra][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n[Capítulo 1 (PDF)][chapter1] · [Voucher de desconto (PDF)][voucher]\\\n<br>\nEste livro oferece uma introdução acessível e moderna à teoria dos grafos, cobrindo desde fundamentos clássicos como emparelhamentos e coloração até áreas ativas de pesquisa como teoria dos grafos extremais e grafos aleatórios. Com foco em provas elegantes e técnicas essenciais, é ideal para estudantes que desejam ingressar na área.",
+        "en": "**Basic Graph Theory** ([Purchase][link1])\\\n*B. Bollobás, R. Morris, 2026*\\\nCambridge University Press.\\\n[Chapter 1 (PDF)][chapter1] · [Discount voucher (PDF)][voucher]\\\n<br>\nThis book offers an accessible, modern introduction to graph theory, from classical foundations such as matchings and colouring to active research areas including extremal and random graphs. With its focus on elegant proofs and essential techniques, it is ideal for students entering the field."
+      },
+      "links": {
+        "link1": "https://www.cambridge.org/ga/universitypress/subjects/mathematics/discrete-mathematics-information-theory-and-coding/basic-graph-theory?format=HB&isbn=9781009344333#description",
+        "chapter1": "/materiais/basic-graph-theory-chapter-1.pdf",
+        "voucher": "/materiais/basic-graph-theory-discount.pdf"
       }
     },
     {
@@ -130,7 +148,7 @@
         "en": "**Extremal and probabilistic combinatorics** ([Download][link1])\\\n*R. Morris, R. Imbuzeiro Oliveira, 2011*\\\nXXVIII Brazilian Mathematical Colloquium (SBM/IMPA). [Videos][link2]\\\n<br>\nWritten to accompany a course at the Brazilian Mathematical Colloquium, this text introduces central tools in probabilistic and extremal combinatorics. Random graphs and the probabilistic method are discussed in detail, providing a foundation for understanding classical and contemporary results."
       },
       "links": {
-        "link1": "https://impa.br/wp-content/uploads/2017/04/28CBM_04.pdf",
+        "link1": "/materiais/extremal-probabilistic-combinatorics.pdf",
         "link2": "https://www.youtube.com/playlist?list=PLo4jXE-LdDTSkmHd3xNGhcObfWXvpwmCL"
       }
     },
@@ -146,24 +164,8 @@
         "en": "**Tópicos em Combinatória Contemporânea** ([Download][link1])\\\n([Purchase][link2]\\)\n*C. G. Moreira, Y. Kohayakawa, 2010*\\\nPublicações Matemáticas, IMPA.\\\n<br>\nAimed at undergraduates and newcomers to the field, this text introduces modern combinatorics through classical results. It covers extremal set theory, Euclidean Ramsey theory, and applications of algebraic and probabilistic methods, emphasising connections with other areas of mathematics."
       },
       "links": {
-        "link1": "https://impa.br/wp-content/uploads/2017/04/PM_29.pdf",
+        "link1": "/materiais/topicos-combinatoria-contemporanea.pdf",
         "link2": "https://www.amazon.com.br/T%C3%B3picos-Combinat%C3%B3ria-Contempor%C3%A2nea-Gustavo-Moreira/dp/8578616456"
-      }
-    },
-    {
-      "id": "resource-book-introducao-grafos",
-      "category": "books",
-      "navTitle": {
-        "pt": "Introdução à Teoria dos Grafos",
-        "en": "Introdução à Teoria dos Grafos"
-      },
-      "body": {
-        "pt": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Link para download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nLivro introdutório ideal para estudantes de graduação. Explora conceitos fundamentais como emparelhamentos, coloração e grafos planares, conectando a teoria dos grafos a outras áreas como álgebra linear e probabilidade.\n<br>\nVeja também o link para o [site do livro][link2]",
-        "en": "**Uma Introdução Sucinta à Teoria dos Grafos** ([Download][link1])\\\n*P. Feofiloff, Y. Kohayakawa, Y. Wakabayashi*\\\n<br>\nAn introductory book for undergraduate students. It explores fundamental concepts such as matchings, colouring and planar graphs, connecting graph theory with linear algebra and probability.\n<br>\nSee also the [book website][link2]"
-      },
-      "links": {
-        "link1": "https://www.ime.usp.br/~pf/teoriadosgrafos/texto/TeoriaDosGrafos.pdf",
-        "link2": "https://www.ime.usp.br/~pf/teoriadosgrafos/"
       }
     },
     {
@@ -178,7 +180,7 @@
         "en": "**[The method of hypergraph containers][link1]**\\\n*J. Balogh, R. Morris, W. Samotij*\\\nProc. ICM, Rio de Janeiro, 2018.\\\n<br>\nThis article presents the hypergraph container method, a technique with a wide range of applications for controlling the structure of independent sets in hypergraphs. Applications include counting problems and results transferring extremal properties to sparse settings."
       },
       "links": {
-        "link1": "https://arxiv.org/pdf/1801.04584.pdf"
+        "link1": "/materiais/method-hypergraph-containers.pdf"
       }
     },
     {

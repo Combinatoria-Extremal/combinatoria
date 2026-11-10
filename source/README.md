@@ -147,6 +147,12 @@ Quando uma sessão ocorrer em dias não consecutivos, informe `sessionDates` com
 
 Em `resources.json`, cada material pertence a uma `category`. Mantenha `id`, `category`, `navTitle.pt/en`, `body.pt/en` e os destinos de `links`. O corpo aceita Markdown, inclusive links por referência como `[PDF][pdf]`; o destino `pdf` fica no mapa `links` uma só vez. O menu lateral acompanha automaticamente a mesma lista de itens. PDFs locais ficam em `static/`, e o link usa o caminho publicado, sem o prefixo `static/`.
 
+## Arquivos hospedados no próprio site
+
+PDFs de materiais didáticos ficam em `static/materiais/`; programas e outros arquivos de eventos ficam na pasta do evento em `static/`. Use URLs locais nos dados e nas páginas. As origens, datas de download e hashes dos arquivos incorporados estão em `static/materiais/sources.json`. Preserve os PDFs originais, sem alterar seu conteúdo.
+
+As fontes tipográficas dos eventos ficam em `static/fonts/`, junto das licenças e do registro de origem. Imagens, estilos e scripts também devem ser locais. Vídeos e artigos do catálogo continuam como links externos, assim como páginas de autores, instituições, compra e fontes de informação.
+
 ## Textos editoriais e páginas de eventos
 
 Textos livres da Turnê e detalhes de eventos continuam nos respectivos arquivos em `content/`, com um arquivo `.en.md` correspondente. As páginas históricas estáticas de eventos ficam em `static/`; não são reescritas por este fluxo. A lista central de eventos aponta para essas páginas. Criar uma nova página de evento, inserir sua programação ou atualizar formulários próprios continua sendo uma edição editorial específica — não uma alteração nos gráficos.

@@ -19,8 +19,10 @@
   </div>
   <div class="cg-diagram-row">
     {{ .Inner }}
-    <div class="cg-viewport" tabindex="0" role="region" aria-label="{{ if $en }}Coauthorship graph{{ else }}Grafo de coautorias{{ end }}" data-role="viewport" hidden></div>
+    <div class="cg-graph-column">
+      <div class="cg-viewport" tabindex="0" role="region" aria-label="{{ if $en }}Coauthorship graph{{ else }}Grafo de coautorias{{ end }}" data-role="viewport" hidden></div>
+      <div class="cg-detail" data-role="detail" aria-label="{{ if $en }}Selected collaboration{{ else }}Colaboração selecionada{{ end }}" hidden></div>
+    </div>
   </div>
-  <div class="cg-detail" data-role="detail" aria-label="{{ if $en }}Selected collaboration{{ else }}Colaboração selecionada{{ end }}" hidden></div>
   <noscript><p>{{ if $en }}Enable JavaScript to explore the graph.{{ else }}Ative o JavaScript para explorar o grafo.{{ end }} <a href="{{ "data/coauthorship.json" | relURL }}">{{ if $en }}View the coauthorship data.{{ else }}Consulte os dados de coautoria.{{ end }}</a></p></noscript>
 </section>

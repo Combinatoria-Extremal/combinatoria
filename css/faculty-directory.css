@@ -46,7 +46,9 @@
   align-items: start;
   gap: 24px;
 }
-.coauthorship-graph .cg-diagram-row > .cg-viewport { min-width: 0; width: 100%; margin: 0; align-self: center; }
+.cg-graph-column { min-width: 0; }
+.coauthorship-graph .cg-graph-column > .cg-viewport { width: 100%; margin: 0; }
+.coauthorship-graph .cg-graph-column > .cg-detail { margin-top: 36px; }
 .faculty-collaborations > .coauthorship-graph {
   min-width: 0;
   width: 100%;
@@ -57,9 +59,13 @@
   left: auto;
   transform: none;
 }
+@media (min-width: 900px) {
+  /* Align the top graph label with the reset button above the directory. */
+  .cg-graph-column { margin-top: calc(-1 * var(--site-control-height) - 12px); }
+}
 @media (max-width: 899px) {
   .cg-diagram-row { grid-template-columns: minmax(0, 1fr); gap: 18px; }
-  .coauthorship-graph .cg-diagram-row > .cg-viewport { width: 80%; margin: 0 auto; }
+  .cg-graph-column { width: 80%; margin: 0 auto; }
 }
 @media (max-width: 600px) {
   .faculty-collaborations { padding: 16px 12px; }
