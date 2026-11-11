@@ -21,9 +21,9 @@
   </dl>
   <div class="co-tools">
     <nav class="co-views" role="tablist" aria-label="{{ if $en }}Coauthorships{{ else }}Coautorias{{ end }}">
-      <a href="#docentes" id="docentes" role="tab" aria-controls="co-perfis" aria-selected="true" data-tab="faculty">{{ if $en }}Faculty and their coauthors{{ else }}Docentes e seus coautores{{ end }}</a>
+      <a href="#globo" id="co-globo-tab" role="tab" aria-controls="globo" aria-selected="true" data-tab="globe">{{ if $en }}Earth globe{{ else }}Globo terrestre{{ end }}</a>
+      <a href="#docentes" id="docentes" role="tab" aria-controls="co-perfis" aria-selected="false" tabindex="-1" data-tab="faculty">{{ if $en }}Faculty and their coauthors{{ else }}Docentes e seus coautores{{ end }}</a>
       <a href="#externos" id="externos" role="tab" aria-controls="co-perfis" aria-selected="false" tabindex="-1" data-tab="external">{{ if $en }}External researchers{{ else }}Pesquisadores externos{{ end }}</a>
-      <a href="#globo" id="co-globo-tab" role="tab" aria-controls="globo" aria-selected="false" tabindex="-1" data-tab="globe">{{ if $en }}Earth globe{{ else }}Globo terrestre{{ end }}</a>
     </nav>
     <label class="co-faculty">{{ if $en }}Filter by faculty member{{ else }}Filtrar por docente{{ end }}
       <select data-filter="faculty"><option value="">{{ if $en }}All faculty members{{ else }}Todos os docentes{{ end }}</option>
@@ -31,7 +31,10 @@
       </select>
     </label>
   </div>
-  <section id="co-perfis" role="tabpanel" aria-labelledby="docentes">
+  <section id="globo" class="co-world" role="tabpanel" aria-labelledby="co-globo-tab">
+    <div class="co-globe"></div>
+  </section>
+  <section id="co-perfis" role="tabpanel" aria-labelledby="docentes" hidden>
     <p class="co-muted" data-filter-note hidden>{{ if $en }}The filter selects researchers who published with this faculty member. The totals and connections in each profile cover all their papers with the group.{{ else }}O filtro seleciona quem publicou com esse docente. Os totais e conexões de cada perfil abrangem todos os seus artigos com o grupo.{{ end }}</p>
     <div class="co-list-tools">
       <label><span data-search-label>{{ if $en }}Find a faculty member{{ else }}Buscar docente{{ end }}</span><input data-filter="name" type="search" autocomplete="off" placeholder="{{ if $en }}Name or surname{{ else }}Nome ou sobrenome{{ end }}"></label>
@@ -44,9 +47,6 @@
     <p class="co-result" aria-live="polite"></p>
     <table class="co-table"><thead><tr><th scope="col" data-name-header>{{ if $en }}Faculty member{{ else }}Docente{{ end }}</th><th scope="col" data-partners-header>{{ if $en }}Coauthors{{ else }}Coautores{{ end }}</th><th scope="col">{{ if $en }}Papers{{ else }}Artigos{{ end }}</th></tr></thead><tbody></tbody></table>
     <div class="co-pager"></div>
-  </section>
-  <section id="globo" class="co-world" role="tabpanel" aria-labelledby="co-globo-tab" hidden>
-    <div class="co-globe"></div>
   </section>
   <noscript>{{ if $en }}Enable JavaScript to explore the directory and globe. All author lists are available in the papers catalogue.{{ else }}Ative o JavaScript para explorar a lista e o globo. O catálogo de artigos contém todas as listas de autores.{{ end }}</noscript>
 </div>

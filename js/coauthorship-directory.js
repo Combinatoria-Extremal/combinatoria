@@ -41,7 +41,7 @@
   const tbody = find("tbody");
   const paperOrder = (a, b) => b.year - a.year || collator.compare(a.title, b.title);
   const modesByHash = {"#docentes": "faculty", "#externos": "external", "#pesquisadores": "external", "#globo": "globe"};
-  let mode = modesByHash[location.hash] || "faculty";
+  let mode = modesByHash[location.hash] || "globe";
   const sortByMode = {faculty: "name", external: "papers"};
   sortFilter.value = sortByMode[mode] || sortByMode.faculty;
   let page = 0, selected = null, mountedDiagram = null, globeDirty = true;
@@ -357,7 +357,7 @@
       memberFilter.value = id;
       setScope();
     }
-    switchMode(modesByHash[location.hash] || "faculty");
+    switchMode(modesByHash[location.hash] || "globe");
   }
   window.addEventListener("hashchange",restore);
   window.addEventListener("popstate",restore);
