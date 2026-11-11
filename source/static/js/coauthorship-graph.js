@@ -11,7 +11,8 @@
       overview: 'Explore as colaborações',
       summary: (n, e, p) => `${n} docentes · ${e} pares de coautores · ${p} artigos com pelo menos dois docentes deste grupo.`,
       hint: 'Selecione um docente ou uma aresta. Os artigos de cada colaboração aparecerão aqui.',
-      partners: n => `${n} ${n === 1 ? 'colaborador neste conjunto de dados' : 'colaboradores neste conjunto de dados'}.`,
+      partners: n => `${n} ${n === 1 ? 'colaborador entre os docentes do grupo' : 'colaboradores entre os docentes do grupo'}.`,
+      allPartners: name => `Ver todos os coautores de ${name}`,
       noPartners: 'Não há coautorias registradas para este docente no conjunto de dados consultado.',
       homepage: 'Página do docente',
       shared: n => `${n} ${n === 1 ? 'artigo em coautoria neste conjunto de dados' : 'artigos em coautoria neste conjunto de dados'}.`,
@@ -26,7 +27,8 @@
       overview: 'Explore collaborations',
       summary: (n, e, p) => `${n} faculty members · ${e} coauthor pairs · ${p} papers with at least two faculty members from this group.`,
       hint: 'Select a faculty member or an edge. The papers for each collaboration will appear here.',
-      partners: n => `${n} ${n === 1 ? 'collaborator in this dataset' : 'collaborators in this dataset'}.`,
+      partners: n => `${n} ${n === 1 ? 'collaborator among the group’s faculty' : 'collaborators among the group’s faculty'}.`,
+      allPartners: name => `See all coauthors of ${name}`,
       noPartners: 'No coauthorships are recorded for this faculty member in the dataset consulted.',
       homepage: 'Faculty homepage',
       shared: n => `${n} ${n === 1 ? 'shared paper in this dataset' : 'shared papers in this dataset'}.`,
@@ -239,14 +241,20 @@
       const list = html('ul', undefined, 'cg-partners');
       incident.forEach(edge => {
         const partner = nodes.get(edge.source === id ? edge.target : edge.source);
-        const button = html('button', `${partner.name} · ${t.papers(edge.weight)}`);
+        const button = html('button');
+        button.append(html('span', partner.name), html('span', t.papers(edge.weight), 'cg-partner-weight'));
         button.type = 'button';
         button.addEventListener('click', () => selectEdge(edge.key));
         const item = html('li');
         item.append(button);
         list.append(item);
       });
-      detail.append(list);
+      const directory = new URL(root.dataset.directory, location.href);
+      directory.searchParams.set('docente', id);
+      directory.hash = 'docentes';
+      const more = html('p', undefined, 'cg-directory-link');
+      more.append(link(t.allPartners(node.name), directory.href));
+      detail.append(list, more);
       paint();
     }
 

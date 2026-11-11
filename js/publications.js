@@ -68,7 +68,10 @@
     }
 
     function bibliography() {
-      return visibleEntries.map(entry => entry.bibtex.trim()).join('\n\n') + '\n';
+      const header = english
+        ? '% When available, entries were obtained from MathSciNet.\n\n'
+        : '% Quando disponíveis, as entradas foram obtidas do MathSciNet.\n\n';
+      return header + visibleEntries.map(entry => entry.bibtex.trim()).join('\n\n') + '\n';
     }
 
     copyButton.addEventListener('click', async () => {

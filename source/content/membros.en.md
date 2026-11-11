@@ -16,6 +16,8 @@ hideMeta: true
 
 {{< /faculty-collaborations >}}
 
+[View the full coauthorship network and country globe]({{< relref "/coautorias" >}})
+
 <br>
 
 ### Postdoctoral researchers

@@ -36,11 +36,14 @@ def main():
         for warning in data['_warnings']:
             print('REVISAR: ' + warning, flush=True)
         report = {'status': 'ok', 'source': str(source), 'counts': data['_counts'], 'warnings': data['_warnings'], 'published': False}
+        if args.require_empty_destination and not args.validate_only:
+            validation.need(not destination.exists() or (destination.is_dir() and not any(destination.iterdir())), str(destination), 'a saída já contém arquivos; escolha uma pasta nova para a versão de publicação')
+        network_command = [sys.executable, str(Path(__file__).with_name('update-collaboration-network.py')), '--source', str(source)]
         if args.validate_only:
+            subprocess.run([*network_command, '--check'], check=True)
             print(json.dumps(report, ensure_ascii=False, indent=2))
             return 0
-        if args.require_empty_destination:
-            validation.need(not destination.exists() or (destination.is_dir() and not any(destination.iterdir())), str(destination), 'a saída já contém arquivos; escolha uma pasta nova para a versão de publicação')
+        subprocess.run(network_command, check=True)
         hugo = shutil.which('hugo')
         validation.need(hugo is not None, 'Hugo', 'executável não encontrado no PATH; instale Hugo e abra um novo terminal')
         print('2/3  Compilando as duas línguas e recalculando os dados derivados...', flush=True)
@@ -48,6 +51,8 @@ def main():
                        cwd=source, env={**os.environ, 'PYTHONUTF8': '1'}, check=True)
         print('3/3  Conferindo páginas, links, catálogos e grafo gerados...', flush=True)
         report['output'] = validation.validate_output(source, destination, data)
+        subprocess.run([sys.executable, str(Path(__file__).with_name('export-collaboration-db.py')),
+                        '--source', str(source)], check=True)
         report['destination'] = str(destination)
         report_file = source / 'output' / 'last-update.json'
         report_file.parent.mkdir(parents=True, exist_ok=True)

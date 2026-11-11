@@ -7,7 +7,7 @@
 <script src="{{ "js/community-history.js" | relURL }}?v={{ printf "%.12s" (readFile "static/js/community-history.js" | sha256) }}" defer></script>
 <div class="community-history" data-lang="{{ .Page.Lang }}" data-source="{{ $json.RelPermalink }}">
   <div class="modern-box ch-intro">
-    <p>{{ if $en }}Explore the community’s training, papers, institutional presence and awards. Use the filters and select a year or state to view the records.{{ else }}Explore a formação, os artigos, a presença institucional e os prêmios da comunidade. Use os filtros e selecione um ano ou um estado para consultar os registros.{{ end }}</p>
+    <p>{{ if $en }}Explore the community’s training, papers, institutional presence and awards.{{ else }}Explore a formação, os artigos, a presença institucional e os prêmios da comunidade.{{ end }}</p>
     <div class="ch-summary" data-summary></div>
   </div>
   <nav class="ch-tabs" aria-label="{{ if $en }}Explore community data{{ else }}Explore os dados da comunidade{{ end }}">

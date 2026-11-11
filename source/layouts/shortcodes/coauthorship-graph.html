@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="{{ "css/coauthorship-graph.css" | relURL }}?v={{ printf "%.12s" (readFile "static/css/coauthorship-graph.css" | sha256) }}">
 <script src="{{ "js/coauthorship-graph.js" | relURL }}?v={{ printf "%.12s" (readFile "static/js/coauthorship-graph.js" | sha256) }}" defer></script>
 {{- end -}}
-<section class="coauthorship-graph" id="{{ $id }}" data-lang="{{ .Page.Lang }}" data-source="{{ $resource.RelPermalink }}" aria-label="{{ if $en }}Faculty and collaborations{{ else }}Docentes e colaborações{{ end }}">
+<section class="coauthorship-graph" id="{{ $id }}" data-lang="{{ .Page.Lang }}" data-source="{{ $resource.RelPermalink }}" data-directory="{{ "coautorias/" | relLangURL }}" aria-label="{{ if $en }}Faculty and collaborations{{ else }}Docentes e colaborações{{ end }}">
   <p class="cg-status" data-role="status" role="status">{{ if $en }}Loading coauthorship data…{{ else }}Carregando os dados de coautoria…{{ end }}</p>
   <div class="cg-interactive" hidden>
     <div class="cg-controls">

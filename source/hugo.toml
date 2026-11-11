@@ -46,6 +46,12 @@ theme = 'PaperMod'
     weight = 10
 
   [[menu.main]]
+    identifier = "coautorias"
+    name = "Coautorias"
+    url = "/coautorias/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "eventos"
     name = "Eventos"
     url = "/eventos/"
@@ -102,6 +108,12 @@ theme = 'PaperMod'
   name = "Members"
   url = "/membros/"
   weight = 10
+
+[[languages.en.menu.main]]
+  identifier = "coautorias"
+  name = "Coauthorships"
+  url = "/coautorias/"
+  weight = 15
 
 [[languages.en.menu.main]]
   identifier = "eventos"

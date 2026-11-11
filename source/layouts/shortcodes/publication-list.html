@@ -11,6 +11,7 @@
 <div class="publication-catalogue" data-lang="{{ .Page.Lang }}">
 <div class="modern-box">
   {{ if $en }}Our catalogue contains a total of <b>{{ len $papers }} papers</b> by faculty members of our community.<br>Community members’ names are highlighted in blue.{{ else }}Nosso catálogo reúne um total de <b>{{ len $papers }} artigos</b> de docentes da comunidade.<br>Os nomes dos membros da comunidade estão destacados em azul.{{ end }}<br><br>
+  <a href="{{ "coautorias/" | relLangURL }}">{{ if $en }}Explore the coauthorship network and country globe{{ else }}Explorar a rede de coautorias e o globo por país{{ end }}</a><br><br>
   {{ if $en }}Last updated: {{ time.Format "January 2, 2006" $catalog.updated }}.{{ else }}Última atualização: {{ time.Format "02/01/2006" $catalog.updated }}.{{ end }}
 </div>
 <form class="publication-filter" role="search" aria-label="{{ if $en }}Search papers{{ else }}Buscar artigos{{ end }}" hidden>

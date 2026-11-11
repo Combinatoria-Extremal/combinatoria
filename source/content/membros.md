@@ -16,6 +16,8 @@ hideMeta: true
 
 {{< /faculty-collaborations >}}
 
+[Ver a rede completa de coautorias e o globo por país]({{< relref "/coautorias" >}})
+
 <br>
 
 ### Pós-doutorandos

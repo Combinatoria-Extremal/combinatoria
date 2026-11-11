@@ -1,0 +1,52 @@
+{{- $en := eq .Page.Lang "en" -}}
+{{- $community := partialCached "community-data.html" site -}}
+{{- $bibtex := dict -}}
+{{- range $community.publications.papers -}}
+  {{- $bibtex = merge $bibtex (dict .id (partial "publication-reference.html" .)) -}}
+{{- end -}}
+{{- $data := dict "faculty" $community.faculty "papers" $community.publications.papers "bibtex" $bibtex "network" (index site.Data "collaboration-network") "aliases" (index site.Data "collaboration-aliases") "geo" (index site.Data "collaboration-countries") -}}
+{{- range slice "css/coauthorship-directory.css" "css/co-globe.css" -}}
+<link rel="stylesheet" href="{{ . | relURL }}?v={{ printf "%.12s" (readFile (printf "static/%s" .) | sha256) }}">
+{{- end -}}
+{{- range slice "js/vendor/co-globe-d3.js" "js/co-globe-map.js" "js/co-globe.js" "js/co-connection-diagram.js" "js/coauthorship-directory.js" -}}
+<script defer src="{{ . | relURL }}?v={{ printf "%.12s" (readFile (printf "static/%s" .) | sha256) }}"></script>
+{{- end -}}
+<div class="co-directory" data-lang="{{ .Page.Lang }}">
+  <script type="application/json" class="co-data">{{ $data | jsonify | safeJS }}</script>
+  <p class="co-intro">{{ if $en }}Explore collaborations involving the {{ len $community.faculty }} faculty members in the <a href="{{ "artigos/" | relLangURL }}">papers catalogue</a>.<br>Each paper counts once per profile and once per coauthor pair.{{ else }}Explore as parcerias dos {{ len $community.faculty }} docentes nos artigos do <a href="{{ "artigos/" | relLangURL }}">catálogo</a>.<br>Cada artigo conta uma vez no perfil e uma vez em cada par de coautores.{{ end }}</p>
+  <dl class="co-stats">
+    <div><dt>{{ if $en }}Researchers{{ else }}Pesquisadores{{ end }}</dt><dd data-count="people">—</dd></div>
+    <div><dt>{{ if $en }}Papers{{ else }}Artigos{{ end }}</dt><dd data-count="papers">—</dd></div>
+    <div><dt>{{ if $en }}Coauthor pairs with faculty{{ else }}Pares de coautoria com docentes{{ end }}</dt><dd data-count="pairs">—</dd></div>
+  </dl>
+  <div class="co-tools">
+    <nav class="co-views" role="tablist" aria-label="{{ if $en }}Coauthorships{{ else }}Coautorias{{ end }}">
+      <a href="#docentes" id="docentes" role="tab" aria-controls="co-perfis" aria-selected="true" data-tab="faculty">{{ if $en }}Faculty and their coauthors{{ else }}Docentes e seus coautores{{ end }}</a>
+      <a href="#externos" id="externos" role="tab" aria-controls="co-perfis" aria-selected="false" tabindex="-1" data-tab="external">{{ if $en }}External researchers{{ else }}Pesquisadores externos{{ end }}</a>
+      <a href="#globo" id="co-globo-tab" role="tab" aria-controls="globo" aria-selected="false" tabindex="-1" data-tab="globe">{{ if $en }}Earth globe{{ else }}Globo terrestre{{ end }}</a>
+    </nav>
+    <label class="co-faculty">{{ if $en }}Filter by faculty member{{ else }}Filtrar por docente{{ end }}
+      <select data-filter="faculty"><option value="">{{ if $en }}All faculty members{{ else }}Todos os docentes{{ end }}</option>
+      {{- range sort $community.faculty "name" }}<option value="{{ .id }}">{{ .name }}</option>{{ end -}}
+      </select>
+    </label>
+  </div>
+  <section id="co-perfis" role="tabpanel" aria-labelledby="docentes">
+    <p class="co-muted" data-filter-note hidden>{{ if $en }}The filter selects researchers who published with this faculty member. The totals and connections in each profile cover all their papers with the group.{{ else }}O filtro seleciona quem publicou com esse docente. Os totais e conexões de cada perfil abrangem todos os seus artigos com o grupo.{{ end }}</p>
+    <div class="co-list-tools">
+      <label><span data-search-label>{{ if $en }}Find a faculty member{{ else }}Buscar docente{{ end }}</span><input data-filter="name" type="search" autocomplete="off" placeholder="{{ if $en }}Name or surname{{ else }}Nome ou sobrenome{{ end }}"></label>
+      <label>{{ if $en }}Sort by{{ else }}Ordenar por{{ end }}<select data-filter="sort">
+        <option value="partners">{{ if $en }}Most coauthors{{ else }}Mais coautores{{ end }}</option>
+        <option value="papers">{{ if $en }}Most papers{{ else }}Mais artigos{{ end }}</option>
+        <option value="name">{{ if $en }}Name (A–Z){{ else }}Nome (A–Z){{ end }}</option>
+      </select></label>
+    </div>
+    <p class="co-result" aria-live="polite"></p>
+    <table class="co-table"><thead><tr><th scope="col" data-name-header>{{ if $en }}Faculty member{{ else }}Docente{{ end }}</th><th scope="col" data-partners-header>{{ if $en }}Coauthors{{ else }}Coautores{{ end }}</th><th scope="col">{{ if $en }}Papers{{ else }}Artigos{{ end }}</th></tr></thead><tbody></tbody></table>
+    <div class="co-pager"></div>
+  </section>
+  <section id="globo" class="co-world" role="tabpanel" aria-labelledby="co-globo-tab" hidden>
+    <div class="co-globe"></div>
+  </section>
+  <noscript>{{ if $en }}Enable JavaScript to explore the directory and globe. All author lists are available in the papers catalogue.{{ else }}Ative o JavaScript para explorar a lista e o globo. O catálogo de artigos contém todas as listas de autores.{{ end }}</noscript>
+</div>

@@ -13,7 +13,7 @@ A migração de 08/11/2026 preservou **140 titulações** (102 mestrados acadêm
 - `advisors`: referências `{personId, role, label?: {pt, en}}`. `role` aceita `advisor`, `coadvisor`, `joint` e `institutional`. A mesma titulação pode ter vários orientadores; continua sendo contada uma só vez.
 - `sources`: registros `{label, kind, checked, url?}`. `checked` registra a data da evidência ou da auditoria preservada, não uma nova consulta feita pela migração. Campos adicionais como `local_evidence` e `verified_fields` mantêm a rastreabilidade. Caminhos locais são relativos ao workspace da auditoria, não homepages dos pesquisadores.
 - `verification`: preserva `auditRecordId`, `externalStatus`, `confirmedFields`, `startYearStatus`, `auditDate` e, quando existentes, `sourceDistinction` e `startYearFollowup`. A existência de uma fonte não confirma automaticamente todos os campos.
-- `coverage`: contagens, limites e proveniência geral da auditoria. Atualize os totais ao acrescentar ou retirar registros.
+- `coverage` conserva os metadados da auditoria original. O fluxo habitual calcula os totais a partir dos registros.
 
 Os campos opcionais `displayName` e `displayRoles: {pt, en}` preservam as grafias e os rótulos publicados antes da migração. Em `displayRoles`, cada linha é separada por `\n`; o validador confere se os nomes e papéis correspondem aos vínculos estruturados. Para novos registros, prefira omitir esses campos: o shortcode usa os nomes canônicos e traduz os papéis automaticamente. `notes` contém texto simples, nunca HTML ou links nos nomes.
 
@@ -31,14 +31,14 @@ Os campos opcionais `displayName` e `displayRoles: {pt, en}` preservam as grafia
 1. Procure primeiro `personId` e `aliases`, inclusive se a pessoa já tem outro grau ou estágio. Reutilize o ID.
 2. Acrescente ou corrija o grau/estágio no JSON, sem duplicar a entrada para cada orientador. Preserve a distinção entre orientação, coorientação e supervisão institucional.
 3. Inclua a evidência, a data e quais campos ela sustenta. Informações não confirmadas ficam nulas; texto histórico pode ser preservado em `displayPeriod` ou `notes` com explicação explícita.
-4. Atualize traduções, `updated` e contagens em `coverage`. A ordem dos arrays determina a ordem das listas de Membros; a numeração decrescente é automática.
+4. Atualize traduções e `updated`. Os totais exibidos são calculados dos registros. A ordem dos arrays determina a ordem das listas de Membros; a numeração decrescente é automática.
 5. Execute o validador e o build. Não publique automaticamente.
 
 ```powershell
 python scripts/update-site.py
 ```
 
-O validador verifica identidades, aliases, referências, papéis exibidos, fontes, limites de datas, contagens, duplicatas e ausência de ciclos no grafo de doutorado. Para a base inicial, use também `--expected-degrees 140 --expected-postdocs 38`.
+O comando habitual verifica identidades, aliases, referências, papéis, fontes, datas, duplicatas e ciclos de orientação. O script `validate-history.py` e as opções `--expected-degrees 140 --expected-postdocs 38` servem à conferência da migração inicial, com seu esquema e contagens legados.
 
 ## Proveniência e reprodução da migração
 

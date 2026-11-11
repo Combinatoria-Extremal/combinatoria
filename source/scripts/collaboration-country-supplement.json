@@ -1,0 +1,3555 @@
+{
+  "arxiv:0806.4485": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "József Balogh": [
+        {
+          "country": "US",
+          "name": "University of Illinois Urbana-Champaign"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/0806.4485"
+  },
+  "arxiv:0905.1942": {
+    "institutions": {
+      "Bela Bollobas": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/pdf/0905.1942"
+  },
+  "arxiv:0906.3724": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/pdf/0906.3724"
+  },
+  "arxiv:0911.3969": {
+    "institutions": {
+      "Florian Huc": [
+        {
+          "country": "CH",
+          "name": "Université de Genève"
+        }
+      ],
+      "Omid Amini": [
+        {
+          "country": "FR",
+          "name": "Centre national de la recherche scientifique"
+        },
+        {
+          "country": "FR",
+          "name": "École normale supérieure (Paris)"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/0911.3969"
+  },
+  "arxiv:0912.0335": {
+    "institutions": {
+      "Louigi Addario-Berry": [
+        {
+          "country": "CA",
+          "name": "McGill University"
+        }
+      ],
+      "Ross J. Kang": [
+        {
+          "country": "GB",
+          "name": "Durham University"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/0912.0335"
+  },
+  "arxiv:1010.2516": {
+    "institutions": {
+      "Cristiane M. Sato": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ],
+      "Graeme Kemkes": [
+        {
+          "country": "CA",
+          "name": "Ryerson University"
+        }
+      ],
+      "Nicholas Wormald": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ]
+    },
+    "source": "https://users.monash.edu.au/~nwormald/papers/2connected.pdf"
+  },
+  "arxiv:1102.5543": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Hanno Lefmann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1102.5543"
+  },
+  "arxiv:1103.2041": {
+    "institutions": {
+      "Wojciech Samotij": [
+        {
+          "country": "IL",
+          "name": "Tel Aviv University"
+        },
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://www.math.tau.ac.il/~samotij/papers/BMS_sumfree_revised-arXiv.pdf"
+  },
+  "arxiv:1106.1663": {
+    "institutions": {
+      "Carlos Gustavo Tamm de Araújo Moreira": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Rudini Menezes Sampaio": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1106.1663"
+  },
+  "arxiv:1107.1381": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/pdf/1107.1381"
+  },
+  "arxiv:1107.1410": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/pdf/1107.1410"
+  },
+  "arxiv:1108.0310": {
+    "institutions": {
+      "Daniel Ahlberg": [
+        {
+          "country": "SE",
+          "name": "Chalmers University of Technology"
+        },
+        {
+          "country": "SE",
+          "name": "University of Gothenburg"
+        }
+      ],
+      "Erik Broman": [
+        {
+          "country": "SE",
+          "name": "Chalmers University of Technology"
+        },
+        {
+          "country": "SE",
+          "name": "University of Gothenburg"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://www.math.chalmers.se/~broman/papers/ABGM_final.pdf"
+  },
+  "arxiv:1201.6654": {
+    "institutions": {
+      "Wojciech Samotij": [
+        {
+          "country": "IL",
+          "name": "Tel Aviv University"
+        },
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://www.math.tau.ac.il/~samotij/papers/ABMS_sumfree_revised.pdf"
+  },
+  "arxiv:1303.3881": {
+    "institutions": {
+      "Cristiane M. Sato": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ],
+      "Pu Gao": [
+        {
+          "country": "CA",
+          "name": "University of Toronto"
+        }
+      ],
+      "Xavier Pérez-Giménez": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1303.3881"
+  },
+  "arxiv:1505.04309": {
+    "institutions": {
+      "Fábio Botler": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marcio T. I. Oshiro": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yoshiko Wakabayashi": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1505.04309"
+  },
+  "arxiv:1507.05226": {
+    "institutions": {
+      "Barnaby Roberts": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Julia Böttcher": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Peter Allen": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1507.05226"
+  },
+  "arxiv:1603.04180": {
+    "institutions": {
+      "Fabian Schulenburg": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Jakob Schnitzer": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Josefran de Oliveira Bastos": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Mathias Schacht": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1603.04180"
+  },
+  "arxiv:1603.05237": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        },
+        {
+          "country": "GB",
+          "name": "London Institute for Mathematical Sciences"
+        }
+      ],
+      "Hugo Duminil-Copin": [
+        {
+          "country": "CH",
+          "name": "Université de Genève"
+        }
+      ],
+      "Paul Smith": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1603.05237"
+  },
+  "arxiv:1607.04741": {
+    "institutions": {
+      "Cristiane Maria Sato": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "Fernando Mário de Oliveira Filho": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marcel K. de Carli Silva": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1607.04741"
+  },
+  "arxiv:1612.00622": {
+    "institutions": {
+      "Hiep Hàn": [
+        {
+          "country": "CL",
+          "name": "Universidad de Santiago de Chile"
+        }
+      ],
+      "Julia Böttcher": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Peter Allen": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yury Person": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Ilmenau"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1612.00622"
+  },
+  "arxiv:1702.04313": {
+    "institutions": {
+      "Ervin Győri": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ],
+      "Péter L. Erdős": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        }
+      ],
+      "Tamás Róbert Mezei": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1702.04313"
+  },
+  "arxiv:1705.02124": {
+    "institutions": {
+      "Ervin Győri": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ],
+      "Péter L. Erdős": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        }
+      ],
+      "Tamás Róbert Mezei": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1705.02124"
+  },
+  "arxiv:1705.03707": {
+    "institutions": {
+      "Fabian Schulenburg": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Jakob Schnitzer": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Josefran de Oliveira Bastos": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Mathias Schacht": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1705.03707"
+  },
+  "arxiv:1708.04488": {
+    "institutions": {
+      "Carla N. Lintzmayer": [
+        {
+          "country": "BR",
+          "name": "Universidade Estadual de Campinas"
+        }
+      ],
+      "Cristina G. Fernandes": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Cândida N. da Silva": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de São Carlos"
+        }
+      ],
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "Márcia R. Cerioli": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        }
+      ],
+      "Orlando Lee": [
+        {
+          "country": "BR",
+          "name": "Universidade Estadual de Campinas"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1708.04488"
+  },
+  "arxiv:1801.04584": {
+    "institutions": {
+      "József Balogh": [
+        {
+          "country": "US",
+          "name": "University of Illinois Urbana-Champaign"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Wojciech Samotij": [
+        {
+          "country": "IL",
+          "name": "Tel Aviv University"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1801.04584"
+  },
+  "arxiv:1810.13036": {
+    "institutions": {
+      "Carlos V. G. C. Lima": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Guilherme de C. M. Gomes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Vinícius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1810.13036"
+  },
+  "arxiv:1903.04541": {
+    "institutions": {
+      "Abhishek Methuku": [
+        {
+          "country": "CH",
+          "name": "École polytechnique fédérale de Lausanne"
+        }
+      ],
+      "Ervin Győri": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1903.04541"
+  },
+  "arxiv:1911.03297": {
+    "institutions": {
+      "Guilherme C. M. Gomes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Matheus R. Guedes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1911.03297"
+  },
+  "arxiv:1912.00457": {
+    "institutions": {
+      "Ervin Győri": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University (Budapest)"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        },
+        {
+          "country": "HU",
+          "name": "Central European University (Budapest)"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1912.00457"
+  },
+  "arxiv:1912.01081": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Hanno Lefmann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Henrique Stagni": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Richard Lang": [
+        {
+          "country": "DE",
+          "name": "Universität Heidelberg"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/1912.01081"
+  },
+  "arxiv:2005.11942": {
+    "institutions": {
+      "Mathias Schacht": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Pedro Araújo": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Simón Piga": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2005.11942"
+  },
+  "arxiv:2006.00292": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Hanno Lefmann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Knut Odermann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Lucas de Oliveira Contiero": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2006.00292"
+  },
+  "arxiv:2006.02079": {
+    "institutions": {
+      "Bruno Pasqualotto Cavalar": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Gabriel Ferreira Barros": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Olaf Parczyk": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2006.02079"
+  },
+  "arxiv:2006.14469": {
+    "institutions": {
+      "Bjarne Schülke": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Walner Mendonça": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2006.14469"
+  },
+  "arxiv:2007.04468": {
+    "institutions": {
+      "Guilherme C. M. Gomes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Jayme L. Szwarcfiter": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        },
+        {
+          "country": "BR",
+          "name": "Universidade do Estado do Rio de Janeiro"
+        }
+      ],
+      "Murilo V. G. da Silva": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Paraná"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2007.04468"
+  },
+  "arxiv:2011.14801": {
+    "institutions": {
+      "Guilherme C. M. Gomes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2011.14801"
+  },
+  "arxiv:2012.08632": {
+    "institutions": {
+      "Bruno Pasqualotto Cavalar": [
+        {
+          "country": "GB",
+          "name": "University of Warwick"
+        }
+      ],
+      "Gabriel Ferreira Barros": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Tássio Naia": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2012.08632"
+  },
+  "arxiv:2107.14161": {
+    "institutions": {
+      "Flávio Keidi Miyazawa": [
+        {
+          "country": "BR",
+          "name": "Universidade Estadual de Campinas"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yoshiko Wakabayashi": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2107.14161"
+  },
+  "arxiv:2203.01917": {
+    "authorEvidence": {
+      "Paul Smith": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:1603.05237",
+        "title": "The sharp threshold for the Duarte model",
+        "year": 2016
+      }
+    },
+    "authorSources": {
+      "Paul Smith": "https://arxiv.org/pdf/1603.05237v2"
+    },
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Paul Balister": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "Paul Smith": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2203.01917"
+  },
+  "arxiv:2203.13806": {
+    "authorEvidence": {
+      "Paul Smith": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:1603.05237",
+        "title": "The sharp threshold for the Duarte model",
+        "year": 2016
+      }
+    },
+    "authorSources": {
+      "Paul Smith": "https://arxiv.org/pdf/1603.05237v2"
+    },
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Paul Balister": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "Paul Smith": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2203.13806"
+  },
+  "arxiv:2203.13808": {
+    "authorEvidence": {
+      "Paul Smith": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:1603.05237",
+        "title": "The sharp threshold for the Duarte model",
+        "year": 2016
+      }
+    },
+    "authorSources": {
+      "Paul Smith": "https://arxiv.org/pdf/1603.05237v2"
+    },
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Paul Balister": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "Paul Smith": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2203.13808"
+  },
+  "arxiv:2207.05201": {
+    "institutions": {
+      "Carlos Gustavo Moreira": [
+        {
+          "country": "CN",
+          "name": "Nankai University"
+        },
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2207.05201"
+  },
+  "arxiv:2208.01796": {
+    "institutions": {
+      "Carlos V. G. C. Lima": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Cariri"
+        }
+      ],
+      "João H. G. Sousa": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Sebastián A. Urrutia": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2208.01796"
+  },
+  "arxiv:2209.03339": {
+    "institutions": {
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2209.03339"
+  },
+  "arxiv:2212.06802": {
+    "institutions": {
+      "João Pedro Marciano": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Lucas Aragão": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Taísa Martins": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal Fluminense"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2212.06802"
+  },
+  "arxiv:2301.08707": {
+    "institutions": {
+      "François Dross": [
+        {
+          "country": "FR",
+          "name": "LaBRI, Université de Bordeaux / CNRS"
+        }
+      ],
+      "Fábio Botler": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        }
+      ],
+      "Jozef Skokan": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Marthe Bonamy": [
+        {
+          "country": "FR",
+          "name": "LaBRI, Université de Bordeaux / CNRS"
+        }
+      ],
+      "Tássio Naia": [
+        {
+          "country": "ES",
+          "name": "Centre de Recerca Matemàtica"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2301.08707"
+  },
+  "arxiv:2307.07782": {
+    "institutions": {
+      "Amer E. Mouawad": [
+        {
+          "country": "LB",
+          "name": "American University of Beirut"
+        }
+      ],
+      "Clément Legrand-Duchesne": [
+        {
+          "country": "FR",
+          "name": "LaBRI, Université de Bordeaux / CNRS"
+        }
+      ],
+      "Guilherme C. M. Gomes": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Reem Mahmoud": [
+        {
+          "country": "US",
+          "name": "Virginia Commonwealth University"
+        }
+      ],
+      "Tom C. van der Zanden": [
+        {
+          "country": "NL",
+          "name": "Maastricht University"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Yoshio Okamoto": [
+        {
+          "country": "JP",
+          "name": "The University of Electro-Communications"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2307.07782"
+  },
+  "arxiv:2307.09446": {
+    "institutions": {
+      "Letícia Mattos": [
+        {
+          "country": "DE",
+          "name": "Universität Heidelberg"
+        }
+      ],
+      "Pedro Araújo": [
+        {
+          "country": "CZ",
+          "name": "Czech Technical University in Prague"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2307.09446"
+  },
+  "arxiv:2308.13485": {
+    "institutions": {
+      "Fábio Botler": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        }
+      ],
+      "João Pedro de Souza": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        },
+        {
+          "country": "BR",
+          "name": "Colégio Pedro II"
+        }
+      ],
+      "Wanderson Lomenha": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2308.13485"
+  },
+  "arxiv:2309.14197": {
+    "institutions": {
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Henrique Stagni": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "José D. Alvarado": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Richard Lang": [
+        {
+          "country": "DE",
+          "name": "Universität Hamburg"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2309.14197"
+  },
+  "arxiv:2310.11661": {
+    "institutions": {
+      "Lutz Warnke": [
+        {
+          "country": "US",
+          "name": "University of California San Diego"
+        }
+      ],
+      "Matas Šileikis": [
+        {
+          "country": "CZ",
+          "name": "Czech Academy of Sciences"
+        },
+        {
+          "country": "LT",
+          "name": "Vilnius University"
+        }
+      ],
+      "Pedro Araújo": [
+        {
+          "country": "CZ",
+          "name": "Czech Technical University in Prague"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2310.11661"
+  },
+  "arxiv:2312.10026": {
+    "institutions": {
+      "Julian Sahasrabudhe": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Marcus Michelen": [
+        {
+          "country": "US",
+          "name": "University of Illinois Chicago"
+        }
+      ],
+      "Matthew Jenssen": [
+        {
+          "country": "GB",
+          "name": "King’s College London"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2312.10026"
+  },
+  "arxiv:2403.13792": {
+    "institutions": {
+      "Gabriel Dias": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ],
+      "José Alvarado": [
+        {
+          "country": "SI",
+          "name": "University of Ljubljana"
+        },
+        {
+          "country": "SI",
+          "name": "Institute of Mathematics, Physics and Mechanics"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2403.13792"
+  },
+  "arxiv:2404.17260": {
+    "institutions": {
+      "Joseph Doolittle": [
+        {
+          "country": "AT",
+          "name": "RobotDreams GmbH"
+        }
+      ],
+      "Joshua Erde": [
+        {
+          "country": "GB",
+          "name": "University of Birmingham"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2404.17260"
+  },
+  "arxiv:2406.17486": {
+    "institutions": {
+      "Anna Geisler": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Joshua Erde": [
+        {
+          "country": "GB",
+          "name": "University of Birmingham"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Mihyun Kang": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2406.17486"
+  },
+  "arxiv:2406.18670": {
+    "institutions": {
+      "Cristiane M. Sato": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "Levent Tunçel": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ],
+      "Marcel K. de Carli Silva": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Nathan Benedetto Proença": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2406.18670"
+  },
+  "arxiv:2410.17197": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Eoin Hurley": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "Julian Sahasrabudhe": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Marius Tiba": [
+        {
+          "country": "CH",
+          "name": "École polytechnique fédérale de Lausanne"
+        }
+      ],
+      "Paul Balister": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2410.17197"
+  },
+  "arxiv:2411.14566": {
+    "institutions": {
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "José D. Alvarado": [
+        {
+          "country": "SI",
+          "name": "University of Ljubljana"
+        }
+      ],
+      "Patrick Morris": [
+        {
+          "country": "ES",
+          "name": "Universitat Politècnica de Catalunya"
+        }
+      ],
+      "Y. Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2411.14566"
+  },
+  "arxiv:2411.17885": {
+    "institutions": {
+      "C. G. Fernandes": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "C. M. Sato": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "E. F. de Figueiredo": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "F. Botler": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "R. Gómez": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "V. F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Y. S. Couto": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2411.17885"
+  },
+  "arxiv:2502.15675": {
+    "institutions": {
+      "Ivo Koch": [
+        {
+          "country": "AR",
+          "name": "Universidad Nacional de General Sarmiento"
+        }
+      ],
+      "Nina Pardal": [
+        {
+          "country": "GB",
+          "name": "University of Huddersfield"
+        }
+      ],
+      "Vinicius F. dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2502.15675"
+  },
+  "arxiv:2503.19244": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Dionatan Ricardo Schmidt": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Pampa"
+        }
+      ],
+      "Hiêp Hàn": [
+        {
+          "country": "CL",
+          "name": "Universidad de Santiago de Chile"
+        }
+      ],
+      "Nicolas Moro Müller": [
+        {
+          "country": "BR",
+          "name": "Instituto Federal do Rio Grande do Sul"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2503.19244"
+  },
+  "arxiv:2503.22255": {
+    "institutions": {
+      "Anna Geisler": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Joshua Erde": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Mihyun Kang": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2503.22255"
+  },
+  "arxiv:2505.13371": {
+    "institutions": {
+      "Julian Sahasrabudhe": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Marcus Michelen": [
+        {
+          "country": "US",
+          "name": "University of Illinois Chicago"
+        }
+      ],
+      "Matthew Jenssen": [
+        {
+          "country": "GB",
+          "name": "King’s College London"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2505.13371"
+  },
+  "arxiv:2506.11318": {
+    "institutions": {
+      "Bruno Monteiro": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Vinicius dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2506.11318"
+  },
+  "arxiv:2507.04254": {
+    "institutions": {
+      "Arthur Dumas": [
+        {
+          "country": "FR",
+          "name": "LIRIS, Université de Lyon / CNRS / INSA Lyon / UCBL / Centrale Lyon / Université Lyon 2"
+        }
+      ],
+      "Fatemeh Ghasemi": [
+        {
+          "country": "FR",
+          "name": "Université Paris-Est Créteil"
+        }
+      ],
+      "Fábio Botler": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Gaia Carenini": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Gaétan Berthe": [
+        {
+          "country": "FR",
+          "name": "LIMOS, Université Clermont Auvergne / CNRS / Clermont Auvergne INP / Mines Saint-Étienne"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marthe Bonamy": [
+        {
+          "country": "FR",
+          "name": "LaBRI, Université de Bordeaux / CNRS"
+        }
+      ],
+      "Pedro Mariano Viana Neto": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2507.04254"
+  },
+  "arxiv:2508.00893": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Hariprasad Manjunath": [
+        {
+          "country": "FR",
+          "name": "Inria, Sophia Antipolis"
+        }
+      ],
+      "Konstantin Avrachenkov": [
+        {
+          "country": "FR",
+          "name": "Inria, Sophia Antipolis"
+        }
+      ],
+      "Lucas Siviero Sibemberg": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Luiz Emilio Allem": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2508.00893"
+  },
+  "arxiv:2509.22629": {
+    "institutions": {
+      "Gabriel Dahia": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "João Pedro Marciano": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Lucas Aragão": [
+        {
+          "country": "BR",
+          "name": "Universidade do Estado do Rio de Janeiro"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Rafael Filipe": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2509.22629"
+  },
+  "arxiv:2509.26028": {
+    "institutions": {
+      "Dominik Schmid": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ],
+      "Gregory B. Sorkin": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "Joshua Erde": [
+        {
+          "country": "GB",
+          "name": "University of Birmingham"
+        }
+      ],
+      "Maurício Collares": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Michael Anastos": [
+        {
+          "country": "AT",
+          "name": "Institute of Science and Technology Austria"
+        }
+      ],
+      "Mihyun Kang": [
+        {
+          "country": "AT",
+          "name": "Graz University of Technology"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2509.26028"
+  },
+  "arxiv:2510.03084": {
+    "institutions": {
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "José D. Alvarado": [
+        {
+          "country": "SI",
+          "name": "University of Ljubljana"
+        }
+      ],
+      "Miquel Ortega": [
+        {
+          "country": "ES",
+          "name": "Universitat Politècnica de Catalunya"
+        }
+      ],
+      "Patrick Morris": [
+        {
+          "country": "ES",
+          "name": "Universitat Politècnica de Catalunya"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2510.03084"
+  },
+  "arxiv:2511.02963": {
+    "institutions": {
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Meysam Miralaei": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Walner Mendonça": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2511.02963"
+  },
+  "arxiv:2512.06229": {
+    "institutions": {
+      "Lucas Colucci": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marco D'Emidio": [
+        {
+          "country": "BR",
+          "name": "Colégio Etapa"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2512.06229"
+  },
+  "arxiv:2602.07282": {
+    "institutions": {
+      "Carlos Hoppen": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Lucas Siviero Sibemberg": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Luiz Emilio Allem": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ],
+      "Martin Fürer": [
+        {
+          "country": "US",
+          "name": "Pennsylvania State University"
+        }
+      ],
+      "Vilmar Trevisan": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2602.07282"
+  },
+  "arxiv:2603.10951": {
+    "institutions": {
+      "Giovanne Santos": [
+        {
+          "country": "CL",
+          "name": "Universidad de Chile"
+        }
+      ],
+      "Maya Stein": [
+        {
+          "country": "CL",
+          "name": "Universidad de Chile"
+        }
+      ],
+      "Pedro Araújo": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Pernambuco"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2603.10951"
+  },
+  "arxiv:2604.04115": {
+    "institutions": {
+      "Fabrício S. Benevides": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ],
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Rubens C. S. Monteiro": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2604.04115"
+  },
+  "arxiv:2605.21471": {
+    "institutions": {
+      "Danni Peng": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Lucas Aragão": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio de Janeiro"
+        }
+      ],
+      "Rafael Filipe": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Rafael Miyazaki": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Xinbu Cheng": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Zhifei Yan": [
+        {
+          "country": "KR",
+          "name": "Institute for Basic Science"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2605.21471"
+  },
+  "arxiv:2606.24739": {
+    "institutions": {
+      "Fernando Afonso": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Lucas Colucci": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Tássio Naia": [
+        {
+          "country": "ES",
+          "name": "Centre de Recerca Matemàtica"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2606.24739"
+  },
+  "arxiv:2607.16118": {
+    "institutions": {
+      "Jacques Verstraëte": [
+        {
+          "country": "US",
+          "name": "University of California, San Diego"
+        }
+      ],
+      "Julian Sahasrabudhe": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2607.16118"
+  },
+  "arxiv:2607.29336": {
+    "institutions": {
+      "Alexey Pokrovskiy": [
+        {
+          "country": "GB",
+          "name": "University College London"
+        }
+      ],
+      "Csaba Biró": [
+        {
+          "country": "US",
+          "name": "University of Louisville"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Gábor N. Sárközy": [
+        {
+          "country": "US",
+          "name": "Worcester Polytechnic Institute"
+        },
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        }
+      ],
+      "Miklós Ruszinkó": [
+        {
+          "country": "AE",
+          "name": "Sorbonne University Abu Dhabi"
+        },
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        }
+      ],
+      "Richard Lang": [
+        {
+          "country": "ES",
+          "name": "Universitat Politècnica de Catalunya"
+        },
+        {
+          "country": "ES",
+          "name": "Centre de Recerca Matemàtica"
+        }
+      ],
+      "Ryan R. Martin": [
+        {
+          "country": "US",
+          "name": "Iowa State University"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2607.29336"
+  },
+  "arxiv:2608.00555": {
+    "institutions": {
+      "A. Jiménez": [
+        {
+          "country": "CL",
+          "name": "Universidad de Valparaíso"
+        }
+      ],
+      "C. N. Lintzmayer": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "M. Sambinelli": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2608.00555"
+  },
+  "arxiv:2608.17300": {
+    "institutions": {
+      "Bruno Skarmeta": [
+        {
+          "country": "CL",
+          "name": "Centro de Modelamiento Matemático"
+        }
+      ],
+      "César Bispo": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "George Kontogeorgiou": [
+        {
+          "country": "CL",
+          "name": "Centro de Modelamiento Matemático"
+        }
+      ],
+      "Guilherme O. Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marcelo Lage": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2608.17300"
+  },
+  "arxiv:2608.17996": {
+    "institutions": {
+      "Luiz Moreira": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Pernambuco"
+        }
+      ],
+      "Pedro Araújo": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Pernambuco"
+        }
+      ],
+      "Taísa Martins": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal Fluminense"
+        }
+      ],
+      "Vinícius Fernandes dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ],
+      "Walner Mendonça": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ],
+      "Xiao-Chuan Liu": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Pernambuco"
+        }
+      ],
+      "Zhifei Yan": [
+        {
+          "country": "KR",
+          "name": "Institute for Basic Science"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2608.17996"
+  },
+  "arxiv:2608.22435": {
+    "authorEvidence": {
+      "Kaique Matias de Andrade Roberto": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2607.05723",
+        "title": "Generalized Marshall Quotients and Real Semigroups of Continuous and Differentiable Functions",
+        "year": 2026
+      },
+      "Mathuzalem Ferreira de Lima": {
+        "checked": "2026-11-11",
+        "kind": "institutional",
+        "title": "Evento reúne apresentações de pesquisa desenvolvidas pelos estudantes do Bacharelado em Matemática",
+        "year": 2026
+      }
+    },
+    "authorSources": {
+      "Kaique Matias de Andrade Roberto": "https://arxiv.org/html/2607.05723v1",
+      "Mathuzalem Ferreira de Lima": "https://www.ime.usp.br/evento-reune-apresentacoes-de-pesquisa-desenvolvidas-pelos-estudantes-do-bacharelado-em-matematica/"
+    },
+    "institutions": {
+      "Kaique Matias de Andrade Roberto": [
+        {
+          "country": "BR",
+          "name": "Universidade Estadual de Campinas"
+        }
+      ],
+      "Mathuzalem Ferreira de Lima": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/abs/2608.22435"
+  },
+  "arxiv:2609.05384": {
+    "institutions": {
+      "Gabriel Dahia": [
+        {
+          "country": "CH",
+          "name": "École polytechnique fédérale de Lausanne"
+        }
+      ],
+      "João Pedro Marciano": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2609.05384"
+  },
+  "arxiv:2609.09355": {
+    "institutions": {
+      "Carla Negri Lintzmayer": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "Guilherme Oliveira Mota": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Maycon Sambinelli": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do ABC"
+        }
+      ],
+      "Vinicius Fernandes dos Santos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Minas Gerais"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2609.09355"
+  },
+  "arxiv:2609.23179": {
+    "institutions": {
+      "Fabricio S. Benevides": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ],
+      "Josefran de O. Bastos": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2609.23179"
+  },
+  "arxiv:2609.28455": {
+    "institutions": {
+      "Bruno Andrades": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2609.28455"
+  },
+  "arxiv:2611.05254": {
+    "institutions": {
+      "Bruno Baldissera": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ],
+      "Gabriel Dias do Couto": [
+        {
+          "country": "BR",
+          "name": "Instituto Federal de Educação, Ciência e Tecnologia do Amazonas"
+        }
+      ],
+      "Luiz Moreira": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal de Pernambuco"
+        }
+      ],
+      "Simon Griffiths": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2611.05254"
+  },
+  "arxiv:2611.06886": {
+    "institutions": {
+      "Anastasiia Kats": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Bruno Andrades": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Marcelo Campos": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Rafael Filipe": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/2611.06886"
+  },
+  "arxiv:math/0702350": {
+    "authorSources": {
+      "Béla Bollobás": "https://arxiv.org/pdf/math/0702350"
+    },
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "József Balogh": [
+        {
+          "country": "US",
+          "name": "University of Illinois Urbana-Champaign"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ]
+    },
+    "source": "https://openalex.org/W2950647997"
+  },
+  "arxiv:math/0702351": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://arxiv.org/pdf/math/0702351"
+  },
+  "arxiv:math/0702352": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        },
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        }
+      ],
+      "József Balogh": [
+        {
+          "country": "US",
+          "name": "University of Illinois Urbana-Champaign"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/math/0702352"
+  },
+  "arxiv:math/0702354": {
+    "institutions": {
+      "Henry Liu": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Noah Prince": [
+        {
+          "country": "US",
+          "name": "University of Illinois Urbana-Champaign"
+        }
+      ],
+      "Robert Morris": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "source": "https://arxiv.org/pdf/math/0702354"
+  },
+  "doi:10.1002/(sici)1097-0118(199605)22:1<1::aid-jgt1>3.0.co;2-s": {
+    "authorEvidence": {
+      "Tomasz Łuczak": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2406.10745",
+        "title": "Strong Brandt-Thomassé Theorems",
+        "year": 2024
+      },
+      "Vojtěch Rödl": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2608.24740",
+        "title": "Regularity method for hypergraphs with 4-cycle-free links",
+        "year": 2026
+      }
+    },
+    "authorSources": {
+      "Tomasz Łuczak": "https://arxiv.org/html/2406.10745v1",
+      "Vojtěch Rödl": "https://arxiv.org/html/2608.24740v1"
+    },
+    "institutions": {
+      "Tomasz Łuczak": [
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://doi.org/10.1002/(sici)1097-0118(199605)22:1<1::aid-jgt1>3.0.co;2-s"
+  },
+  "doi:10.1002/(sici)1098-2418(199710)11:3<245::aid-rsa3>3.0.co;2-0": {
+    "institutions": {
+      "B. Kreuter": [
+        {
+          "country": "DE",
+          "name": "Humboldt-Universität zu Berlin"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://openalex.org/W2047452808"
+  },
+  "doi:10.1002/jgt.20647": {
+    "institutions": {
+      "Fabrıcio Siqueira Benevides": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "source": "https://onlinelibrary.wiley.com/doi/10.1002/jgt.20647"
+  },
+  "doi:10.1002/rsa.20496": {
+    "institutions": {
+      "Sang June Lee": [
+        {
+          "country": "KR",
+          "name": "Korea Advanced Institute of Science and Technology"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Wojciech Samotij": [
+        {
+          "country": "IL",
+          "name": "Tel Aviv University"
+        },
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        },
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ]
+    },
+    "source": "https://doi.org/10.1002/rsa.20496"
+  },
+  "doi:10.1002/rsa.3240030106": {
+    "institutions": {
+      "B. Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "Louisiana State University"
+        }
+      ],
+      "Tomasz Łuczak": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "Louisiana State University"
+        }
+      ]
+    },
+    "source": "https://users.ime.usp.br/~yoshi/MSs/cube_evol/evol.pdf"
+  },
+  "doi:10.1002/rsa.3240060210": {
+    "institutions": {
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://users.ime.usp.br/~yoshi/MSs/cube_conn/conn.pdf"
+  },
+  "doi:10.1006/eujc.1994.1014": {
+    "authorEvidence": {
+      "B. Bollobás": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2410.17197",
+        "title": "Upper bounds for multicolour Ramsey numbers",
+        "year": 2024
+      }
+    },
+    "authorSources": {
+      "B. Bollobás": "https://arxiv.org/pdf/2410.17197v2"
+    },
+    "institutions": {
+      "B. Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://doi.org/10.1006/eujc.1994.1014"
+  },
+  "doi:10.1006/jcta.2002.3293": {
+    "institutions": {
+      "B. Kreuter": [
+        {
+          "country": "DE",
+          "name": "Humboldt-Universität zu Berlin"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://www.ime.usp.br/~yoshi/MSs/Width/width.pdf"
+  },
+  "doi:10.1006/jctb.1995.1035": {
+    "authorEvidence": {
+      "Penny E. Haxell": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2609.13002",
+        "title": "Spanning subhypergraphs with degree constraints",
+        "year": 2026
+      },
+      "Tomasz Łuczak": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2406.10745",
+        "title": "Strong Brandt-Thomassé Theorems",
+        "year": 2024
+      }
+    },
+    "authorSources": {
+      "Penny E. Haxell": "https://arxiv.org/pdf/2609.13002v2",
+      "Tomasz Łuczak": "https://arxiv.org/html/2406.10745v1"
+    },
+    "institutions": {
+      "Penny E. Haxell": [
+        {
+          "country": "CA",
+          "name": "University of Waterloo"
+        }
+      ],
+      "Tomasz Łuczak": [
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://doi.org/10.1006/jctb.1995.1035"
+  },
+  "doi:10.1007/bf01212976": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://link.springer.com/article/10.1007/BF01212976"
+  },
+  "doi:10.1007/s00453-004-1102-5": {
+    "institutions": {
+      "Flávio K. Miyazawa": [
+        {
+          "country": "BR",
+          "name": "Universidade Estadual de Campinas"
+        }
+      ],
+      "Prabhakar Raghavan": [
+        {
+          "country": "US",
+          "name": "Verity, Inc."
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yoshiko Wakabayashi": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://link.springer.com/article/10.1007/s00453-004-1102-5"
+  },
+  "doi:10.1016/0012-365x(92)90447-n": {
+    "institutions": {
+      "Jerzy Wojciechowski": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "Louisiana State University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        },
+        {
+          "country": "US",
+          "name": "Louisiana State University"
+        }
+      ]
+    },
+    "source": "https://math.wvu.edu/~jwojciec/research/06yoshi.pdf"
+  },
+  "doi:10.1016/j.ejc.2023.103801": {
+    "institutions": {
+      "Hicham Lesfari": [
+        {
+          "country": "FR",
+          "name": "Université Côte d’Azur"
+        },
+        {
+          "country": "FR",
+          "name": "Inria"
+        },
+        {
+          "country": "FR",
+          "name": "Centre national de la recherche scientifique (CNRS)"
+        }
+      ],
+      "Jean-Claude Bermond": [
+        {
+          "country": "FR",
+          "name": "Université Côte d’Azur"
+        },
+        {
+          "country": "FR",
+          "name": "Inria"
+        },
+        {
+          "country": "FR",
+          "name": "Centre national de la recherche scientifique (CNRS)"
+        }
+      ],
+      "Nicolas Nisse": [
+        {
+          "country": "FR",
+          "name": "Université Côte d’Azur"
+        },
+        {
+          "country": "FR",
+          "name": "Inria"
+        },
+        {
+          "country": "FR",
+          "name": "Centre national de la recherche scientifique (CNRS)"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://www-sop.inria.fr/members/Nicolas.Nisse/slides/MAC22.pdf"
+  },
+  "doi:10.1016/j.jctb.2006.03.004": {
+    "institutions": {
+      "Angelika Steger": [
+        {
+          "country": "CH",
+          "name": "ETH Zürich"
+        }
+      ],
+      "Stefanie Gerke": [
+        {
+          "country": "CH",
+          "name": "ETH Zürich"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://users.ime.usp.br/~yoshi/MSs/Hereditary/inheritance.pdf"
+  },
+  "doi:10.1016/j.tcs.2003.06.001": {
+    "institutions": {
+      "Eduardo Sany Laber": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio de Janeiro"
+        }
+      ],
+      "Jair Donadelli": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Paraná"
+        }
+      ],
+      "Renato Carmo": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Paraná"
+        },
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://doi.org/10.1016/j.tcs.2003.06.001"
+  },
+  "doi:10.1016/j.tcs.2010.11.048": {
+    "institutions": {
+      "Virgı́nia M. Rodrigues": [
+        {
+          "country": "BR",
+          "name": "Pontifícia Universidade Católica do Rio Grande do Sul"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://api.openalex.org/works/W2055816478"
+  },
+  "doi:10.1017/s0963548312000090": {
+    "institutions": {
+      "A. Scott": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "F. S. Benevides": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Ceará"
+        }
+      ],
+      "J. Skokan": [
+        {
+          "country": "GB",
+          "name": "London School of Economics and Political Science"
+        }
+      ],
+      "M. White": [
+        {
+          "country": "GB",
+          "name": "University of Oxford"
+        }
+      ],
+      "T. Łuczak": [
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        }
+      ]
+    },
+    "source": "https://people.maths.ox.ac.uk/scott/Papers/monocycles.pdf"
+  },
+  "doi:10.1017/s0963548315000206": {
+    "institutions": {
+      "Domingos Dellamonica": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Sang June Lee": [
+        {
+          "country": "KR",
+          "name": "Korea Advanced Institute of Science and Technology"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Wojciech Samotij": [
+        {
+          "country": "IL",
+          "name": "Tel Aviv University"
+        },
+        {
+          "country": "GB",
+          "name": "Trinity College, University of Cambridge"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        },
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ]
+    },
+    "source": "https://citeseerx.ist.psu.edu/document?doi=71760864eb561f037ac7bff463d89edabb26879d&repid=rep1&type=pdf"
+  },
+  "doi:10.1073/pnas.0502771102": {
+    "institutions": {
+      "Brendan Nagle": [
+        {
+          "country": "US",
+          "name": "University of Nevada, Reno"
+        }
+      ],
+      "Jozef Skokan": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Mathias Schacht": [
+        {
+          "country": "DE",
+          "name": "Humboldt-Universität zu Berlin"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://www.math.uni-hamburg.de/home/schacht/2005/pnas.pdf"
+  },
+  "doi:10.1137/10079882x": {
+    "institutions": {
+      "Andrzej Ruciński": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        },
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        }
+      ],
+      "Domingos Dellamonica": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://rucinski.home.amu.edu.pl/papers/dkrr.pdf"
+  },
+  "doi:10.1137/17m1114934": {
+    "institutions": {
+      "Carlos Gustavo Moreira": [
+        {
+          "country": "BR",
+          "name": "Instituto de Matemática Pura e Aplicada"
+        }
+      ],
+      "Sang June Lee": [
+        {
+          "country": "KR",
+          "name": "Duksung Women's University"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://bv.fapesp.br/en/publicacao/143703/infinite-sidon-sets-contained-in-sparse-random-sets-of-integ/"
+  },
+  "doi:10.1137/18m1190276": {
+    "authorEvidence": {
+      "Hanno Lefmann": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2006.00292",
+        "title": "The rainbow Erdős-Rothschild problem for the Fano plane",
+        "year": 2020
+      },
+      "Knut Odermann": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2006.00292",
+        "title": "The rainbow Erdős-Rothschild problem for the Fano plane",
+        "year": 2020
+      },
+      "Lucas de Oliveira Contiero": {
+        "checked": "2026-11-11",
+        "kind": "other-paper",
+        "paperId": "arxiv:2006.00292",
+        "title": "The rainbow Erdős-Rothschild problem for the Fano plane",
+        "year": 2020
+      }
+    },
+    "authorSources": {
+      "Hanno Lefmann": "https://arxiv.org/pdf/2006.00292v1",
+      "Knut Odermann": "https://arxiv.org/pdf/2006.00292v1",
+      "Lucas de Oliveira Contiero": "https://arxiv.org/pdf/2006.00292v1"
+    },
+    "institutions": {
+      "Hanno Lefmann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Knut Odermann": [
+        {
+          "country": "DE",
+          "name": "Technische Universität Chemnitz"
+        }
+      ],
+      "Lucas de Oliveira Contiero": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Rio Grande do Sul"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://doi.org/10.1137/18m1190276"
+  },
+  "doi:10.1137/s0097539702408223": {
+    "institutions": {
+      "Luboš Thoma": [
+        {
+          "country": "US",
+          "name": "University of Rhode Island"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://digitalcommons.uri.edu/math_facpubs/250/"
+  },
+  "doi:10.1214/aoap/1028903457": {
+    "institutions": {
+      "Luiz Renato Fontes": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Marco Isopi": [
+        {
+          "country": "IT",
+          "name": "Sapienza Università di Roma"
+        }
+      ],
+      "Pierre Picco": [
+        {
+          "country": "FR",
+          "name": "Centre de Physique Théorique, CNRS, Marseille"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://web.ma.utexas.edu/mp_arc-bin/mpa?yn=97-135"
+  },
+  "doi:10.1590/s0104-65002001000200005": {
+    "institutions": {
+      "Béla Bollobás": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        },
+        {
+          "country": "GB",
+          "name": "University of Cambridge"
+        }
+      ],
+      "Jair Donadelli": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ],
+      "Richard H. Schelp": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://www.ime.usp.br/~yoshi/MSs/Ramsey_minimal/minimal.pdf"
+  },
+  "doi:10.37236/1661": {
+    "institutions": {
+      "Jair Donadelli": [
+        {
+          "country": "BR",
+          "name": "Universidade Federal do Paraná"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "partial": true,
+    "source": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v9i1r45/pdf"
+  },
+  "doi:10.37236/756": {
+    "institutions": {
+      "Angelika Steger": [
+        {
+          "country": "CH",
+          "name": "ETH Zürich"
+        }
+      ],
+      "Domingos Dellamonica": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Martin Marciniszyn": [
+        {
+          "country": "CH",
+          "name": "ETH Zürich"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://www2.math.ethz.ch/EMIS/journals/EJC/Volume_15/PDF/v15i1r32.pdf"
+  },
+  "doi:10.4064/aa-75-2-133-163": {
+    "institutions": {
+      "Tomasz Łuczak": [
+        {
+          "country": "PL",
+          "name": "Adam Mickiewicz University"
+        },
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Vojtěch Rödl": [
+        {
+          "country": "US",
+          "name": "Emory University"
+        }
+      ],
+      "Yoshiharu Kohayakawa": [
+        {
+          "country": "BR",
+          "name": "Universidade de São Paulo"
+        }
+      ]
+    },
+    "source": "https://pldml.icm.edu.pl/pldml/element/bwmeta1.element.bwnjournal-article-aav75i2p133bwm"
+  },
+  "doi:10.4064/aa139-2-6": {
+    "institutions": {
+      "Ago-Erik Riet": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Cory Palmer": [
+        {
+          "country": "HU",
+          "name": "Alfréd Rényi Institute of Mathematics"
+        }
+      ],
+      "Fabricio Benevides": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Jeffrey Paul Wheeler": [
+        {
+          "country": "US",
+          "name": "University of Pittsburgh"
+        }
+      ],
+      "Jonathan Hulgan": [
+        {
+          "country": "US",
+          "name": "University of Memphis"
+        }
+      ],
+      "Nathan Lemons": [
+        {
+          "country": "HU",
+          "name": "Central European University"
+        }
+      ]
+    },
+    "source": "https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/all/139/2/82235/additive-properties-of-a-pair-of-sequences"
+  }
+}

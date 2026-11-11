@@ -61,8 +61,16 @@
 .post-content .coauthorship-graph .cg-detail ol { margin: 12px 0 0; padding-left: 23px; }
 .post-content .coauthorship-graph .cg-detail li { margin-bottom: 11px; }
 .coauthorship-graph .cg-paper-meta { display: block; margin-top: 3px; font-size: 12px; color: var(--cg-muted); line-height: 1.5; }
-.coauthorship-graph .cg-partners { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 !important; list-style: none; }
-.post-content .coauthorship-graph .cg-partners li { margin: 0; }
+.post-content .coauthorship-graph .cg-detail .cg-partners { display: block; padding: 0; list-style: none; }
+.post-content .coauthorship-graph .cg-partners li { margin: 0; border-top: 1px solid var(--cg-border); }
+.coauthorship-graph .cg-partners button {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+  width: 100%; min-height: 36px; padding: .45rem .25rem; border: 0; border-radius: 0;
+  background: transparent; text-align: left; line-height: 1.35;
+}
+.cg-partners .cg-partner-weight { color: var(--cg-muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+.post-content .coauthorship-graph .cg-directory-link { margin-top: .85rem; }
+@media (pointer: coarse) { .coauthorship-graph .cg-partners button { min-height: 44px; } }
 @media (min-width: 900px) {
   .coauthorship-graph { position: relative; left: 50%; width: min(1100px, calc(100vw - 48px)); transform: translateX(-50%); }
 }
