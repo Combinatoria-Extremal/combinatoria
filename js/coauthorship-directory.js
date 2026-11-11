@@ -73,12 +73,6 @@
       ? t("Afiliação de outra fonte: ", "Affiliation from another source: ")
       : t("Afiliação no artigo: ", "Affiliation on this paper: ");
     const line = el("small", prefix + labels.join(" · "));
-    const source = record.authorSources?.[author.name] || record.source;
-    if (source && /^https?:\/\//i.test(source)) {
-      const link = el("a", t("Fonte", "Source"));
-      link.href = source;
-      line.append(" · ", link);
-    }
     return line;
   }
   function setScope() {

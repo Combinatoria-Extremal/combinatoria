@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-11",
   "families": [
     {
       "id": "ebc",
@@ -1025,8 +1025,8 @@
         "en": "30th CBM — Probability and Combinatorics"
       },
       "url": {
-        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2015_probabilidade.pdf",
-        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2015_probabilidade.pdf"
+        "pt": "/eventos-assets/cbm-2015-probabilidade.pdf",
+        "en": "/eventos-assets/cbm-2015-probabilidade.pdf"
       },
       "dateScope": "event",
       "sessionDates": [
@@ -1086,8 +1086,8 @@
         "en": "29th CBM — Algorithmic, Extremal and Probabilistic Combinatorics"
       },
       "url": {
-        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2013_combinatoriaalgoritmica.pdf",
-        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2013_combinatoriaalgoritmica.pdf"
+        "pt": "/eventos-assets/cbm-2013-combinatoria.pdf",
+        "en": "/eventos-assets/cbm-2013-combinatoria.pdf"
       },
       "dateScope": "parent",
       "venue": "IMPA",
@@ -1130,8 +1130,8 @@
         "en": "28th CBM — Combinatorics"
       },
       "url": {
-        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_sessoesTODAS.pdf",
-        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2011_sessoesTODAS.pdf"
+        "pt": "/eventos-assets/cbm-2011-sessoes.pdf",
+        "en": "/eventos-assets/cbm-2011-sessoes.pdf"
       },
       "dateScope": "event",
       "venue": "IMPA",
@@ -1168,8 +1168,8 @@
         "en": "27th CBM — Random Structures"
       },
       "url": {
-        "pt": "https://impa.br/wp-content/uploads/2017/12/Coloquio2009_sess%C3%B5es.pdf",
-        "en": "https://impa.br/wp-content/uploads/2017/12/Coloquio2009_sess%C3%B5es.pdf"
+        "pt": "/eventos-assets/cbm-2009-sessoes.pdf",
+        "en": "/eventos-assets/cbm-2009-sessoes.pdf"
       },
       "dateScope": "event",
       "sessionDates": [
