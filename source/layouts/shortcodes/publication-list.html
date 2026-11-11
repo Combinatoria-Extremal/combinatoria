@@ -1,6 +1,8 @@
 {{- $en := eq .Page.Lang "en" -}}
 {{- $community := partialCached "community-data.html" site -}}
 {{- $catalog := $community.publications -}}
+{{- $taxonomy := index site.Data "publication-topics" -}}
+{{- $topicIndex := index site.Data "publication-topic-index" -}}
 {{- $papers := sort $catalog.papers "year" "desc" -}}
 {{- $years := slice -}}
 {{- range $papers -}}
@@ -15,6 +17,14 @@
   {{ if $en }}Last updated: {{ time.Format "January 2, 2006" $catalog.updated }}.{{ else }}Última atualização: {{ time.Format "02/01/2006" $catalog.updated }}.{{ end }}
 </div>
 <form class="publication-filter" role="search" aria-label="{{ if $en }}Search papers{{ else }}Buscar artigos{{ end }}" hidden>
+  <label for="publication-topic">{{ if $en }}Filter by topic{{ else }}Filtrar por tema{{ end }}
+    <select id="publication-topic" aria-controls="article-list">
+      <option value="" data-label="{{ if $en }}All topics{{ else }}Todos os temas{{ end }}">{{ if $en }}All topics{{ else }}Todos os temas{{ end }} ({{ len $papers }})</option>
+      {{- range $taxonomy.topics -}}
+      <option value="{{ .id }}" data-label="{{ index .name $.Page.Lang }}">{{ index .name $.Page.Lang }} ({{ index $topicIndex.counts .id }})</option>
+      {{- end -}}
+    </select>
+  </label>
   <label for="publication-faculty">{{ if $en }}Filter by faculty member{{ else }}Filtrar por docente{{ end }}
     <select id="publication-faculty" aria-controls="article-list">
       <option value="">{{ if $en }}All faculty members{{ else }}Todos os docentes{{ end }}</option>
@@ -26,14 +36,16 @@
   <label for="publication-search" class="publication-search-label">{{ if $en }}Author or title{{ else }}Autor ou título{{ end }}
     <input type="search" id="publication-search" placeholder="{{ if $en }}Part of a name or title{{ else }}Parte do nome ou do título{{ end }}" aria-controls="article-list" autocomplete="off">
   </label>
-  <button type="submit">{{ if $en }}Search{{ else }}Buscar{{ end }}</button>
-  <button type="button" data-action="reset-publications">{{ if $en }}Show all{{ else }}Mostrar todos{{ end }}</button>
+  <div class="publication-filter-actions">
+    <button type="submit">{{ if $en }}Search{{ else }}Buscar{{ end }}</button>
+    <button type="button" data-action="reset-publications">{{ if $en }}Show all{{ else }}Mostrar todos{{ end }}</button>
+  </div>
 </form>
 <div class="publication-export" hidden>
   <span data-role="export-count"></span>
   <div class="publication-export-actions">
     <button type="button" data-action="copy-bibtex">{{ if $en }}Copy BibTeX{{ else }}Copiar BibTeX{{ end }}</button>
-    <button type="button" data-action="download-bibtex">{{ if $en }}Download .bib{{ else }}Baixar .bib{{ end }}</button>
+    <button type="button" data-action="download-bibtex">{{ if $en }}Download selection as BibTeX{{ else }}Baixar BibTeX da seleção{{ end }}</button>
   </div>
   <p class="publication-export-status" role="status" aria-live="polite"></p>
   <label class="publication-export-fallback" hidden>{{ if $en }}Select and copy the references below:{{ else }}Selecione e copie as referências abaixo:{{ end }}
@@ -50,7 +62,8 @@
         {{- $currentYear = $paper.year -}}
         <h3 id="articles-{{ $paper.year }}" data-publication-year="{{ $paper.year }}">{{ $paper.year }}</h3>
       {{- end -}}
-      <p class="publication-entry" data-publication-id="{{ $paper.id }}" data-publication-type="{{ $paper.type }}" data-year="{{ $paper.year }}" data-bibtex="{{ partial "publication-reference.html" $paper }}">
+      {{- $topics := (index $topicIndex.papers $paper.id).topics -}}
+      <p class="publication-entry" data-publication-id="{{ $paper.id }}" data-publication-type="{{ $paper.type }}" data-year="{{ $paper.year }}" data-topics="{{ delimit $topics " " }}" data-bibtex="{{ partial "publication-reference.html" $paper }}">
         <span class="publication-number">{{ sub (len $papers) $index }}.</span> <strong><a href="{{ $paper.url }}">{{ with $paper.titleHtml }}{{ . | safeHTML }}{{ else }}{{ $paper.title }}{{ end }}</a></strong><br>
         <em>{{ range $authorIndex, $author := $paper.authors }}{{ if $authorIndex }}, {{ end }}{{ if $author.facultyId }}<span class="publication-member" data-faculty-id="{{ $author.facultyId }}">{{ $author.name }}</span>{{ else }}{{ $author.name }}{{ end }}{{ end }}</em>
         {{- with $paper.venue }}<br><span class="publication-venue">{{ . }}</span>{{ end -}}

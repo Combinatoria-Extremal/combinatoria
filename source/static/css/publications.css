@@ -3,9 +3,9 @@
 }
 
 .publication-filter {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  align-items: end;
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -15,6 +15,8 @@
   flex-direction: column;
   gap: 6px;
   max-width: 100%;
+  min-width: 0;
+  grid-column: span 3;
   font-size: 13px;
   color: var(--secondary);
 }
@@ -37,15 +39,23 @@
 }
 
 .publication-filter select {
-  width: 240px;
+  width: 100%;
 }
 
 .publication-filter .publication-search-label {
-  flex: 1 1 220px;
-  min-width: 0;
+  grid-column: span 4;
+}
+
+.publication-filter-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  grid-column: span 2;
 }
 
 .publication-filter input {
+  box-sizing: border-box;
   width: 100%;
   cursor: text;
 }
@@ -211,13 +221,18 @@
 }
 
 @media (max-width: 600px) {
-  .publication-filter label,
-  .publication-filter select {
-    width: 100%;
+  .publication-filter {
+    grid-template-columns: minmax(0, 1fr);
   }
 
+  .publication-filter label,
+  .publication-filter-actions,
   .publication-filter .publication-search-label {
-    flex-basis: 100%;
+    grid-column: 1;
+  }
+
+  .publication-filter-actions {
+    justify-content: flex-start;
   }
 
   .publication-layout {

@@ -10,6 +10,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+from publication_topics import save_index
 
 SOURCE = Path(__file__).resolve().parents[1]
 
@@ -33,6 +34,7 @@ def main():
             validation.need(not destination.is_relative_to(source / protected), str(destination), f'a saída não pode ficar dentro de {protected}/')
         print('1/3  Validando os arquivos centrais...', flush=True)
         data = validation.validate_source(source)
+        save_index(source, data['_publication_topics'], check=args.validate_only)
         for warning in data['_warnings']:
             print('REVISAR: ' + warning, flush=True)
         report = {'status': 'ok', 'source': str(source), 'counts': data['_counts'], 'warnings': data['_warnings'], 'published': False}
@@ -60,7 +62,7 @@ def main():
         print(json.dumps(report, ensure_ascii=False, indent=2))
         print(f'Atualização local concluída. Relatório: {report_file}')
         print('Nenhum arquivo foi enviado ao Git ou publicado na internet.')
-    except (validation.InvalidData, OSError, subprocess.CalledProcessError) as exc:
+    except (ValueError, OSError, subprocess.CalledProcessError) as exc:
         print(f'ERRO: {exc}', file=sys.stderr)
         return 1
     return 0

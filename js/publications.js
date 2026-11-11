@@ -4,6 +4,8 @@
   document.querySelectorAll('.publication-catalogue').forEach(root => {
     const form = root.querySelector('.publication-filter');
     const selector = root.querySelector('#publication-faculty');
+    const topicSelector = root.querySelector('#publication-topic');
+    const topicOptions = [...topicSelector.options].map(option => ({ element: option, label: option.dataset.label }));
     const search = root.querySelector('#publication-search');
     const reset = root.querySelector('[data-action="reset-publications"]');
     const heading = root.querySelector('[data-role="list-heading"]');
@@ -27,6 +29,7 @@
         year: element.dataset.year,
         bibtex: element.dataset.bibtex,
         faculty,
+        topics: new Set(element.dataset.topics.split(/\s+/).filter(Boolean)),
         searchable: normalize([
           element.querySelector('strong').textContent,
           element.querySelector('em').textContent,
@@ -44,11 +47,23 @@
 
     function filter() {
       const id = selector.value;
+      const topic = topicSelector.value;
       const terms = normalize(search.value).trim().split(/\s+/).filter(Boolean);
+      const topicCounts = new Map();
+      let candidateCount = 0;
       const visible = entries.filter(entry => {
-        const matches = (!id || entry.faculty.has(id)) && terms.every(term => entry.searchable.includes(term));
+        const eligible = (!id || entry.faculty.has(id)) && terms.every(term => entry.searchable.includes(term));
+        if (eligible) {
+          candidateCount++;
+          entry.topics.forEach(value => topicCounts.set(value, (topicCounts.get(value) || 0) + 1));
+        }
+        const matches = eligible && (!topic || entry.topics.has(topic));
         entry.element.hidden = !matches;
         return matches;
+      });
+      topicOptions.forEach(({ element, label }) => {
+        const count = element.value ? topicCounts.get(element.value) || 0 : candidateCount;
+        element.textContent = `${label} (${count})`;
       });
       const years = new Set(visible.map(entry => entry.year));
       visibleEntries = visible;
@@ -57,7 +72,7 @@
       heading.textContent = `${english ? 'List of papers' : 'Lista de artigos'} · ${visible.length}`;
       empty.hidden = visible.length > 0;
       navigation.hidden = visible.length === 0;
-      reset.disabled = !id && !search.value;
+      reset.disabled = !id && !topic && !search.value;
       exportCount.textContent = english
         ? `Export ${visible.length} displayed ${visible.length === 1 ? 'paper' : 'papers'}`
         : `Exportar ${visible.length} ${visible.length === 1 ? 'artigo exibido' : 'artigos exibidos'}`;
@@ -101,7 +116,8 @@
       const url = URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = `combinatoria-extremal-${visibleEntries.length}-${english ? 'papers' : 'artigos'}.bib`;
+      link.download = ['combinatoria-extremal', topicSelector.value, selector.value,
+        `${visibleEntries.length}-${english ? 'papers' : 'artigos'}`].filter(Boolean).join('-') + '.bib';
       document.body.append(link);
       link.click();
       link.remove();
@@ -110,9 +126,10 @@
     });
 
     selector.addEventListener('change', filter);
+    topicSelector.addEventListener('change', filter);
     search.addEventListener('input', filter);
     form.addEventListener('submit', event => { event.preventDefault(); filter(); });
-    reset.addEventListener('click', () => { selector.value = ''; search.value = ''; filter(); });
+    reset.addEventListener('click', () => { form.reset(); filter(); });
     filter();
     form.hidden = false;
     exportPanel.hidden = false;

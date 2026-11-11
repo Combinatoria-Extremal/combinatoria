@@ -1,0 +1,561 @@
+{
+  "topics": [
+    {
+      "id": "ramsey",
+      "name": {
+        "pt": "Teoria de Ramsey",
+        "en": "Ramsey theory"
+      },
+      "mscPrefixes": [
+        "05C55",
+        "05D10"
+      ],
+      "titlePatterns": [
+        "\\bramsey\\b",
+        "\\bvan der waerden\\b",
+        "\\berdos[- ]rogers\\b"
+      ]
+    },
+    {
+      "id": "aleatorios",
+      "name": {
+        "pt": "Grafos aleatórios e probabilidade",
+        "en": "Random graphs and probability"
+      },
+      "mscPrefixes": [
+        "05C80",
+        "05D40",
+        "60",
+        "15B52"
+      ],
+      "titlePatterns": [
+        "\\brandom\\b",
+        "\\brandomly\\b",
+        "\\bpseudorandom",
+        "\\bprobabil",
+        "\\bdeviations\\b",
+        "\\bconcentration\\b"
+      ]
+    },
+    {
+      "id": "processos",
+      "name": {
+        "pt": "Percolação e processos estocásticos",
+        "en": "Percolation and stochastic processes"
+      },
+      "mscPrefixes": [
+        "37B15",
+        "60J",
+        "60K35",
+        "60G40",
+        "62L15",
+        "82B",
+        "82C"
+      ],
+      "titlePatterns": [
+        "\\bpercolat",
+        "\\bbootstrap\\b",
+        "\\bmarkov\\b",
+        "\\bbranching\\b",
+        "\\bglauber\\b",
+        "\\bcellular\\b",
+        "\\bstochastic\\b",
+        "\\bsemirandom\\b",
+        "\\btriangle[- ]free process\\b"
+      ]
+    },
+    {
+      "id": "extremal",
+      "name": {
+        "pt": "Teoria extremal",
+        "en": "Extremal theory"
+      },
+      "mscPrefixes": [
+        "05C35",
+        "05D05",
+        "05A20"
+      ],
+      "titlePatterns": [
+        "\\bextremal\\b",
+        "\\bturan\\b",
+        "\\bstability\\b",
+        "\\bsaturat",
+        "\\bforbidden\\b"
+      ]
+    },
+    {
+      "id": "coloracoes",
+      "name": {
+        "pt": "Colorações e rotulações",
+        "en": "Colourings and labellings"
+      },
+      "mscPrefixes": [
+        "05C15",
+        "05C78"
+      ],
+      "titlePatterns": [
+        "colou?r",
+        "\\brainbow\\b",
+        "\\blabel(?:l?ing|s)\\b"
+      ]
+    },
+    {
+      "id": "caminhos",
+      "name": {
+        "pt": "Caminhos, ciclos e decomposições",
+        "en": "Paths, cycles and decompositions"
+      },
+      "mscPrefixes": [
+        "05C38",
+        "05C45",
+        "05C51",
+        "05C70"
+      ],
+      "titlePatterns": [
+        "\\bhamilton",
+        "\\bdecompos",
+        "\\bpath[- ]partitions?\\b",
+        "\\bcycle[- ]partitions?\\b",
+        "\\bspanning (?:trees?|graphs?|subgraphs?)\\b",
+        "\\b(?:clique|cycle)[- ]factors?\\b"
+      ]
+    },
+    {
+      "id": "estrutura",
+      "name": {
+        "pt": "Estrutura de grafos e digrafos",
+        "en": "Structure of graphs and digraphs"
+      },
+      "mscPrefixes": [
+        "05C05",
+        "05C07",
+        "05C10",
+        "05C12",
+        "05C17",
+        "05C20",
+        "05C22",
+        "05C25",
+        "05C40",
+        "05C48",
+        "05C60",
+        "05C62",
+        "05C69",
+        "05C75",
+        "05C76",
+        "05C82",
+        "05C83",
+        "05C99"
+      ],
+      "titlePatterns": [
+        "\\bdigraph",
+        "\\boriented\\b",
+        "\\borientation",
+        "\\bimmersion",
+        "\\bminors?\\b",
+        "\\bconnectiv",
+        "\\bautomorphism",
+        "\\bcographs?\\b",
+        "\\bchordal\\b",
+        "\\bplanar\\b"
+      ]
+    },
+    {
+      "id": "algebra",
+      "name": {
+        "pt": "Álgebra e teoria espectral",
+        "en": "Algebra and spectral theory"
+      },
+      "mscPrefixes": [
+        "15",
+        "05C50",
+        "05E15",
+        "30C10",
+        "42A05",
+        "65F50",
+        "62H30",
+        "94A60",
+        "90C90"
+      ],
+      "titlePatterns": [
+        "\\bspectr",
+        "\\beigenvalue",
+        "\\bfiedler\\b",
+        "\\bpolynomials\\b",
+        "\\bmatrices\\b",
+        "\\bmatrix\\b",
+        "\\brings?\\b",
+        "\\balgebra",
+        "\\bdiagonaliz"
+      ]
+    },
+    {
+      "id": "algoritmos",
+      "name": {
+        "pt": "Algoritmos, complexidade e otimização",
+        "en": "Algorithms, complexity and optimisation"
+      },
+      "mscPrefixes": [
+        "05C85",
+        "68Q",
+        "68W",
+        "68P",
+        "68M",
+        "68T",
+        "90",
+        "65K",
+        "62L",
+        "92D10"
+      ],
+      "titlePatterns": [
+        "\\balgorithm",
+        "\\bcomplexity\\b",
+        "\\bparameteri[sz]",
+        "\\bkernel",
+        "\\boptimi[sz]ation\\b",
+        "\\bapproximation\\b",
+        "\\bcomput(?:ing|ational)\\b",
+        "\\bsemidefinite\\b",
+        "\\binteger programming\\b"
+      ]
+    },
+    {
+      "id": "aditiva",
+      "name": {
+        "pt": "Combinatória aditiva e teoria dos números",
+        "en": "Additive combinatorics and number theory"
+      },
+      "mscPrefixes": [
+        "11",
+        "20K",
+        "43A46",
+        "68R15"
+      ],
+      "titlePatterns": [
+        "\\badditive\\b",
+        "\\bsum[- ]?free\\b",
+        "\\bsumsets?\\b",
+        "\\bzero[- ]sum\\b",
+        "\\barithmetic\\b",
+        "\\bvan der waerden\\b",
+        "\\b(?:k|h)[- ]sums\\b"
+      ]
+    },
+    {
+      "id": "enumeracao",
+      "name": {
+        "pt": "Enumeração, limites e regularidade",
+        "en": "Enumeration, limits and regularity"
+      },
+      "mscPrefixes": [
+        "05A05",
+        "05A16",
+        "05A17",
+        "05C30",
+        "06A",
+        "60B10"
+      ],
+      "titlePatterns": [
+        "\\bcount(?:ing|s)\\b",
+        "\\benumerat",
+        "\\bregularity\\b",
+        "\\bcontainers?\\b",
+        "\\bpermutations?\\b",
+        "\\bposets?\\b",
+        "\\b(?:graph|hypergraph) limits\\b",
+        "\\blimits of\\b"
+      ]
+    },
+    {
+      "id": "geometria",
+      "name": {
+        "pt": "Geometria e convexidade",
+        "en": "Geometry and convexity"
+      },
+      "mscPrefixes": [
+        "52",
+        "60D05"
+      ],
+      "titlePatterns": [
+        "\\bconvexit",
+        "\\bconvex\\b",
+        "\\bgeometr",
+        "\\bsphere packing\\b",
+        "\\bcube packing\\b",
+        "\\bheilbronn\\b",
+        "\\bhadwiger\\b"
+      ]
+    }
+  ],
+  "overrides": {
+    "arxiv:2608.20824": [
+      "ramsey",
+      "aditiva"
+    ],
+    "arxiv:2608.17996": [
+      "coloracoes",
+      "caminhos"
+    ],
+    "arxiv:2609.09355": [
+      "coloracoes",
+      "caminhos"
+    ],
+    "arxiv:2601.15183": [
+      "ramsey"
+    ],
+    "arxiv:2603.26006": [
+      "estrutura",
+      "algoritmos"
+    ],
+    "arxiv:2609.23179": [
+      "extremal",
+      "coloracoes",
+      "enumeracao"
+    ],
+    "arxiv:2609.05384": [
+      "aditiva",
+      "enumeracao"
+    ],
+    "arxiv:2610.20577": [
+      "ramsey"
+    ],
+    "arxiv:2604.04115": [
+      "aleatorios",
+      "coloracoes"
+    ],
+    "arxiv:2609.14834": [
+      "aleatorios",
+      "caminhos"
+    ],
+    "arxiv:2608.22435": [
+      "algebra"
+    ],
+    "arxiv:2604.17661": [
+      "algoritmos"
+    ],
+    "arxiv:2608.17300": [
+      "coloracoes",
+      "estrutura"
+    ],
+    "arxiv:2607.29336": [
+      "coloracoes",
+      "caminhos"
+    ],
+    "arxiv:2611.06886": [
+      "ramsey"
+    ],
+    "arxiv:2606.24739": [
+      "estrutura"
+    ],
+    "arxiv:2607.16118": [
+      "ramsey",
+      "extremal"
+    ],
+    "arxiv:2602.07282": [
+      "algebra"
+    ],
+    "arxiv:2609.28455": [
+      "ramsey"
+    ],
+    "arxiv:2608.00555": [
+      "coloracoes"
+    ],
+    "arxiv:2605.21471": [
+      "ramsey",
+      "aleatorios"
+    ],
+    "arxiv:2603.10951": [
+      "caminhos",
+      "estrutura"
+    ],
+    "arxiv:2601.05221": [
+      "ramsey"
+    ],
+    "arxiv:2611.05254": [
+      "aleatorios",
+      "estrutura"
+    ],
+    "arxiv:2602.05960": [
+      "ramsey"
+    ],
+    "arxiv:2602.21453": [
+      "ramsey"
+    ],
+    "arxiv:2512.06229": [
+      "ramsey",
+      "aditiva"
+    ],
+    "arxiv:2505.13371": [
+      "ramsey"
+    ],
+    "arxiv:2509.22629": [
+      "ramsey"
+    ],
+    "arxiv:2503.22255": [
+      "enumeracao"
+    ],
+    "arxiv:2502.15675": [
+      "algoritmos"
+    ],
+    "arxiv:2511.02963": [
+      "ramsey"
+    ],
+    "arxiv:2506.09768": [
+      "estrutura"
+    ],
+    "arxiv:2503.19244": [
+      "extremal",
+      "coloracoes"
+    ],
+    "arxiv:2508.00893": [
+      "algebra",
+      "algoritmos",
+      "geometria"
+    ],
+    "arxiv:2503.01032": [
+      "ramsey",
+      "aditiva"
+    ],
+    "arxiv:2507.04254": [
+      "coloracoes"
+    ],
+    "arxiv:2509.26028": [
+      "aleatorios",
+      "processos"
+    ],
+    "arxiv:2504.00964": [
+      "aleatorios"
+    ],
+    "arxiv:2411.14566": [
+      "ramsey",
+      "aleatorios"
+    ],
+    "arxiv:2411.17885": [
+      "extremal"
+    ],
+    "arxiv:2406.18670": [
+      "algoritmos"
+    ],
+    "arxiv:2404.17260": [
+      "aleatorios",
+      "processos"
+    ],
+    "arxiv:2406.17486": [
+      "processos"
+    ],
+    "arxiv:2312.10026": [
+      "geometria"
+    ],
+    "arxiv:2310.11661": [
+      "aleatorios"
+    ],
+    "arxiv:2212.06802": [
+      "ramsey"
+    ],
+    "doi:10.1007/s11135-021-01227-2": [
+      "estrutura",
+      "algebra",
+      "algoritmos"
+    ],
+    "doi:10.12957/cadinf.2022.70581": [
+      "geometria"
+    ],
+    "arxiv:2209.01270": [
+      "algoritmos",
+      "enumeracao"
+    ],
+    "arxiv:2207.05201": [
+      "ramsey",
+      "aleatorios"
+    ],
+    "doi:10.5902/2179460x66864": [
+      "estrutura"
+    ],
+    "doi:10.5902/2179460x64895": [
+      "algebra"
+    ],
+    "arxiv:2004.11828": [
+      "extremal"
+    ],
+    "doi:10.2991/ijcis.d.200715.002": [
+      "algoritmos"
+    ],
+    "arxiv:2006.14469": [
+      "aleatorios",
+      "coloracoes",
+      "caminhos"
+    ],
+    "arxiv:2005.11942": [
+      "caminhos"
+    ],
+    "doi:10.1089/brain.2018.0598": [
+      "estrutura"
+    ],
+    "doi:10.5753/reic.2019.1090": [
+      "caminhos",
+      "estrutura"
+    ],
+    "arxiv:1912.00457": [
+      "coloracoes",
+      "estrutura"
+    ],
+    "arxiv:1904.02799": [
+      "caminhos",
+      "estrutura"
+    ],
+    "doi:10.1145/3360546": [
+      "estrutura",
+      "algoritmos"
+    ],
+    "arxiv:1804.02451": [
+      "ramsey"
+    ],
+    "doi:10.1016/j.comnet.2017.08.023": [
+      "estrutura",
+      "algoritmos"
+    ],
+    "arxiv:1708.04488": [
+      "coloracoes"
+    ],
+    "arxiv:1706.04334": [
+      "caminhos"
+    ],
+    "arxiv:1505.04309": [
+      "caminhos"
+    ],
+    "arxiv:1509.00131": [
+      "extremal",
+      "algoritmos"
+    ],
+    "arxiv:1401.7381": [
+      "enumeracao"
+    ],
+    "arxiv:1102.5543": [
+      "coloracoes"
+    ],
+    "arxiv:1106.1663": [
+      "enumeracao"
+    ],
+    "arxiv:1012.4097": [
+      "aleatorios",
+      "algebra"
+    ],
+    "arxiv:math/0702354": [
+      "ramsey",
+      "estrutura"
+    ],
+    "doi:10.1590/s0104-65002001000200005": [
+      "ramsey"
+    ],
+    "arxiv:2112.09248": [
+      "caminhos",
+      "algoritmos"
+    ],
+    "arxiv:1805.06699": [
+      "coloracoes",
+      "algoritmos"
+    ],
+    "doi:10.1016/s0166-218x(03)00372-x": [
+      "caminhos"
+    ]
+  }
+}

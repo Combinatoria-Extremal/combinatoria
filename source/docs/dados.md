@@ -45,6 +45,21 @@ O destino relativo é resolvido a partir desta pasta, mesmo quando o comando é 
 | `data/resources.json` | Categorias e materiais didáticos, descrições PT/EN e links compartilhados | Blocos de materiais e menu lateral em PT/EN |
 | `data/institution-history.json` | Retratos institucionais antigos que se deseja preservar | Histórico dos cadastros; a interface exibe o cadastro atual com a data no final |
 | `data/bibliography.json` | Referências BibTeX revistas, preferencialmente do MathSciNet | Substitui o BibTeX básico dos artigos que têm referência revista; é opcional para novos artigos |
+| `data/publication-topics.json` | Os 12 temas em PT/EN, regras MSC/título e classificações revistas | Índice temático, filtro de Artigos e download BibTeX da seleção |
+
+### Temas dos artigos
+
+`python scripts/update-site.py` recalcula `data/publication-topic-index.json`. O índice guarda, para cada ID de artigo, os temas, os códigos MSC originais e o método de classificação (`reviewed`, `msc`, `title` ou `msc+title`). O BibTeX original não é alterado. Um artigo pode pertencer a vários temas; cada seleção o mostra e exporta uma única vez.
+
+Em `publication-topics.json`, `mscPrefixes` associa códigos ou prefixos MSC a temas. `titlePatterns` contém expressões regulares aplicadas ao título em minúsculas, sem acentos; são complementos para assuntos explícitos como Ramsey, percolação ou regularidade. O código genérico `68R10` não basta para classificar um artigo como algoritmos.
+
+`overrides` associa IDs estáveis de artigos a listas de IDs de temas. Essas classificações revistas têm prioridade sobre todas as regras, inclusive se o artigo receber MSC depois. Os 74 artigos inicialmente sem MSC local já estão classificados. Para corrigir uma área ou classificar um artigo sem correspondência, ajuste essa lista e execute a atualização habitual:
+
+```json
+"arxiv:2611.06886": ["ramsey"]
+```
+
+A atualização rejeita temas desconhecidos, IDs de artigos inexistentes e artigos sem classificação. `--validate-only` também verifica se o índice gerado está atualizado. Na página Artigos, tema, docente e texto são combinados; copiar ou baixar BibTeX usa exatamente os artigos exibidos e conserva o comentário de procedência do MathSciNet.
 
 `data/history-ancestry.json` e os módulos de genealogia/coautorias temporais estão preservados como material adicional, mas não fazem parte da seção História ativa. Não é necessário atualizá-los para manter os quatro painéis atuais.
 

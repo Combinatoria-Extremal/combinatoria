@@ -32,6 +32,7 @@ Recarregue o navegador depois de atualizar. `Ctrl+C` encerra o servidor de prév
 | Docentes, instituições, estados e homepages | `data/faculty.json` |
 | Artigos e autores, na ordem da publicação | `data/publications.json` |
 | BibTeX revisado, incluindo referências do MathSciNet | `data/bibliography.json` |
+| Temas dos artigos, regras MSC/título e classificações revistas | `data/publication-topics.json` |
 | Pessoas, titulações, orientações e pós-doutorados | `data/history.json` |
 | Prêmios e respectivas fontes | `data/awards.json` |
 | Eventos, datas e locais | `data/events.json` |
@@ -40,6 +41,8 @@ Recarregue o navegador depois de atualizar. `Ctrl+C` encerra o servidor de prév
 | Afiliações complementares dos coautores, com fontes | `scripts/collaboration-country-supplement.json` |
 
 Um trabalho recebe uma entrada no catálogo. Quando um preprint é publicado, complete o registro existente com os dados do periódico. Identifique os autores da comunidade pelo `facultyId` para atualizar os filtros e as coautorias.
+
+Os temas são recalculados na atualização: MSC e termos do título sugerem as áreas; `overrides` conserva as classificações revistas. Um artigo pode ter vários temas. O comando avisa se faltar classificar algum artigo. Não edite `data/publication-topic-index.json`, que é gerado automaticamente.
 
 Datas, fontes e papéis de orientação devem acompanhar os registros. Os totais exibidos são calculados automaticamente. A data `data/site.json.updated` identifica o cadastro institucional mostrado no site.
 

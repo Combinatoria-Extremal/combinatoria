@@ -16,6 +16,7 @@ import re
 import sys
 import unicodedata
 from urllib.parse import unquote, urljoin, urlsplit
+from publication_topics import build_index
 
 SOURCE = Path(__file__).resolve().parents[1]
 STATES = set('AC AL AP AM BA CE DF ES GO MA MT MS MG PA PB PR PE PI RJ RN RS RO RR SC SP SE TO'.split())
@@ -139,7 +140,7 @@ def primary(advisor):
 
 def validate_source(source):
     data = {name: load(source / 'data' / (name + '.json')) for name in
-            ('site', 'faculty', 'history', 'publications', 'bibliography', 'events', 'resources', 'institution-history', 'awards')}
+            ('site', 'faculty', 'history', 'publications', 'bibliography', 'publication-topics', 'events', 'resources', 'institution-history', 'awards')}
     warnings = []
     site = obj(data['site'], 'site.json')
     iso(site.get('updated'), 'site.json.updated')
@@ -345,6 +346,10 @@ def validate_source(source):
             warnings.append(f'{at}: título igual ao de {old_id}; confira se são versões do mesmo trabalho (autores escritos de modo diferente).')
         else:
             titles[key] = (ident, author_names)
+    try:
+        data['_publication_topics'] = build_index(data['publication-topics'], publications, bibliography)
+    except ValueError as exc:
+        raise InvalidData(str(exc)) from exc
     events = obj(data['events'], 'events.json')
     families = unique(events.get('families'), 'events.json.families')
     for ident, family in families.items():
@@ -434,6 +439,7 @@ class Page(HTMLParser):
     def __init__(self, path):
         super().__init__(convert_charrefs=True)
         self.ids, self.links, self.publications, self.bibtex, self.source, self.panels = [], [], [], [], None, []
+        self.publication_topics = {}
         self.feed(path.read_text(encoding='utf-8'))
 
     def handle_starttag(self, tag, attrs):
@@ -446,6 +452,7 @@ class Page(HTMLParser):
         if 'data-publication-id' in a:
             self.publications.append(a['data-publication-id'])
             self.bibtex.append(a.get('data-bibtex'))
+            self.publication_topics[a['data-publication-id']] = a.get('data-topics', '').split()
         if 'community-history' in a.get('class', '').split():
             self.source = a.get('data-source')
         if 'ch-panel' in a.get('class', '').split():
@@ -488,6 +495,9 @@ def validate_output(source, output, data):
         articles = pages[output / prefix / 'artigos/index.html']
         need(set(articles.publications) == paper_ids and len(articles.publications) == len(paper_ids), prefix + 'artigos', 'catálogo renderizado não corresponde aos IDs da fonte')
         need(all(articles.bibtex), prefix + 'artigos', 'artigo sem referência BibTeX gerada')
+        need('publication-topic' in articles.ids, prefix + 'artigos', 'filtro por tema ausente')
+        need(articles.publication_topics == {ident: row['topics'] for ident, row in data['_publication_topics']['papers'].items()},
+             prefix + 'artigos', 'temas renderizados não correspondem às classificações da fonte')
         history = pages[output / prefix / 'historia/index.html']
         need(history.panels == ['formacao', 'artigos', 'instituicoes', 'premios'], prefix + 'historia', 'painéis inesperados')
         need(history.source, prefix + 'historia', 'bundle de dados ausente')
