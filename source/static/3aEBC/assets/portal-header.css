@@ -134,7 +134,6 @@ html {
   color: var(--site-accent);
 }
 
-.header .lang-switch a,
 .header .nav a:hover {
   color: var(--site-accent);
 }
@@ -145,26 +144,10 @@ html {
   outline-offset: 3px;
 }
 
-.header .lang-switch li,
-.header .lang-switch ul,
 .header .logo-switches {
   display: inline-flex;
   margin: auto 4px;
-}
-
-.header .lang-switch,
-.header .logo-switches {
   flex-wrap: inherit;
-}
-
-.header .lang-switch {
-  display: flex;
-}
-
-.header .lang-switch a {
-  margin: auto 3px;
-  font-size: 16px;
-  font-weight: 500;
 }
 
 /* Keep the existing skip link above the sticky portal header when focused. */
