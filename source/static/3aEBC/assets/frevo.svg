@@ -1,39 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360" role="img" aria-labelledby="title"><title id="title">Frevo umbrella drawn as a graph with rainbow edges</title><g transform="translate(205 175) rotate(-18)" fill="none" stroke-linecap="round" stroke-linejoin="round">
-<line x1="-160.00" y1="-0.00" x2="-147.82" y2="-61.23" stroke="#ff4747" stroke-width="5"/>
-<line x1="-147.82" y1="-61.23" x2="-113.14" y2="-113.14" stroke="#ff7947" stroke-width="5"/>
-<line x1="-113.14" y1="-113.14" x2="-61.23" y2="-147.82" stroke="#ffac47" stroke-width="5"/>
-<line x1="-61.23" y1="-147.82" x2="0.00" y2="-160.00" stroke="#ffde47" stroke-width="5"/>
-<line x1="0.00" y1="-160.00" x2="61.23" y2="-147.82" stroke="#eeff47" stroke-width="5"/>
-<line x1="61.23" y1="-147.82" x2="113.14" y2="-113.14" stroke="#bcff47" stroke-width="5"/>
-<line x1="113.14" y1="-113.14" x2="147.82" y2="-61.23" stroke="#8aff47" stroke-width="5"/>
-<line x1="147.82" y1="-61.23" x2="160.00" y2="-0.00" stroke="#58ff47" stroke-width="5"/>
-<line x1="-160.00" y1="-0.00" x2="0.00" y2="0.00" stroke="#47ff69" stroke-width="5"/>
-<line x1="-147.82" y1="-61.23" x2="0.00" y2="0.00" stroke="#47ff9b" stroke-width="5"/>
-<line x1="-113.14" y1="-113.14" x2="0.00" y2="0.00" stroke="#47ffcd" stroke-width="5"/>
-<line x1="-61.23" y1="-147.82" x2="0.00" y2="0.00" stroke="#47ffff" stroke-width="5"/>
-<line x1="0.00" y1="-160.00" x2="0.00" y2="0.00" stroke="#47cdff" stroke-width="5"/>
-<line x1="61.23" y1="-147.82" x2="0.00" y2="0.00" stroke="#479bff" stroke-width="5"/>
-<line x1="113.14" y1="-113.14" x2="0.00" y2="0.00" stroke="#4769ff" stroke-width="5"/>
-<line x1="147.82" y1="-61.23" x2="0.00" y2="0.00" stroke="#5847ff" stroke-width="5"/>
-<line x1="160.00" y1="-0.00" x2="0.00" y2="0.00" stroke="#8a47ff" stroke-width="5"/>
-<line x1="0.00" y1="0.00" x2="0.00" y2="55.00" stroke="#bc47ff" stroke-width="5"/>
-<line x1="0.00" y1="55.00" x2="0.00" y2="110.00" stroke="#ee47ff" stroke-width="5"/>
-<line x1="0.00" y1="110.00" x2="5.00" y2="132.00" stroke="#ff47de" stroke-width="5"/>
-<line x1="5.00" y1="132.00" x2="20.00" y2="143.00" stroke="#ff47ac" stroke-width="5"/>
-<line x1="20.00" y1="143.00" x2="35.00" y2="135.00" stroke="#ff4779" stroke-width="5"/>
-<circle cx="-160.00" cy="-0.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="-147.82" cy="-61.23" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="-113.14" cy="-113.14" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="-61.23" cy="-147.82" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="0.00" cy="-160.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="61.23" cy="-147.82" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="113.14" cy="-113.14" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="147.82" cy="-61.23" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="160.00" cy="-0.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="0.00" cy="0.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="0.00" cy="55.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="0.00" cy="110.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="5.00" cy="132.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="20.00" cy="143.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-<circle cx="35.00" cy="135.00" r="6" fill="#fff9eb" stroke="#30134d" stroke-width="2"/>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="360" viewBox="-21.5 0 354.67 304" role="img" aria-labelledby="titulo descricao">
+  <title id="titulo">Sombrinha multicolorida da 3ª EBC</title>
+  <desc id="descricao">Oito gomos de cores sólidas: amarelo, azul, vermelho, roxo, laranja, turquesa, rosa e verde. Nove vértices de marfim se ligam por dezesseis arestas, cada uma de uma cor do arco-íris.</desc>
+  <g id="gomos">
+    <path fill="#ffda45" d="M155.81 150.76 L97.67 20.52 C136.98 34.09 176.38 34.09 215.89 20.52 Z"/>
+    <path fill="#246db9" d="M155.81 150.76 L215.89 20.52 C229.85 56.24 254.79 81.56 290.7 96.5 Z"/>
+    <path fill="#e63e44" d="M155.81 150.76 L290.7 96.5 C277.13 133.11 277.13 169.8 290.7 206.58 Z"/>
+    <path fill="#8844ba" d="M155.81 150.76 L290.7 206.58 C254.16 221.35 228.45 246.68 213.57 282.55 Z"/>
+    <path fill="#ff9740" d="M155.81 150.76 L213.57 282.55 C174.95 268.98 136.32 268.98 97.67 282.55 Z"/>
+    <path fill="#008e94" d="M155.81 150.76 L97.67 282.55 C82.93 246.69 57.35 221.36 20.92 206.58 Z"/>
+    <path fill="#ed598f" d="M155.81 150.76 L20.92 206.58 C34.49 169.8 34.49 133.11 20.92 96.5 Z"/>
+    <path fill="#3caf61" d="M155.81 150.76 L20.92 96.5 C57.43 81.62 83.02 56.29 97.67 20.52 Z"/>
+  </g>
+  <g id="arestas" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path id="vareta-1" stroke="#ff3789" stroke-width="4.8" d="M97.67 20.52 L155.81 150.76"/>
+    <path id="vareta-2" stroke="#ff7042" stroke-width="4.8" d="M215.89 20.52 L155.81 150.76"/>
+    <path id="vareta-3" stroke="#ffc233" stroke-width="4.8" d="M290.7 96.5 L155.81 150.76"/>
+    <path id="vareta-4" stroke="#d6f144" stroke-width="4.8" d="M290.7 206.58 L155.81 150.76"/>
+    <path id="vareta-5" stroke="#4eeba1" stroke-width="4.8" d="M213.57 282.55 L155.81 150.76"/>
+    <path id="vareta-6" stroke="#53ddf4" stroke-width="4.8" d="M97.67 282.55 L155.81 150.76"/>
+    <path id="vareta-7" stroke="#7a98ff" stroke-width="4.8" d="M20.92 206.58 L155.81 150.76"/>
+    <path id="vareta-8" stroke="#c16fff" stroke-width="4.8" d="M20.92 96.5 L155.81 150.76"/>
+    <path id="bainha-1" stroke="#ff434f" stroke-width="4.8" d="M97.67 20.52 C136.98 34.09 176.38 34.09 215.89 20.52"/>
+    <path id="bainha-2" stroke="#ff9c35" stroke-width="4.8" d="M215.89 20.52 C229.85 56.24 254.79 81.56 290.7 96.5"/>
+    <path id="bainha-3" stroke="#ffe64b" stroke-width="4.8" d="M290.7 96.5 C277.13 133.11 277.13 169.8 290.7 206.58"/>
+    <path id="bainha-4" stroke="#95e950" stroke-width="4.8" d="M290.7 206.58 C254.16 221.35 228.45 246.68 213.57 282.55"/>
+    <path id="bainha-5" stroke="#42e6c7" stroke-width="4.8" d="M213.57 282.55 C174.95 268.98 136.32 268.98 97.67 282.55"/>
+    <path id="bainha-6" stroke="#63bcff" stroke-width="4.8" d="M97.67 282.55 C82.93 246.69 57.35 221.36 20.92 206.58"/>
+    <path id="bainha-7" stroke="#947dff" stroke-width="4.8" d="M20.92 206.58 C34.49 169.8 34.49 133.11 20.92 96.5"/>
+    <path id="bainha-8" stroke="#f365cf" stroke-width="4.8" d="M20.92 96.5 C57.43 81.62 83.02 56.29 97.67 20.52"/>
+  </g>
+  <g id="vertices" fill="#fff9eb" stroke="#30134d" stroke-width="2.4">
+    <circle cx="97.67" cy="20.52" r="6.5"/>
+    <circle cx="215.89" cy="20.52" r="6.5"/>
+    <circle cx="290.7" cy="96.5" r="6.5"/>
+    <circle cx="290.7" cy="206.58" r="6.5"/>
+    <circle cx="213.57" cy="282.55" r="6.5"/>
+    <circle cx="97.67" cy="282.55" r="6.5"/>
+    <circle cx="20.92" cy="206.58" r="6.5"/>
+    <circle cx="20.92" cy="96.5" r="6.5"/>
+    <circle cx="155.81" cy="150.76" r="7.5"/>
+  </g>
+</svg>
