@@ -24,9 +24,6 @@
       home.textContent = 'Combinatória Extremal no Brasil';
       home.title = home.textContent + ' (Alt + H)';
       header.querySelector('#theme-toggle').setAttribute('aria-label', 'Alternar tema');
-      const current = header.querySelector('[aria-current="true"]');
-      current.lang = 'pt';
-      current.textContent = 'Português';
       const alternate = header.querySelector('.lang-switch a');
       alternate.href = '/en/';
       alternate.lang = alternate.hreflang = 'en';
