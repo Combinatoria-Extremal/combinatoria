@@ -5,6 +5,24 @@
 @media(max-width:680px){.container{width:calc(100% - 36px)}.header-inner{align-items:flex-start;padding:18px 0;gap:16px}nav{gap:8px 14px;justify-content:flex-end;font-size:11px;max-width:225px}.brand{font-size:24px}.hero-inner{position:relative;display:block;padding:30px 0}.hero-inner>div:first-child{position:relative;z-index:1}h1{font-size:36px;letter-spacing:-1.2px;max-width:440px}.date{font-size:18px}.hero-art{display:none}.hero-links{font-size:11px;gap:18px}.edition{font-size:10px}.page-content{padding-top:25px}.intro{font-size:15px;margin-bottom:24px}.content-grid{display:block}.section{padding:24px 0}.sidebar{padding:0}.info-panel{padding:20px}.courses li{padding:15px}.courses h3{font-size:19px}.committees{grid-template-columns:1fr;gap:26px}.people li{padding:5px 0}.institutions{grid-template-columns:1fr 1fr;gap:12px}.institution{min-height:128px}.institution.host img{width:150px;height:79px}.resources{flex-direction:column;gap:18px}.footer-inner{flex-direction:column;gap:8px}.organization{margin-top:8px}h2{font-size:23px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
+.speaker-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.65rem;
+}
+.speaker-list span {
+  margin-left: 0;
+  font-size: 13px;
+  white-space: normal;
+}
+@media (max-width: 680px) {
+  .speaker-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 .programme-heading {
   display: flex;
   align-items: baseline;
